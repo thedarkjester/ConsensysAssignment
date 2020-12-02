@@ -62,8 +62,8 @@ The folders are as follows:
 ## Download, install and build steps
 ### Downloading
 1. Open a terminal window
-2. Clone and pull down this repository into a branch via git - `git clone branch`
-3. Go to the directory you cloned into - cd ShopKeeper
+2. Clone and pull down this repository into a branch via git - `git clone ur.ToRepository`
+3. Go to the directory you cloned into - `cd ConsensysAssignment`
 
 ### Building the solution for the first time
 
@@ -111,16 +111,19 @@ If some of these components are not installed you may need to run:
 1. Open 2 terminal windows
 2. In the first one run the following command `ganache-cli -l 10000000` - this sets a similar block gas limit to the mainnet
 3. In the second terminal run truffle `compile --all` and wait for compilation to complete
-4. In the second terminal window run `truffle test --network development` to run against your ganache-cli instance in terminal 1
-5. You will note the gas used per test - this includes a new instance of each of the contracts plus the command call
-6. There are currently 125 tests that cover all aspects of the code including some particular edge cases and attacks. I prefer to test everything I possibly can.
+4. Run a command to make sure there is a gasCosts folder from the root folder - `mkdir gasCosts` (you may need sudo)
+5. Also create a folder for coverage testing from the root folder - `mkdir coverage` (you may need sudo)
+6. In the second terminal window run `truffle test --network development` to run against your ganache-cli instance in terminal 1
+7. You will note the gas used per test - this includes a new instance of each of the contracts plus the command call
+8. There are currently 125 tests that cover all aspects of the code including some particular edge cases and attacks. I prefer to test everything I possibly can.
 
 ### Viewing code coverage
 
 1. Open a terminal window
-2. In the terminal window run `truffle run coverage` - this will spin up an instance of the ganache-cli itself and run the tests
-3. You will notice an output at the bottom of the terminal window when complete
-4. A more comprehensive view is visible in the coverage folder - navigate there and view the index.html file in a browser for a better view
+2. Make sure a folder `coverage` exists from the root of the project folder
+3. In the terminal window run `truffle run coverage` - this will spin up an instance of the ganache-cli itself and run the tests
+4. You will notice an output at the bottom of the terminal window when complete
+5. A more comprehensive view is visible in the coverage folder - navigate there and view the index.html file in a browser for a better view
 
 ### Deploying and running against a local instance
 
