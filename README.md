@@ -95,13 +95,14 @@ If some of these components are not installed you may need to run:
 
 ### Running the solution
 
-1. In the main folder of the project run the following command `npm run dev`
-2. This should open a browser with the main site hosted on the `lite-server` package
+1. In the terminal window in the root folder of the site, run `truffle compile --all` in order to have the ABI code available for the site
+2. In the main folder of the project run the following command `npm run dev`
+3. This should open a browser with the main site hosted on the `lite-server` package
 	1. Note: you should not have something else bound to port 8000
-3. The site is pre-configured to use the Rinkeby deployed address (`/src/js/app.js`) as the current network specified in MetaMask.
+4. The site is pre-configured to use the Rinkeby deployed address (`/src/js/app.js`) as the current network specified in MetaMask.
 	1. You may see an error message indicating an incorrect network - swap the network in MetaMask to Rinkeby
 	2. Swapping networks should change the network and refresh the dApp to the correct network
-4. Note: if there is no injected web3 it will fallback to the Rinkeby infura http address
+5. Note: if there is no injected web3 it will fallback to the Rinkeby infura http address
 
 
 
