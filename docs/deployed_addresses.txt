@@ -1,0 +1,24 @@
+On the Goerli network:
+
+----------------------ShopKeeper------------------------------------------------------------
+   > transaction hash:    0xfe91d88f145ec54fa88eea67e315b549780fb38ace83067717912e60bbaec67a
+   > contract address:    0x0CA43f8E5f69dcc63229450e1F41f80237ebbFf4
+   > block number:        3858113
+
+   https://goerli.etherscan.io/address/0x0ca43f8e5f69dcc63229450e1f41f80237ebbff4
+
+----------------------SafeMath--------------------------------------------------------------
+   > transaction hash:    0x953539a917d8e204ee18787b8881973de7e690fa8d33b8063d10a81add0a72a5
+   > contract address:    0xb4c83323027117AC4304386a8E49e9e950907c24
+   > block number:        3858111
+
+----------------------Migrations--------------------------------------------------------------
+   https://goerli.etherscan.io/address/0xb4c83323027117ac4304386a8e49e9e950907c24
+
+   > transaction hash:    0x72cbd00aa0c6604ef1212059557487684d60ebcb19456f20840c8f60d84856f3
+   > contract address:    0xc701fC7c5a03a7482C9eecC1D43b9eA93f7407Ff
+   > block number:        3858109
+
+   https://goerli.etherscan.io/address/0xc701fc7c5a03a7482c9eecc1d43b9ea93f7407ff
+
+   -------------------------------------------------------------------------------------------
