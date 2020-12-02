@@ -121,9 +121,10 @@ If some of these components are not installed you may need to run:
 
 1. Open a terminal window
 2. Make sure a folder `coverage` exists from the root of the project folder
-3. In the terminal window run `truffle run coverage` - this will spin up an instance of the ganache-cli itself and run the tests
-4. You will notice an output at the bottom of the terminal window when complete
-5. A more comprehensive view is visible in the coverage folder - navigate there and view the index.html file in a browser for a better view
+3. Make sure code coverage plugins are install by executing `npm install solidity-coverage`
+4. In the terminal window run `truffle run coverage` - this will spin up an instance of the ganache-cli itself and run the tests
+5. You will notice an output at the bottom of the terminal window when complete
+6. A more comprehensive view is visible in the coverage folder - navigate there and view the index.html file in a browser for a better view
 
 ### Deploying and running against a local instance
 
