@@ -20,5 +20,5 @@ The following attacks were prevented in the solution
 
 For both Shop and ShopKeeper, the unallocated funds will allow for any additional balance to be distributed. The only check around balance is on whether or not there are funds unallocated. Owners can only withdraw what is allocated to them and re-entry is prevented.
 
-A small note on the Timestamp code used in the OwnerManagedLite implementation - it is set at an hour to not be an issue, but has been done in order to prevent a change being locked up (one owner griefing the others). The being said multi-sig also relies on some form of trust and that is something I am willing to discuss.
+A small note on the Timestamp code used in the OwnerManagedLite implementation - it is set at an hour to not be an issue, but has been done in order to prevent a change being locked up (one owner griefing the others). That being said multi-sig also relies on some form of trust and that is something I am willing to discuss.
 
