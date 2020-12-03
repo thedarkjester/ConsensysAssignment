@@ -43,19 +43,20 @@ The folders are as follows:
 1. build - generally not committed but when compile is run, is the json contract code (ABI etc.)
 2. configs - this is where the site configuration is for the `lite-server` web server hosting the html and javascript
 3. coverage - not committed, but when `truffle run coverage`is run outputs the reports there
-4. docs - additional readme documents ( [Design pattern decisions](./docs/design_pattern_decisions.md "Design pattern decisions") ,  [Avoiding common attacks](./docs/avoiding_common_attacks.md "Avoiding common attacks") and [Deployed addresses](./docs/deployed_addresses.txt "deployed_addresses.txt") ) 
-5. migrations - Truffle instructions on how to deploy the contracts
-6. node_modules - not committed - created when `npm install`is run downloading components
-7. src - all the source code for the UI 
+4. contracts - all the soldity contracts
+5. docs - additional readme documents ( [Design pattern decisions](./docs/design_pattern_decisions.md "Design pattern decisions") ,  [Avoiding common attacks](./docs/avoiding_common_attacks.md "Avoiding common attacks") and [Deployed addresses](./docs/deployed_addresses.txt "deployed_addresses.txt") ) 
+6. migrations - Truffle instructions on how to deploy the contracts
+7. node_modules - not committed - created when `npm install`is run downloading components
+8. src - all the source code for the UI 
 	1. css - styling for the site
 	2. js - all the javascript libraries (some not in modules)
 	3. index.html file for the main page
-8. test - all the javascript - mocha/chai tests for the contracts
+9. test - all the javascript - mocha/chai tests for the contracts
 	1. Library - an example safe text library (coded manually in the contracts for ease of use and cost saving)
 	2. OwnerManagedLite - all the multi-sig tests for ownership, activation and financial actions
 	3. Shop - all the tests for the shop creation, product management and purchasing 
 	4. Note: the OwnerManagedLite is inherited by the Shop for ownership outside of the main contract
-9. gasCosts - In there, there is a gasReporterOutput.html file that is generated when running tests - this will be used in future learnings to optimise gas usage
+10. gasCosts - In there, there is a gasReporterOutput.html file that is generated when running tests - this will be used in future learnings to optimise gas usage
 
 
 ## Prerequisite knowledge and components required
