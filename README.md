@@ -62,7 +62,7 @@ The folders are as follows:
 2. Node JS is installed - (everything was tested under `version 12.18.3`)
 3. Git ( it is assumed you know how to use Git and have relevant HTTPS/SSH capability to clone)
 4. A Browser with the MetaMask extension installed (and knowledge on how to use it)
-5. Test Ether on the Rinkeby/Goerli network
+5. Test Ether on the Goerli network
 
 ## Download, install and build steps
 ### Downloading
@@ -93,9 +93,9 @@ If some of these components are not installed you may need to run:
 1. `npm install @openzeppelin/contracts`
 2. `npm install @openzeppelin/truffle-upgrades`
 3. `npm install truffle`
-4. `npm install @truffle/hdwallet-provider`
-5. `npm install solidity-coverage`
-6. `npm install ganache-cli`
+4. `npm install -g @truffle/hdwallet-provider`
+5. `npm install -g solidity-coverage`
+6. `npm install -g ganache-cli`
 7. `npm install web3`
 
 ### Running the solution
