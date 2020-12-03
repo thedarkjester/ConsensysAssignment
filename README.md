@@ -32,11 +32,16 @@ is showing up as "* * *" ( or not at all ) it is due to `invalid unsupported cha
 
 Anyone can register a shop and manage their products.
 
-A walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 "video1") - that shows the functionality.
+An example walkthrough without the XSS Attack prevention can be seen at [Youtube walkthrough](https://www.youtube.com/watch?v=RmaDAcDguHk "Walkthrough")
+
+A walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 "No metamask") - that shows the functionality.
+
+
 
 There are two things to note:
-1. The video hides MetaMask from view 
+1. The video in video 1 hides MetaMask from view 
 2. There is a point that funds (2.5 ETH) are send directly to the main site contract - similar functionality applies to the Shops themselves
+3. Video 2 does not include the security showcase
 
 ## Directory structure
 
