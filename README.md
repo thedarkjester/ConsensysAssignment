@@ -61,7 +61,7 @@ The folders are as follows:
 	3. index.html file for the main page
 10. test - all the javascript - mocha/chai tests for the contracts
 	1. Library - an example safe text library (coded manually in the contracts for ease of use and cost saving)
-	2. OwnerManagedLite - all the multi-sig tests for ownership, activation and financial actions
+	2. OwnerManagedLite - all the multi-sig tests for ownership, activation and financial actions. There are already existing solutions for this, but took it as a learning exercise to write one.
 	3. Shop - all the tests for the shop creation, product management and purchasing 
 	4. Note: the `OwnerManagedLite is inherited` by the ShopFactory as well as Shop to set ownership per contract instance
 
