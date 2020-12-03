@@ -1,4 +1,6 @@
-On the Goerli network:
+On the Goerli network:.
+
+Shop instances are created via contract interaction and console logs can be added to get them or view on etherscan
 
 ----------------------ShopKeeper------------------------------------------------------------
    > transaction hash:    0xfe91d88f145ec54fa88eea67e315b549780fb38ace83067717912e60bbaec67a
