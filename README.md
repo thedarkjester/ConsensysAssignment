@@ -32,7 +32,7 @@ is showing up as "* * *" ( or not at all ) it is due to `invalid unsupported cha
 
 Anyone can register a shop and manage their products.
 
-An example walkthrough without the XSS Attack prevention can be seen at [Youtube walkthrough](https://www.youtube.com/watch?v=RmaDAcDguHk "Walkthrough")
+An example walkthrough without the XSS Attack prevention can be seen at [Youtube walkthrough](https://youtu.be/FvWX2OBL7IA "Walkthrough")
 
 A walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 "No metamask") - that shows the functionality.
 
