@@ -120,7 +120,7 @@ If some of these components are not installed you may need to run:
 5. Also create a folder for coverage testing from the root folder - `mkdir coverage` (you may need sudo)
 6. In the second terminal window run `truffle test --network development` to run against your ganache-cli instance in terminal 1
 7. You will note the gas used per test - this includes a new instance of each of the contracts plus the command call
-8. There are currently 125 tests that cover all aspects of the code including some particular edge cases and attacks. I prefer to test everything I possibly can.
+8. There are currently 128 tests that cover all aspects of the code including some particular edge cases and attacks. I prefer to test everything I possibly can.
 
 ### Viewing code coverage
 
