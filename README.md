@@ -34,7 +34,7 @@ Anyone can register a shop and manage their products.
 
 An example walkthrough without the XSS Attack prevention can be seen at [Google drive walkthrough](https://drive.google.com/file/d/1qaG8ij8V43xuXRrKkSOwT3-uPXAnUZz0/view?usp=sharing "Walkthrough")
 
-A walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 "No metamask") - that shows the functionality.
+Another walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 "No metamask") - that shows the functionality (MetaMask wasn't showing)
 
 
 
