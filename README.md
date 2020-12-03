@@ -58,7 +58,7 @@ The folders are as follows:
 9. gasCosts - In there, there is a gasReporterOutput.html file that is generated when running tests - this will be used in future learnings to optimise gas usage
 
 
-## Prerequisites knowledge and components required
+## Prerequisite knowledge and components required
 1. Ubuntu Virtual machine
 2. Node JS is installed - (everything was tested under `version 12.18.3`)
 3. Git ( it is assumed you know how to use Git and have relevant HTTPS/SSH capability to clone)
@@ -75,7 +75,7 @@ The folders are as follows:
 
 1. In the terminal window type in the command `npm install`
 2. This should install a fair amount of components
-3. Type in ``npm audit fix` to fix known vulnerabilities in packages
+3. Type in `npm audit fix` to fix known vulnerabilities in packages
 
 ### Confirm major required components are installed
 
@@ -106,7 +106,7 @@ If some of these components are not installed you may need to run:
 3. This should open a browser with the main site hosted on the `lite-server` package
 	1. Note: you should not have something else bound to port 8000
 4. The site is pre-configured to use the Goerli deployed address (`/src/js/app.js`) as the current network specified in MetaMask.
-	1. You may see an error message indicating an incorrect network - swap the network in MetaMask to Rinkeby
+	1. You may see an error message indicating an incorrect network - swap the network in MetaMask to Goerli
 	2. Swapping networks should change the network and refresh the dApp to the correct network
 5. Note: if there is no injected web3 it will fallback to the Goerli infura http address
 
@@ -153,4 +153,4 @@ If some of these components are not installed you may need to run:
 	9. Play around, have fun. My UI skills are average, so there may need to be an occasional refresh
 	
 
-Thanks for reading - and remember - if you don't hold the keys, it isn't yours!
+Thanks for reading - and remember - not your keys, not your crypto (Andreas Antonopoulos)
