@@ -8,7 +8,8 @@ It serves to show, creation, compilation, testing and interface interaction with
 Technologies used include:
 
 1. Truffle for testing, compilation and migration
-2. Additional plugins for gas consumption and code coverage have been added.
+2. Web3 and MetaMask integration
+3. Additional plugins for gas consumption and code coverage have been added.
 
 
 ### Site functionality
@@ -29,7 +30,7 @@ is showing up as "* * *" ( or not at all ) it is due to invalid unsupported char
 
 Anyone can register a shop and manage their products.
 
-A walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 video1) - that shows the functionality.
+A walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 "video1") - that shows the functionality.
 
 There are two things to note:
 1. The video hides metamask from view 
@@ -67,7 +68,7 @@ The folders are as follows:
 ## Download, install and build steps
 ### Downloading
 1. Open a terminal window
-2. Clone and pull down this repository into a branch via git - `git clone ur.ToRepository`
+2. Clone and pull down this repository into a branch via git - `git clone url.ToRepository`
 3. Go to the directory you cloned into - `cd ConsensysAssignment`
 
 ### Building the solution for the first time
@@ -104,10 +105,10 @@ If some of these components are not installed you may need to run:
 2. In the main folder of the project run the following command `npm run dev`
 3. This should open a browser with the main site hosted on the `lite-server` package
 	1. Note: you should not have something else bound to port 8000
-4. The site is pre-configured to use the Rinkeby deployed address (`/src/js/app.js`) as the current network specified in MetaMask.
+4. The site is pre-configured to use the Goerli deployed address (`/src/js/app.js`) as the current network specified in MetaMask.
 	1. You may see an error message indicating an incorrect network - swap the network in MetaMask to Rinkeby
 	2. Swapping networks should change the network and refresh the dApp to the correct network
-5. Note: if there is no injected web3 it will fallback to the Rinkeby infura http address
+5. Note: if there is no injected web3 it will fallback to the Goerli infura http address
 
 
 
@@ -116,8 +117,8 @@ If some of these components are not installed you may need to run:
 1. Open 2 terminal windows
 2. In the first one run the following command `ganache-cli -l 10000000` - this sets a similar block gas limit to the mainnet
 3. In the second terminal run truffle `compile --all` and wait for compilation to complete
-4. Run a command to make sure there is a gasCosts folder from the root folder - `mkdir gasCosts` (you may need sudo)
-5. Also create a folder for coverage testing from the root folder - `mkdir coverage` (you may need sudo)
+4. Run a command to make sure there is a gasCosts folder from the root folder - `mkdir gasCosts`
+5. Also create a folder for coverage testing from the root folder - `mkdir coverage`
 6. In the second terminal window run `truffle test --network development` to run against your ganache-cli instance in terminal 1
 7. You will note the gas used per test - this includes a new instance of each of the contracts plus the command call
 8. There are currently 128 tests that cover all aspects of the code including some particular edge cases and attacks. I prefer to test everything I possibly can.
