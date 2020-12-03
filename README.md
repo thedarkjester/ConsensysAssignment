@@ -150,6 +150,7 @@ If some of these components are not installed you may need to run:
 	6. Create a second account in MetaMask (don't use a new seed phrase)
 	7. Switch between accounts and note the change at the top of the page in the dApp (also connect this account)
 		1. This will allow you to test non-owner scenarios such as purchasing
+		2. Remember to give this account some ETH to work with
 	8. See the demo video for some use cases
 	9. Play around, have fun. My UI skills are average, so there may need to be an occasional refresh if running on the testnet
 
