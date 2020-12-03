@@ -29,6 +29,11 @@ is showing up as "* * *" ( or not at all ) it is due to invalid unsupported char
 
 Anyone can register a shop and manage their products.
 
+A walkthrough video is available at: [Walkthrough video 1](https://github.com/thedarkjester/ConsensysAssignment/raw/main/Videos/VideoWalkthrough1.mp4 video1) - that shows the functionality.
+
+There are two things to note:
+1. The video hides metamask from view 
+2. There is a point that funds (2.5 ETH) are send directly to the main site contract - similar functionality applies to the Shops themselves
 
 ## Directory structure
 
