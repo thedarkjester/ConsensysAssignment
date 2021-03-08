@@ -1,0 +1,2 @@
+1. Move out the Owner Managed Lite functions into its own deployable using the proxy pattern with delegate call passing the current user as a param and execute under the auspices of the contract
+2. Use Shop Factory as an interface and inject it into the ShopKeeper. deploying ShopFactory independently
