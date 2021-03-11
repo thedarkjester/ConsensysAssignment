@@ -1,13 +1,13 @@
-Test date: 2021 Mar 02
+Test date: 2021 Mar 11
 
 
 
 ## returns true for supported characters
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/Library/test_safetext.js#L9)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/Library/test_safetext.js#L9)
 
-##### d1, tx: 0x784f7181bcaf1f7df6422c8856f4ff3c807007ec4d1d1f15334fe7732c382dd9
+##### d1, tx: 0xb7cc794a6f2039118d67613ae901d75639711dd623f0849d1a7bc42e67ab2e60
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/LL9DR-8m4BtxLupePLVTgdRYn0cYg062kgTMAlULiSSGDJZ8SRJGxVxtDI5YmGUFPzxCcoyJyjnwwNotgmcHdMzijrkZ8-r7PVVIoHtKk46hPr9zR5pJMJrlwiR1tR9SblEIa4dhZpLE2VHdYrAZWp-32l3IkEgpiLxMHLrjx0wj3up6NnoM0JnJxZkth_46UAy-4HY_sDwarfNT0AE3wMyl9uz34MJ8_zEsrMRhMrWVOUKwOm8lyPMl4LO72o-otOw17aJ6ZM0PMojfc17Qf3oAL9ObgU76n2gZWbA1YckccM5977E3GiIHYhD8wvo4aIaVIYzV2v0jZ88SaJ0sNwbgBqEhxzBW2W_-5sMzmvK-8gJtXuVfhHtkxyUW6jjwrvtOltqdj_Wfu1pvC0P2pWiYRrTfDNfPrIsP36lwSRUW2qhfzEi9mXv29U4n3mDseNwmSeSdGw6rmpPWbxZfLzzQk0yUdPLrVOJNtnOr54g5p-03H0-CQfuaQOuYIsMSvkc2BhDC8kU2prbKCkGvIyNYblXwDF-rdd2Mf4ga9OloE1UYYECaBYXZaSZdURAGL799QPRC0c7eVEYVF8SxVED_)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/LLBVRzem47xtNt6YBvkwQhRZn0bYg062kgTMAk-J4piGrJZ8SJJQTV_xZX0nyCFPTz_Tv_j5o6CNb0_ztXAY-j2wVbyQJxgtnXsKLtkmPckSNgZgRUlRtkbbQriFT-jYNImBGcPTUBTcJc0uEwEqyV1dL06UMjzyj2ueczjcw_R61MIimyLXZU2Pyj3xWpKtm6lpOO29Y-r5QTsuBJ0wcluEz-pxc0GP___fkcQx2nsKxx3nVLqZBmbDi0OsHmTFgjjDWHvBMLKo4ogfEOqonbATo8H5ocIKQHadKIOPqphXKKrJaMccP5a9RXAfIfIKOCkgWAaNppce3YPuJmYsBJHLSr1OwgkgpSOSmo_A1eShVKB8u0yFyrixtDzFeMfT5tn_Ol_obTpYfu1pvCCK23aFYBnSVQjDK8tjo6mSqxUx5LrHIkUVFm3dW9dWOuaDzfW_EBKt9qEkjJSTOfUu-UTG6ifZCDufQz_X-RSp6lAgmcK82D5ZpAE4rzcQqap52S-Pu8k4Ye8AhOLEArwKfOpJz9RukZN_jO4mud4iCcQYJ6NBMl98B8gLhEMQPdKUquWBckQwI90GAn_h9uyeSOt_0G00)
 
 
 ```plantuml
@@ -29,7 +29,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x784f7181bcaf1f7df6422c8856f4ff3c807007ec4d1d1f15334fe7732c382dd9
+title Txn Hash: 0xb7cc794a6f2039118d67613ae901d75639711dd623f0849d1a7bc42e67ab2e60
 
 
 actor EOA as "EOA"
@@ -41,8 +41,8 @@ participant SafeText_01 as "SafeText_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x10d45569e786a3696D0F88ae4474C12E1e49167D |
-<#FEFECE>| SafeText_01 | SafeText | 0xB56c76E1293977A3353A011279C95Da0a4a0085B |
+<#FEFECE>| EOA | Externally Owned Account | 0x52362f9F009a562A142B604E04dd4d8c2Ebb7588 |
+<#FEFECE>| SafeText_01 | SafeText | 0x3255491e39a9Cf7234BED7f7F09fA5032408AdE6 |
 endlegend
 
 @enduml
@@ -51,11 +51,11 @@ endlegend
 
 
 ## returns false for unsupported characters
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/Library/test_safetext.js#L17)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/Library/test_safetext.js#L17)
 
-##### d1, tx: 0x7013648185b6f8d48c515ecbefca367bc1cea605555f852c5993cc47d7ca1da3
+##### d1, tx: 0x63693c2a7caf918c65231342d70081505e34e578458568cd4e6f65599b9926c4
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/LL9HRzem47xthpZHbqrTDPiuSO8OAeD4tLChbVV9s1U86XpaE1fqxN_V4I86Vh1zzzrzlllEZ3ssGVlGxMh6T1SQr-tMw5dxLhczzde7DMxGsP_Ql6ryqpcxQEh6mrsH5_aYPspQXcEDCmRzsgAswE7lO08yDRvwRrpGzRokDcw7BX1Z6Iu11O5dodtdzpNU0A_LEuAG5z-BjhPo6n1yS7tsv_JxK0GRtl_bscgp3IsiZx3oNLaIBmjLg15M1mTFkjrEW1yK5r4YKv76wwHChKnDB68qQooDZXArDiAWJdXCgqpZiOcpB396AgkC5bP7Z2GpWKhFd-UWMnZHEM8aMwXCjTVKwgikSOM7y9kBFk3A7Z7MnyF3xDOFz_SJC8rhW-zEx5--iblyb73EV9W0O-S1iPUhPoq6NTKjcmvZ-dQtv4lE-UpZ1z0Sg1AwB4XWJ_M3qpiyEURMUcm9k-JDFlhMQ3y4z4xNzH6U_pYqC3U6FaCWY1y4jpAEamnLcf1kMRBaHPfgb5B9XHZd0cKc4hMy9RwMvh_L4nekuaWjbJ7PUAnI6IMnJDB4AZN6gD0spuGGYx8WGkfyw9yzqaxV-1y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/LL9DRzim3BthLn3fPKDNJFwGB0TPK2Trq9rQeBaFiYGdHXKva6KiwRh_FiOniaG7IUGZdyX74VBO1Ub3lxE4o3wqhjzLnfFklN5xwUKEhDaOfnTIlMzyspkzR6thuMvLhifbISYi2qThvWI6jJLI6mz_HXFWkVNDH-k2j8LjDcvdN436Ebm2LWYUAVUztrjp0xmr7mQYzE9xbLetRWCH7Lr_XtFsVIo2ZE__T5spsOOEgYEiVL_No4j24wo1zS71i-osKw07dl0yKR7CbAppI2ZEuYHAqbXdb8g8KMQIrB1Cf4mmBfHE3QyvOtbUvNdCLKfGCXMmzFAb0Dd11Cy9GTb2evgzn5RVP6tMvX1-qMW8kB8dX0pny32_zSFz_HHKwxhW-nFxbw_a5Zybd3CVfa38UK3azUfPRO9iR4TcuvY-tJtH9qhf_FC7u1om4hmiKM2FzOEJEtDo55fxqo5soPj_3gtXVWZ6Esdj4Lv-EwEXK0e_Gq287b0r7jVvYj9SCXuNKHelE4rBccgTQg7Yigeo9iGjyRKq_ws1S4bpkZ1P8dacg5QhQg4OZwfQ5LKbP9HmKUOqqXG9iVEnV_A8EtxZVm00)
 
 
 ```plantuml
@@ -77,7 +77,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7013648185b6f8d48c515ecbefca367bc1cea605555f852c5993cc47d7ca1da3
+title Txn Hash: 0x63693c2a7caf918c65231342d70081505e34e578458568cd4e6f65599b9926c4
 
 
 actor EOA as "EOA"
@@ -89,8 +89,8 @@ participant SafeText_01 as "SafeText_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x10d45569e786a3696D0F88ae4474C12E1e49167D |
-<#FEFECE>| SafeText_01 | SafeText | 0xc01537D7cc9227843654686d772e3FadE9111CfF |
+<#FEFECE>| EOA | Externally Owned Account | 0x52362f9F009a562A142B604E04dd4d8c2Ebb7588 |
+<#FEFECE>| SafeText_01 | SafeText | 0xC090Be73a6780dcFbBc561bfcAbb8a1368E901d0 |
 endlegend
 
 @enduml

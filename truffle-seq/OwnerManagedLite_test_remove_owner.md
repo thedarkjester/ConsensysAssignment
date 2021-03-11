@@ -1,13 +1,13 @@
-Test date: 2021 Mar 02
+Test date: 2021 Mar 11
 
 
 
 ## Fails when owner address is empty
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_add_owner.js#L22)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_add_owner.js#L22)
 
-##### d1, tx: 0xf7ec3bb0ab1088e81b157d39424b8af404db631b93123e6341464938b81a498f
+##### d1, tx: 0xb63d50ff18e80ec6b2327ff809f358a9f49c8036163b64e34a6b7c47251b29aa
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLBHRjiW57tdAr3wigch1ZQn8SgYPewZLkhKIklxT37OGIKumbXBskxVHnmhMhNu0V0vbtFlFHU4Rhi0FlHRYn3qeNNzLcgFkXVZTk1XYwrkj5FVeNffVDixLRIszVXgNQxBeaHeteM3rGk4Xs-ZGMcFtyPVZEzQRrvR5y0khMdSLhiG5Ujm3bX7yYIvw_tEwW_4J_EgCMLdx0cKCgx1b8pGds6VVnsBG6F-UzUPPXCwB0_usVTr7NLHCC5g_Bnt-0wwpGoJVPthAfMIWAI4SysffDDSfO8bJ7Ae6M5APYcL8gL9ghEKKPOnaNB9AJ31QnGjgq8ilNnSOkZm9EuJ56qBfZ8xYAq-_dRQ_m07ZLOF9kXVX0w15_09GiDzVBEupEFhwnckMjS5tn-pVlgCBiST1KvADpECq6c0wEcVifGEO6o7vkCOlrojo8eGidZ_XkESOeNnKCG1-DWVTh3LHs2fbDTTvCxt5kz3wt7T1-qTM7iOMbPuMLNniOH8aJtdqv821q8BeFbI53GfSf6IR2sggT2yI7Gs5OHz5BvatV_ea42LUP88GSfA2i6p8b5fdcIiMEL0KfdBOXh7jafvJ12T6Fr0jt6Dp_ul)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLBHRjiW57tdAr3wigch1iO176LHazXH9srgfVLzkZROGIKumbXBkkxVHnmhMhNu0V0vbtFlFHU4xhi0FlGxYn3qeNNzhjGUTI_6xS733blTQATMKBqqlksTMhUszVXcKsoATO7Gl0j7gnS83zzMWz8U_nv_CNvelNbjNG2xjAPnE-r2LAp39M0JoRFallTxgzyHFyohnZIzO4-Wb74DfcI4_Wpx_FDO11hpVtMTQRQXm-KHF_k-hgCk2YPOZPyF3Zz0jvrXSYWvKrDIrrHgINJ5ouGbeguboMesbP3LQLP9mZZbhEIfPYdmKbIfIAQqJ38052shGYozU5nYwF0axXCKRGkcCdk8hJx-Sjf_1mUDLjzCq3y97GAlu1E4XlluRd6TnxUtCrorhWk-FsNzy15TZpi9d9NkPXYXym3HqpzbAHt0s0xDnp5-kib9JWXPl7t1SKwnmdXOnm7us1zsiDCdOAcKrrtaBlSMRqFhSJq4xHrOUnnQLdXPLV6nX4YH0rjB9g7a1V0qvK82K06SG2KeBwHSBNEvBcXqvftmDUl-HuS4Yl2KRqWXCig122aIaQmuBRXWkQ1CiAHEybokOeBenEW7kezhVFP_0G00)
 
 
 ```plantuml
@@ -29,7 +29,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf7ec3bb0ab1088e81b157d39424b8af404db631b93123e6341464938b81a498f
+title Txn Hash: 0xb63d50ff18e80ec6b2327ff809f358a9f49c8036163b64e34a6b7c47251b29aa
 
 
 actor EOA as "EOA"
@@ -41,16 +41,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xdE722990Ecb9986C2d37264CD7a03b7bC5649D38 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xd0646F0E7916a0787272B61E673D713732f2DD8B |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xfb5d2737123f53f84b1155e719c515be76636dddf00d4d8a20bb117848f51939
+##### d2, tx: 0xe1f86960b91d14cd169a85c08d9ca28b9d191982f0a4d864577a49e26955dfc4
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFBRjim4BppAnRffKMQbjHRXcj4bUKcG8i4I81U0XIKIDb4QCgWgCHEt7_lMbOC5_MbEd39vJuuCoj2Bbl7hUkMcX3UkSPqor9QqZugi-AMBq7BkJJYAwyUvxRfZCWRtLXuDojcHLuGCcxTHii9WVvRI2waXTVX273LMFNI6CTrfjNSBALnMB5sXu0PNkvBhZgxqlAlYplr8e451zyj5qAPEJ0wk7xtTlnvU0GP-b-RLiqNheLo0_UsgskiIvnoMiBzsi0LRnSZeEkw38KN-p7p_3hqwoGe6Gj36REq2bbOoZYA_4W8KLCg0f5mZvOO4IT1KeSizLE2b5KEdrxSPC1RE4DxHf0sfogruWZrvjb8-uCRFfVYktBo5sLzu0d_6I5zFbnCJj_3-Va8CY7k77Vo_ODv8ED1XO-3dMo_WDki9A0rVDdR9wuxtEp2ju3qMTcsi8Lcro0x7EawISA2yOHJbdCMPsdEl3nEVHhDa8nK9hadep2bmLkficaq9gesgvnwmWxWx5kZ3_0Az1E5Rp-BQvJeD9eTp3tUYn4GiXypSdj4df2EAzqUmPpIAQLq1nEd2Nd4JOvZOb650-03g4FUPDiBXElQIMkurfjU605PLU58k_yauBZmAO7_zVODH15xNfhIeYhJD8boJ_Yn5mNvDERKB-Co3wCWdVe9Da0c1Zx89QxuS_u1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOcvscZeDOHTgc0saJI23j1Mcwnaw9S9tASQ25xd_VDMGLq_goFFZi-_rzTs7il0deGxkqZ64RQjSkvyQpvg5oA_Iu16iMnkan5WyBNxTEJsfRUtWtosVv96Vih0aRQqOCkk_Ue3OUNledm4Njg-VQ1RIPhHPkQLoWZ6NOEyp8-9forVgLDNyPRgfd0oBUwwvHwyejGF1UzQkJPv_x9bXV_z8rrU8-D33VmArlovBoib05Q-1sxU02c_jJu6iZIYLJoUUfq28kj90fgc71bKuBZDGyrI8LgOfAZh5MCXuc2SQfYMGw7EgoY1bHLWHgFR_A01iu8dd4YBPG5TKA2UhLapF-EpfS6Fsj2kOd5vtZ0VqHOrqyd8mEs-7u-1GohMy21lF-pjsnituA7tivsdw1i5aP8EbmsSb7j2rTTkvR8FgyQHhOGhqhaEsVV3sOg872kSnHnh5C5A98K78i4Y5pfSRPL4roGUttgUPrRIcmQh8YL8zK0OB_K-W3l03_nE7hZ_oIHdGOpGxcAzwJKs3iTStOzHloj0bOsUODp2cVSivtC6cRY4UwJ6XDF4rX3tWFQXytsdO3edCTZ7TexQORZ8QiA6YbmtyIy3RneG7_g-qAQ2vZEUDvaWg9F559b4HZANAP3AQ962I3g8ocKpMc0iH4pmSxfvD-pjy0)
 
 
 ```plantuml
@@ -72,7 +72,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xfb5d2737123f53f84b1155e719c515be76636dddf00d4d8a20bb117848f51939
+title Txn Hash: 0xe1f86960b91d14cd169a85c08d9ca28b9d191982f0a4d864577a49e26955dfc4
 
 
 actor EOA as "EOA"
@@ -80,7 +80,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -88,16 +88,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xdE722990Ecb9986C2d37264CD7a03b7bC5649D38 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xd0646F0E7916a0787272B61E673D713732f2DD8B |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xa7c9a722c9bbd9fa102580db25c6a2e26cabd13d0ca29fb6780e5a883398188b
+##### d3, tx: 0xcf2e4e9b7415e18bdc19ee124a7b23d314370990a1a33c61c633bf51897ba9eb
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/ZLHjJzim4FxkNt43QMnb32TfNeowYfAc0saJ2D3sOKpJ9NPBHEfKZWCjTFzzrpIhG2lIhCXddy_tyjpZC7PSMJIsdXQCOMrBNKzJPLXrb-iP6fn2eIPAonFCxYQchBMCow8qi3jAHacSCDQhxA9GVGRDk5KebO6dTWjmMfhyiTGMYq6HJ_HKQKiUntPZCAB3jSjPRMQ5Ud5mbJygSBeRtGLAcUi9EBnL_Mvaxx1DWhNnptILJsvj1Ua2haqz7fDVPdDRABYUQpZ5wlO8-1p3J63ekfb8Kod6w73NZxXCNJyBq5Lka64g7K_o35qnJeCmuih7AF8y4JbHb3A2BBEKUd8-0AnWX-GE8zXidkKpf5BF7xGoNr7ZHCalkLM_kDCORj7lCDRSXuF-zdFOtpy2ewRblRgoQ5LZy-v6tx1UsuqFhUmlFu5Tp1IGr3Xjv3qMDIrMvaiW68sgAbX2kN8os6pvdF_dMBjw3q_0FtBu_3qvesPiptj-y6FNAFbpLTYwmeCZwBrzGAEfcNtePMjAaKs_qxbClYMNrsywdTvXe-_3ApL2PSsA34kWR-zl3Na5khI0UbtQNfidaufQbTyJRg-XloOwktZMFgaivaNrBFYG3wdu5S34P-eaBM8YgY7d6wWtS6xkKR8hYj0yjyfeB8f5Gmq9WooZHsKRwAF8JnoCa3inEk50n8uRXyBZmKXalb1HxAh05xpxql4sYlshRGB8XCWk14-oL8WeY5tfXMxGZOSXSYyDqzWFkcBeHHI0a6ZnOCSqq-_X3m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/ZLHjJzim4FxkNt43QMnb33i9IOgwYhwa0saJ2D3sOKpJ9RcMYDIf70TQwFxxhcbMWLQaMP7FFf_lvRd74UAaj6XiDSs5mCeMkfh6P4Hvb-aP6fn2JXFIQH-JkuafAfqEYhmmi3kAHj4W4g9JsaLENG7rk2LCoS1JimKuBKpsM6YBUI_F9dfAshB7iTqOZFXmxN9McLbEBmwkiaS2vMrq5vYccPw0aetgToqxXqqIeeb_fijiScjBY1TmRQhncFqAczcSu7gkuHJBssEGysJia4VjEF3K4QamJXFL9bAEXq7ikAchF3UGxRP4XQwR-2hnNJSU7wcm7SJOfbWmP8dbrAFp7c09Eont1CDcioIR8PTw_g39V4MD4qg_P9P-ILKRRj7l257VXuFkzdFOtpy6GzFYdguiMgfjtjte6z5fkl6XaTtb9x2B6G5BZTDQtcDUyM9blWI6qL1PmXAAbPFUPYldyZ_7sjLxU0BvKSBdxz4PDsDxtlE37xk6qf-hmjOL7Xn3v-q36itDx48dMLEARRgjrcNqBRgyVjDgTGvhVHTUgH5AQrPaM09_Utzho4hGXGNKwzBscZn5Ijogx9vnUmtzDT75nRFsfMGnoyjdmOTooCMl06O-SoTvCM2Y6dQ-WNe3v-OU9xkY2CzpIqPZdYzgQgJGIn9-LBQ6tXs4ReYn7w7lUNuG8ge0VOb9eFme3FkzOJY853FeXUDj5FjNMmT8fU_v8na5RUMZ3CB02Po-ho8_S8U1SWFN6Jl3OTZd08n4WuSuuPb_3ty0)
 
 
 ```plantuml
@@ -119,7 +119,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xa7c9a722c9bbd9fa102580db25c6a2e26cabd13d0ca29fb6780e5a883398188b
+title Txn Hash: 0xcf2e4e9b7415e18bdc19ee124a7b23d314370990a1a33c61c633bf51897ba9eb
 
 
 actor EOA as "EOA"
@@ -137,8 +137,8 @@ deactivate "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xdE722990Ecb9986C2d37264CD7a03b7bC5649D38 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xd0646F0E7916a0787272B61E673D713732f2DD8B |
 endlegend
 
 @enduml
@@ -147,11 +147,11 @@ endlegend
 
 
 ## Fails when the state does not exist
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_agree_to_state_change.js#L25)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_agree_to_state_change.js#L25)
 
-##### d1, tx: 0x712b9eca9a962c3838237c8c8d7e1879420f36d9f66d5b36756686d28b93667a
+##### d1, tx: 0x6cfca8641d043071a06a252216fe262866084bb542cf31aae583c6608799ba26
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLBHRjiW57tdAr3wigch1iR646LHCoTHAtLgfVLzkWRiM2KumbXBskxVHnmhMhNu0V0vbtFlFHU4Rhi0FlHRYn3qeNNzjZGUTI-Dsu67BRQcDav_1_LI-xPtkcXjw_7LUhLU5Ik4PbquM3D7UFWs1hJn-6tynVYkzSrhwmBOXMrgjpKkHCKgd0FMaJn9xdg_i-O3yRDvDPYcP-m9j6vSZIaPeJ_3Fliw5e76_FUkQ-fDw71vmC--hwgeYq8JhC7FUuVleDjCCTddD2cbKI11yaGnmKJ2SYMKqBcX8fTfGYh6jQmurrd9U9vnBhXEH2aPvpcWQ9aAiVJLum93XoTndw1eMsXKiuFOwkDlP_mFS50R_T04yulG8V02Fa5ek8zlvfTvV7qznQfrNV3zCUkdp-Xot57Wf7GpnGYT1eYU_YbBcm2DxT1i7EENgoLP4aBcxzzmd5EiC1wAE00V-yCEjkO8BBJsfelS-TxyVMWzhljWl0Dh3qFB6Y-KYeybH8hiXSXM50GGMW3D5xAWIP5BHlXQgamQKII6PvAa7uKlMVS_EYH8gKg1CLc8PSRpL5IyP2ap2ML4hZEUf89IHH8M4qGdHZ_GRLpZi_yB)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLBBRjim4BppAmZdqY8DIkf1oOPhHBPbf42B16ZknOgaP28qPL0KQgVfltSj2qQ3MWUIcbdExiwIaFikW0_zpX82VMXTlwkq9zsBSNlmiADMDzgf9SYNnhUzKwlMjfxURCfDkIe9cNVXQFM2qE7RQb3Qqz_ZBwKFhJUlhGjW2siQjzCke68TBW4R9C-I-zxlhNv7_32lclBaWZs1KiOrbBCH-ZFiyyzZ4MJC_zLrfjc6ZbP7-kpxkaPT4aomcZuV77s0RZkZx21aBI4N2LSiYLd6WGc8qYZYejQHY78XM9vKLPf4ieuvW4xpM9x0R3gj8184BPC1IoyV2meTdU0-8MXRCDBi0Ljz_EMq_muE6gs-cQ1_CZu4Ni4dX0ptwTtYEazlRsTKjguBlZzb_V2HN8yx2PoLxcQKaFC0oTC_PIaTmDYEpCSnVhfPipLZRF7sXUASi48yh7007lkZ3dRw11HAUTqXTxctU1jQn_KGj7TWxN5eMT52Idmi0IbsY5Tvd4CbIX198h8SW6SW6CYCYpBFbyKwNvKSdNadVCsw_z4X0KkJ3SJPDChMZ2SyAv9Ch4NAbrCU2SwAATCwPccA2T29qGzoZoi--xy0)
 
 
 ```plantuml
@@ -173,7 +173,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x712b9eca9a962c3838237c8c8d7e1879420f36d9f66d5b36756686d28b93667a
+title Txn Hash: 0x6cfca8641d043071a06a252216fe262866084bb542cf31aae583c6608799ba26
 
 
 actor EOA as "EOA"
@@ -185,16 +185,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x41c4a339C8D56748f6b343e21309F5624811c023 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x054Fa37927D01417A476D651B912610A90ee3055 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xc9b101956d7219241ac98b14e3e7ce5e458fa6e806b04f026e49c5200722fe4d
+##### d2, tx: 0xce53eabeed2c8c524526144d8b25afe5d8570e4b2e21a395b614e362b626f6b3
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOcvquQL9r5Lbe1z8ca43Q2zBa99TYuJgLuq0BtV--QmWLq_goFFZiy_tmztqNnavRhvplbeOnrVd6Tii27MlljLqffvPWS86s-ghA-uLhEblbZMaSl9lFvhDynjYazHk3KmRzTuUgGWVFmn7Wl77wgR5UcSpeXLsYzLInzlk0ELs-b5nrRcNmhujh_OGWvDvtfQfAsmK8FhX-ztRoUNW46_fVs5OlxdmBnGPkN5VNL9TvxGt2pTh2kMhlni3NPLe8Bj8ehaQ1I0CfL9acXP0OugZ426MKr2h6XCS5bpKFOfHf6GMSZuAWHbanegpqzFJPPGQgXIEoHuneyxhKAqLGBnyjkX_AgWLMtxN7NrpqWGVyHupr-N0oFNmFnyTZoAhgsYkFxs_jBPiCAdmSx7Jx1VncXK3MgcLl7vJfQBCBtmBHvx1jOGlDha6sF_9raaGpeHB5HQx4A4jp4UIZDEJnd22dcEG1nb7AvMkfecaC9UesAxr-e0xWtMkZ3_0C_1E7Rpzd5oJHOJGxc2zuJyR0sCkOiQitv5NebJRj6vXd_8npleD9qqGyqYQdCN6amXxm7jG-Rxhj1Q9rxT5PPSoc5wQ2h2nffFr_4l2sy261__Ns3QGefGh3D4_EedWaapekGXbY84AUpgCua8aG9Gz2Qa1C37omKrhfv_m3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDBRzD04BxlhnYL2mWAwxTJbQXkuj1Ae5Pg9IwLqDWxILVThAFrkYHj-EzCN1CLaGi-xEpE-_jcBCHPwz7vRcc4mCutjbjMv4JxeEqA7Ix1q8AiEiVwOU6Qpgf9One7RsRbh9oKGfosVcDeBA3_xWaLENWUdW0NZTDFZVLe2gCNTadMSyQvtplCsFYISjMvbQ6_33VwYI28zxfhL4hR1GHoKFtgvUcdeGanrB-qhLxS-nQg3TowRZxdlC9hRmXkrnOkiBq_0RckAOa8Ao8LrdcTX74Ifa4SgxmA4vnJel8aanHN8OK1HgEaOYj5QLYbOJfFgqWmPRNdrikh0h258vP7WcdpkjOhPAXNFosvRsXnGUghzlH31htZ0VsH47qy78yFs-7z-nCebBhnwEdjdRqJfyCKFWnolFqCVhCYO6bnsSj7D1rVTkvROFeSjIrieTaLAFPFkOucUPHZbPQOnd6QvOX1Xgd4EWlICi_FYsa-AGDkVqXLDOtXGDqMjTUFN06y-rFe7Jo3_2ZXo_VoaaTq6CqEvWlUunCGucNDnFKhyXHvrAPz1NCgfrBA7KpU9kQHBnDU4yTJs0FUWzh7ZRVzWFXSUt8MZTdqWr5Gr3MljFzF0budFZJWVxLz0Pd4CuooKPXDPH07MH5dwJHDWlDHm6idYv4aYcIIS05cOk13dF79F-Tl)
 
 
 ```plantuml
@@ -216,7 +216,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xc9b101956d7219241ac98b14e3e7ce5e458fa6e806b04f026e49c5200722fe4d
+title Txn Hash: 0xce53eabeed2c8c524526144d8b25afe5d8570e4b2e21a395b614e362b626f6b3
 
 
 actor EOA as "EOA"
@@ -224,7 +224,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -232,16 +232,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x41c4a339C8D56748f6b343e21309F5624811c023 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x054Fa37927D01417A476D651B912610A90ee3055 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xd6e9e54d741a50de7ddfb3a81f793cc7775c0d52550eb594578a72c0d4ac7e90
+##### d3, tx: 0x3d5a859a0b82fd394ab8861335480f77731bca0883a6459341fa4f77e3e31d5d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHjJzim4FxkNt43QR0oXlFg17KL9Kq7qYOGeEt3c2OtlfI8rAaS5rhe_lkkQLQ1LgB8Pz-Tx-Mv9s7ifBRIsDcaP4pERALdan4QLjyNUYgDd429OzJgL6RtOrFDj4ggiZAmEqo7QP8orgtjeiGUW-QvGwdGm7Dx13YhJF5KQIlBVbcCzGIrfOYvtJWCoRWEEPsPQOcl3DV54uBZRtINKgb2Zy7XhUfF8xj7RH6ipN-kws9yPsiOBU36pFASuZ9Rs1BXPgxXJDPtny3dAiGO0ry9tv41LoYKoaUUZ9nSn5wM2I62ZAl03GAEeo3s0n59uPBAbvd0c3E2BBDKUdhH1rd33iaTHh3P8YkcabgzUDHelaajnwY-5XP_SwTntABVOQov3uUzxNOuE3W6WvFg0Q-jjDZuxD_gMzPjf_6nbRtbPx2BAG99BIUDV93bZ3OhzoKGZ0Rh6fPGhOBqDqS-5uFH84w5aEb0fAuKZXiakUk7Rf9xSHw5iJlCJ_b8h4DzW6VWdpXy-P6Uqp2srpq__BbhKFrQDRRkyF0OkkyVfT4qp1vqipMboAVNwLobtzEhctUTJlUeqVVWZHwXjcP5XYNGk_UlXw86NLcGUjtQNbidKqYZAXu8jxVGNnETNRuOdq8hYx9-aNp01vpp5S34PveaRH8Ygg7W6wWtS6xkKR4hYj0wjsYqBCj5Gmq5_IoZZyesq4THa3eoajn9f2FwSUAu2H6HXyCu2sAC4XV38ER-wy3RAFQ_jadWEvalFIzEea4G2Z_Amv7dU-Ww7e-7GUZwaUDatFKe0I7Hui5EQANVmry0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHjJzim4FxkNt43QMnbR7QTLzHLf6qwa3Q106qVnZHTOxT4f4xbkD12zzztJRCAj195FllkV2_FFGbZ9vL3w-RJWZ6SkzBCfoDjMNMNcnbQd4AX9zge7cPt4rlEZUgNHMbXVvWEqtxAMATooq9t6TJFhKQbBJmrHu3JqkQFfN5O94K-CLDj74KSkwt3a8oRaBEvdHNwXU4gVzGWlAtk0fNApGG4RrH_Qjdvr1J1clndfiedjww2qHAkxNmyfhZCvQxGSBqmS8hLxJ7mXLG-HdwCV1Irnqh67ewYA11I-bx4ns4OIZ7Aa4UHnC3pO-c9CNgarr9BeNp52BBCKUdfUG9OmHx9FKQmkJpBPqYjdZyORR-XmObMNtEdVtDHE-xGxp5MtuUZxcux71uUWzNJybvVENIwzdbtOsvOfvd6XqPsLv_1BMSQI1gSrl8UYpbjrkuh81YjhYfOGRaEacoFVA64nsMVAp_sOg-jCMnxlf1ZNmdLyyDH4eb8frxGsuHw3q_0FtBuyYCzes7ihdjnz7FVQlLhtTYcmwDZwBnzG6jec5teP1jAaK-trRfClwUNrszQhSwdMj-5Ltg4ojar6LP0xy6_7l8AJEa0pQQrWwPEfZIDAhydt5v3VqDqTl5iV4exp8lgMV817t3Erm0JdscIjEaJKIq5tqAzXNDxZufTKuJMXTFMO54iQseeIBACFYfNGo_xaOnm5AJ4DYy88qGHOi0n2qMGHb4l6KJzL123NWJUHR7_jNK2xdj3b67S3WTSU29Cl30O1BxenQ8T29x4N6l9VPyI418D7ko4Llez_0K0)
 
 
 ```plantuml
@@ -263,7 +263,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd6e9e54d741a50de7ddfb3a81f793cc7775c0d52550eb594578a72c0d4ac7e90
+title Txn Hash: 0x3d5a859a0b82fd394ab8861335480f77731bca0883a6459341fa4f77e3e31d5d
 
 
 actor EOA as "EOA"
@@ -271,7 +271,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Address is not an owner' |\n\
@@ -281,8 +281,8 @@ deactivate "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x41c4a339C8D56748f6b343e21309F5624811c023 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x054Fa37927D01417A476D651B912610A90ee3055 |
 endlegend
 
 @enduml
@@ -291,11 +291,11 @@ endlegend
 
 
 ## Fails when the caller is not an owner
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_required_owners_amount.js#L22)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_required_owners_amount.js#L22)
 
-##### d1, tx: 0x2e9616d2b076a4435e81b27ff8de1cc816a5ab6d719ba3bafb390414865aa8e9
+##### d1, tx: 0x1212861fa42aaacb8279853c28c89c0c246bdf4a1a68d2f1be95aa17b729c6dd
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9TRzim37pNhn3IbmrTCScE_15aGJt7GGTiQ87rVQ0bsZ7go84iOqdR_VUnZX6iMFmWoNVKaJoAiTlUW_F3hcKC1j_POLUYO_rJO_VWOCTRhD6Qhw2VQjSDrkHTspb-jIasHLumjkpziSKLu-EtHJ3e-Clqo_bTvvhdpdfeixQfxGwj9yNAdmCsH9uazuFRj_YE-Day8vVpC_O0nZIsvb9Cq9znNtwUYc1J_c-sR-gjxtbvv8zkg2hIPRxnBVB7W-Ltq6yNN1m2J2CPcQ0KSGJpUQWmaMKGLrLYK6gTo0WKb969PLf2M49LXgcOotaIAO04KqQMQK-b5_SPXvxFQ9yniiqtkja3jNh_swBx0HPgDDyRZx-470Clu3F6nllyPdMPvzVN2wuxstitl6Nzy95TZdiJE2dTB3XZfm6oXt_ACkYXQNksdCRuwMejraA8rUiNJdEY2kcGqm0SzSSjxF0Do8nns1DtlhTw7LkdzU3HMMZRuzYouPdMz5WyKUAG9AgGa82GESWuItCPv74QYcYJQfLYaWSOAJBslV0bw_v7nmHP62cbmh8ib4vB8p58LROMeLPXbUfeW_6Q9hnMb82ScFnWjxJIi_yB)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9TRziW57tdLw3qPLDN3Hm7uoYBwlX3dRIfbTRtwHgmWqfmXB6MTDr_7t6iQDNY1y3dNCwzzrmGkkyzE3_i348m-CuEkrevrBzekmS7EsnKgwpSW7XfNJTOcNUcS_YcAgioBn5QzVver1hXyTigaChXtzClnW-Tqw-TzM0oerkxKzO7nSPV0gf0dYNtWziRzOxueLyLfl45Um8fjMqn9HFqPznNdwSYq9J_g-rrk_Kzhe_usGrD4tIHrzue_7om-07wxHAJ0uren1bj88u0GDGyIbA-c8k82vuA8gAOrRA9WGBZCcfehT8504tg94e5an85ouGFfPUF6OOUpy8-Gy4shuNUGsZryPTLxZjOQ9NyfhtwIUWOU0MV8JJUntVhwpo-lLrYqTdUk-6KzSD7T3tk971MkbjYXCu3H4__b2ML1srwj9h6-Ecc80KXPFts1OSvXGh38Gy3SA4_R66dJa0cfLDzu2xtrczZws4zUEKi67CSMvOu4o8y5XyeSfZdVCwXPYMmE6O9Fra8Z818A2ivtsG5pqiQd7adVCsw_z4nWI0neqLDY2gQZ32-oUjgGwg8qtB1apGXQPCjObg41C69oGzq7zRmxFy2)
 
 
 ```plantuml
@@ -317,7 +317,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x2e9616d2b076a4435e81b27ff8de1cc816a5ab6d719ba3bafb390414865aa8e9
+title Txn Hash: 0x1212861fa42aaacb8279853c28c89c0c246bdf4a1a68d2f1be95aa17b729c6dd
 
 
 actor EOA as "EOA"
@@ -329,16 +329,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA365553bbE5c9bd1e295AD03c53f9c6Fe7D076D5 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xc0461Db00eDfA068BCbFB0F281E5879709fA541D |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x7a9e8bdac90236a22f092a6be0ffa197ff879db62f533afb8b71adbe524223bf
+##### d2, tx: 0x71fd425e404845d1fd991307cf8346e247904af12f8af5d862d0423f3eb01e31
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOcvEGfAbOHPQc0saJI23j1MawnqwnS9tASQ25xd_VDOIgq_goFFZiy_tmztqNnivRZyvt2yCOThwntK8enze7RPVeS056pPMLNx5wcBkcix9eJEFWtQoSbKN9s5dhrqPD6FJVlKAf7BmCHu2BnkddndeqkT5pkr3MKyNQxm9cTFbQSjcvfL5_NTpePmN1wSvtZL9gEuU03wxVlJtxF3o23VqlRQldzxu5iOPRrzKrrMLUUwFWTcNX0jlxCV1LYfaQ2ObLniCemJ2iUHPY8XIlQmoojAv7QIP54jPn564jHY8DK0eLXwTX68cQ4MMLfwUNLpbW2qTaZnZHvdMbbqXGhvwiSZ_Gubp9xzghNppe0m_uZnZhy-5aSlWUZe_7a4jvuz6hztVsZfqDAdmSx6Jp1VnwgO2inKLl7z5qjDc6Ru3eSwfjOGFDja6-E_BLQ1IN0OwG1mK6QPuLGLYaMSIJMLR5H5CHgYJE-EbRAT4qXX9rcrTUFr87yEwjqGTu0Vw9mxUVvIL9T1ZD5kOhtfCnCFOwPknwZpofF6hJxi6SyYddV0kJfebuf4r1O-98XHtW7QXTtcJJ2qJhoYjdqPXrBuo4lAfefFr_4h1V-930_thx1dcKn74S2L76LIPaeC8ipgSygkAepgfafj8fJvDfJ0s8YO4FTauh_Pn_0000)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOczsuYOjOHTgc0saJI23j1Mcwn4w9S9tASQ25xd_VDMGLq_goFFXyv_lrVNTXxBm9w4Exj8nX6shNBdFZMVDGkHLwN88r2-Fq18k7XQzRfwUrhJsycsVpR9enTjQ4ZJLZ1jrtRr0R3o-z2d1H--gvTW5jQgk5MneNA6CPzWvpUdnDkMhzofg_7cwgPmD2xctNg7Nb5Y1uR_hLoRFFVHEiht_fccfn7nh8Dt3hsxAal2nKmHguNJkumER-5FWw4QMMWw6HN2evrAIDHYBYIL6gICPc89CHbrYAGQcm76eL3pINWwYCJCw5YGGZoef0hMTNAM03HoIF6D4Mgg9Q8K6zUdB6VqU72wE_LS7yvA9pF60_OgoBXvFnuNSuFZw5LEkRWC6yltDtxAoVmiTUZhTV86nM1aWwN7Ro4MrBbvtx5eW-Rve6jb3l2gHxbQ-ZgOeKvd66iPHneX15WZ778X5nfjGadQbf9gZzFbLUrvO2goOjGlL85I3uFuK-m0lmJno-_iWkQKI7qUnWlk8zEGN6NjUCNRyXJvk0bMtUm9pn6UTy1vEsYNYaovJMnDCKze3teFPnusqt83hNmNY7rcwwmMX8Yu9MElmd0MyJ7nhmlzQkGC5bB6OvvsPMfZnMasa-d_3vG8big99HmaTbEfHYHWM8YPuFTaud_Po_0G00)
 
 
 ```plantuml
@@ -360,7 +360,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7a9e8bdac90236a22f092a6be0ffa197ff879db62f533afb8b71adbe524223bf
+title Txn Hash: 0x71fd425e404845d1fd991307cf8346e247904af12f8af5d862d0423f3eb01e31
 
 
 actor EOA as "EOA"
@@ -368,7 +368,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -376,16 +376,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA365553bbE5c9bd1e295AD03c53f9c6Fe7D076D5 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xc0461Db00eDfA068BCbFB0F281E5879709fA541D |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xb39cae338f7db9aefaf8fe5f4fb1187331ffb12068bb711d9825330eb7077d4e
+##### d3, tx: 0x7551a0c85fe3bba34cb135b3d4cafb5095fe52f54917b9c103b65f1952c87d42
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLHHJzim47xthxY1DBOoXfCqTOEwYjAa0saJ2D3sCAR9ISub8dKgnoajTFzzbpIgc5OU5aK---xytTrtbp1sMbffR3NB6PELBNGrYz6myY7JSsda37ASeaxFPF8mDKMbqt6H5mRs9z4a6aUC3Kgxod78e7dkKQPeuBaz0fmN9digj9NvAC-cUeRQ4gAoMuS96JUGyyhCS_pBS9Cz8JZThUvAfcccf-3mLlMxaOFZDWdMnh_GPJQzjoN4AxWrbLA4osncSuJRfOPpMTwV05_6Nf18zBo-4caSI5HIzHNwggjYn-aBptCKxLpUwyUnS9mqwBk-vt6C1HSYxH8caucbrAFB4SWIzaZkCQBDPaasbrJgvQD6yrLgESNqIsRn5tSQnntwFSQQ-t0qt6s7myCJC3Wh5dXZfSN6vzsTlcE3jXiVMZbSVmAxcYEGr7BMo8NCAzhKxciW6WsM9QoXg456soDVYZ0EWqW86OKYSgLmN7-it6xF7IilKFrUu4xK6O_51kezF0F_oE7pz-Y2ch4xx-NHZts3wS-wi4s5HoSmUFieZQPc3c6GR4QAV8QTpdNqBRg-VTFf38uR_H1UgH5AQ-fXM0Ez1udCS-fyLe8kB9c8e4rn1sscB4LgLhQe3Q_mlnbrTlMYWIbQcUNbY_0X3pddDSKqqTHBsenfL0s1RydU4hgzH-dMGqBhqgBHbEog6OuKHab2dvNzJ_9V0kyQid-rJO2Hr_DztulZo4-2E7NG3VnHoBt4zrIGz2OeGYvweKy1Y8cM3tPAA_qW_W00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLHjJzim4FxkNt43QMnb3Bk9cwJgAj8s7KYRG82s3sEQdDWf4QbJEGwqqFttNTAewhJoOL7ai-_Ez_BSan1oLbfXR3NF2H6LBNGrZvKXvKEc5yA8EUHgfhGSYUHXPefAot6H5mOEfz4q6aU434gxojMGGFFSAo6LWPVs271UcEovq5RaOPxDz5nfYn5JktMOed4JSb6PHQx-CjnapmgOkzLT2IapFGD6MzNlHWvEso98c_z2bzditfOGh-3ML6cASOdDRAxWTgdXN9JtVQ1BZtCcQEBpL3bnB1mtYPd3OqUwYKXZJWCqy6xAtO1vSP0mwiGzdhA0TnFVaswN86I9nTAZon142GSe3mZ2PhCaMmXizV99A_DLQ35JyajcrI_A6iSz-WD2cljmCjnlX-FZFXWrBnxLZHLMDJxlxlGT6RJJ-D3AuVeJsDL20Kejvery57c5czfz3GYZKMK9QoZg8E7sI9UIkTGPKya3Dt2xIdXTbpCdvPB94VVYq6U-YjpUQ1FgFRm0_KZXy_Ve0eUnl-xboOz3e-JFkh5DXoTz6Bnz4aRZC8SmI3QKGfzXftCTVOkkRzzqEeFJHZ-4Ltg4qfgQ36l0zoWHUOwJpqhGXKKJ0hHfxgYjb4Y5myeUQyCh-6-eJgvs1YYL5LbUxgIVq0cbj8OO6OspnCqOgMem-1RiBQ3RUrXkJH9SbrOPZSMk6d9829C4Folxd-3l1jv7id-rJOA4kZqsYIbLapIaFNyqZgSZEktwBEA-5tWqI4FkiWacG2HQFCWPhlY3-0C0)
 
 
 ```plantuml
@@ -407,7 +407,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xb39cae338f7db9aefaf8fe5f4fb1187331ffb12068bb711d9825330eb7077d4e
+title Txn Hash: 0x7551a0c85fe3bba34cb135b3d4cafb5095fe52f54917b9c103b65f1952c87d42
 
 
 actor EOA as "EOA"
@@ -415,7 +415,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'caller is not state owner' |\n\
@@ -425,8 +425,8 @@ deactivate "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA365553bbE5c9bd1e295AD03c53f9c6Fe7D076D5 |
+<#FEFECE>| EOA | Externally Owned Account | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xc0461Db00eDfA068BCbFB0F281E5879709fA541D |
 endlegend
 
 @enduml
@@ -435,11 +435,11 @@ endlegend
 
 
 ## Fails when the address to add is already an owner
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_remove_owner.js#L36)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_remove_owner.js#L36)
 
-##### d1, tx: 0xa04b9fef3ea43f4a0d4c3fe0f115f414daff3032c84a5f185046fbdd7aa4e0a4
+##### d1, tx: 0x0dcfa598435959678a098c3decb29738494262c11843a282fda7c3441f0701e5
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRvim47xthx3IbqrTDJkO054MDQMWJjhKIklxTE0piMfCP8oMTDr_dqDGj6hXmJRVT_xkxZiJSjjxS7ve3I4m-CuEROMEz2_Qxi11ImqsQEKTr2-DwmOhyyvqZbwLHLda1I6htXyChWaTlos2H4T_Jx-KFdHEltRMWzaOtTWMhG-Aofy3oa2U97U3snbyH_pGhqYvE6DF8AMs3ULiWlwC--hpL0IPyd-rlMwslgVLWJwxGQcWIxps1kdptj87wBTBolR0H9KfL162Y9G09aKTAMIAyrW9BYGe5R5eNgS2OiNJc8c5ggHC00Go42HOLljGUl6ueT3JMTXd9DZcTQrt45fz_6NHVGSB3SflskDFniV02_YCaF4-lLbVvkdrzPBMdUsz6uvPFtmab-EE0YUbcoKbv3H0ylHFMH8zQDEJrJJ6JrVtx9unjdxxGiESGeNXa8S1kD0VjT3Y4TX8wR0FtFdU-criFQnxZyw2COUnPKatTHqUYmyKswTfN718WV4SUBB9SZxFaonYYpAhumpJV8wBE6FYlV0bw_v7nmGYkIkoB8cWLemdQLQbIHIbHQ5KjH2goCgIL_DgpaA2uCJa1xaDQtZsVm40)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRvim47xthx3IbqrTDHiCc2YBIWXH9srgfVLzEcn3K8c9ZD6Ihlllkn0KhLfuiCttdR-x-yw4tFSUd1zsBI4m-CuEkz8uqhyqTWyEThGrjR5w1UgbTjrWTTwrdQCtcs9Jv0KXYzuVMxCaTFos1hHnzFVqI-b3vvhNpdfeixQfxSvOZugLlmHia3nBxWUtRyqxuaVpQYWN5-m9j6viJJcRe3_ZllWy5K6c_5zjtzHRtzFoI9_TK5MeItpZMqEV3vO-GB-TKtPWMbKGfLA4KHgbSIA1fLA5sgWoI9DGYbG4SQ0unmW8P51fI5Ge1AzOmhY925gcF9PUF6OKUZh3VKRGDj-ePW_OwkClQznti50R_QtnvYVZO-0LV4R8U9_UBQ_pzFPsJbLdU--6KzOF7ydrk9F0MUbkJWav3v0y_LEMDXwQjYUBQOoVRjPipHXRldsXE2Ui40yv3i1XVzJ2pfo0J6jdUkGkzvPlO-ku7hnn5jhsEBQiQQOKFXQF53k4kGmbb741iH0dbu4d43DG2OyBALVPMkO5HsVU2L-pxdzqJ11jL28COs9LSHRaOSIZBD92I2Qh90dMgIn3MF4I4w0Jan_a7bTyzdy1)
 
 
 ```plantuml
@@ -461,7 +461,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xa04b9fef3ea43f4a0d4c3fe0f115f414daff3032c84a5f185046fbdd7aa4e0a4
+title Txn Hash: 0x0dcfa598435959678a098c3decb29738494262c11843a282fda7c3441f0701e5
 
 
 actor EOA as "EOA"
@@ -473,16 +473,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x47BE9973acf01789b87338EEffb64fE9FF1b2b20 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x5Fc74e004Bf102C3515A5d44808f772D98b3aB1b |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x7f720258ef3f2bfaa0def9f5b974dadeb37371265b17eb3fab59da8c5c276142
+##### d2, tx: 0x91a5af37eae04f513e744b2d6c7784e4a394627514264b04479dc27ca40e9cec
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOcvCqTL9r5I6a0saJI23j1Mcwn7QnI9tASLWBtV--QmWLq_goFFXyl_rzTs7ijFNeVBUi6SFEDxPRbignzi7O5JfSGgqMoieph1uMhkcip9kwSV1kNioBl61islfDhMOC-kzUeLGEdWSLuA9nvgcn7kkiDWkxLDPJHUtt0NDolfHSTMvLgxySD-P9GJ3QswvHIcCN4F31zBkNqy_38zZG_zAsPd7lMoWtSEiwhQakyyRN2cxN5YwmlPy0NmijGXx6YTAH3akDoANIgOxBL8ma5IeZ4OaW7CTb84ZHMCQfnAIAgr2CWr78YBBAqzEBgmomXIEIHuneywOoAoIeLx-iSj_HuaB9RyQhdppe0m_OZnZhy-5aTjWFnySJoAIyyUZL-pjxnwR353uEShRz0dwpKa3IuhANZrXtTDc5Ru7eSwfjOGlDha6sL_awIU8Ym0Hva6CWiZGFmboa4H_FqofELPA7QXodVFHQgcoQcX9DcrNUF587yEwrqGTu1lw9mzSVnIMDw32Q7SmNl2SJOEnbpTZr6_AaycZgzWtCStxEET_1f6qY7kcIqveuci8Uy1xKFc-sxGT4vzehPx6kD_rW96HLHIlj_vE0juKF3VXVQzzW9CwAD1KHLfe78adBH4HHKXHQb-EHBjBvF2Z3CkJKW9WO-62dTDBF-GS0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOczCuSLfr5McR3gHD886q5wJfOZl5mdKgnu4MklzzRiWgflLbUV3Pz_lxxaB8UUFH-NPb2C7MrxPTbSgHva7RDJfSWL5BPUKKnSFIrQsLizhK3jujYaKnAmWPDtvhr8H0zzqhbCh1I_y4kAYTVgwjHvCRlRGhPNt8MFc3mo8ONrEkMxSswY_3ZNvM4B63xXgbr7O94UrLlpev_jmtGVhwbxRHotlVGBc5MzTMLSXBlFP6mUt6mWKszoEWcs642LOnLwWegv8eLfonSY1JmNd65CDuoD81Jo8sI5b96UD3AGPS8ADgA9GWWJBXG-l5LGxOm4cG9oJGvhNGQmnGhvwiSj_HubB9RzghdpJg78_eJmZfuk5iSjmEfwSZoAMyyUZL-pjxHyRz53xsShBx0dwxLX2anLKd7z6quR9ttq6WpwccWHtK-mBvuKatyIoBCopJ0bF6KfuXHXnJYe97QP5bqtoUpOeejD-dAklQX43TvCBhnr01lFjJw0Ey0Fr4uUkFuZACw3YQFSnNl6SZ8EHrpSZr6_AaygXDymRcdCuffNkOOPi2Z-4o2slYmXGEW0-W3d6JNJUWS6wySXQDsNQ3aP0B4LRQ_oS1RnCV6_2_sgv0iX2SAKhPj8heO1OdKP8dah6CPXNdW_amAsESHcKe49Ze-I3duGm_vsy0)
 
 
 ```plantuml
@@ -504,7 +504,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7f720258ef3f2bfaa0def9f5b974dadeb37371265b17eb3fab59da8c5c276142
+title Txn Hash: 0x91a5af37eae04f513e744b2d6c7784e4a394627514264b04479dc27ca40e9cec
 
 
 actor EOA as "EOA"
@@ -512,7 +512,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -520,16 +520,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x47BE9973acf01789b87338EEffb64fE9FF1b2b20 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x5Fc74e004Bf102C3515A5d44808f772D98b3aB1b |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x443b9e1e5a4787d7345c3259ca2a96823514467023d05f9e333258f323740607
+##### d3, tx: 0xbf0f869834e7eae8382218b9ef2de12ca060d1e32f7bad4c834b25725bf50bd5
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDHJzim47xthxY1D6rb32TEcXXr4IMa0saJYA7jOKoJarnAHEfKZWCjTFzzrpIgcDOzp0y---xytTrtPyPE6gkCRMSLOwgrjMvdAHhMt9TwheoQGOLJrFcfokwdfcvr7jTLRM1_aaoIE65irDXbXH63RjsXoj70Sty5EAzD-LHhgwfnLKxr3BKbnC9k7IPat43EMpEly0_3b_89mV6skYkLvwMUWiDxrQzEZexw95WV_q8tvVJEDf0kuSQqHK6up9QsGhXPQ3XNpTqny8NdYLIYWxxoWZ380-7vcN1zcIbNoM7e2j_nl670NP5plv0e15d3GhWYyFYG1umeooobdboEGJMmHtAF4MsspCgveb8l7pMQpqghAUQVIei_kTCvxj3lCTQzXyDejnqE3ex1uAn-m2zMMUnytjpgMpRgk_6kbz7g0zZb786aLhDEFgYgfSFQVGL4ey6cWHNKQv3nzieNOUWdZWeLTsBb16CPEsuSIC674vdv4iFOnQ4lkRU1UWlFmDzp-FWjkQ1cxCvxSVXzts3-OrtOfiB3OnYzVbH6KpCZ66MRaIAVQ32uJhucrpUl1eFHKQUFM8x4Slb09V-BkCsCigiNpETeLLarBxWvusUSypKtD8hK13h4D6E6mBSiRPdOlejMNNTfNrWqMbNLikjg3kCie_zW_vErby2xfkDlRHV02quJAGEXie8xGIZJC10YJ9AYI8TUaSZ9n4dTrEKKW9Ze-M0djDFF_Wq0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bPDjJzim4CVV-rFSG9f66SD9ymJgAlgG3gHD843RYp5Db_XI8bAdSXneeVlkkwPHnRJknV8YPv_FV_j-TnRYhB9eR3qhXC3QbhgU9MH4zP3hEHgSGK5Jqcg8wSFKbBLMex8e3UnFuaayYeNeLNPPK5z0yzqJAZBmqau1pakJFvVQOZ4eygcUaRQicDbjm8GNDvBpsimB-cFX9dycSBojxmgLolKK7DcwVZMsTznUGhJdN-WgdzxR2f8bt9eworXNsDmM1BSB3UTOtP-2N2IPpABW9Efw519Ir8rSrucI4yfSHOwReWoaSgZhPc62oaivC77zqFMJp9U9yWKZIorVFRuS05QmntPFC3QRf_aSETNB9qtc2sgSalgSM_efdIPmXtzFY6O_7FLthyFXuIaOcfMFT6FHKXFpxaxVYLvRZVUjxQy-WbtE2TXgd3Ns4OkQ1-lm5J16GrK5AoZN8eFjL2ww8yQ0IH1Zu7b1624w8GOIqz09uYWQ3iRHA7OuZKRg05v0Vf3mwLjymSNOVU_5qVTzG-h7Eh5DXaUdq7lxX4PpCVlGIpSjnJ7zJkSw_XfVtxxfT7h7ZRyl537b_95J_XUuJO-AgrVa5LdCY-eLcx4SIodNRBWLkGWy676F6HRVKjgIsExhhvhgydzXoMWiYcLJLGM3DENtOF-JsclXNTtnjxSvm9-aeKTIUiFCaUwewpl-m5UU5yae2qDtV18bNHmw2H_095eUuep__B9_0m00)
 
 
 ```plantuml
@@ -551,7 +551,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x443b9e1e5a4787d7345c3259ca2a96823514467023d05f9e333258f323740607
+title Txn Hash: 0xbf0f869834e7eae8382218b9ef2de12ca060d1e32f7bad4c834b25725bf50bd5
 
 
 actor EOA as "EOA"
@@ -559,7 +559,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color>
 deactivate "OwnerManagedLite_01"
@@ -567,8 +567,8 @@ deactivate "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x47BE9973acf01789b87338EEffb64fE9FF1b2b20 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x5Fc74e004Bf102C3515A5d44808f772D98b3aB1b |
 endlegend
 
 @enduml
@@ -577,11 +577,11 @@ endlegend
 
 
 ## Adds the owner and then removes the owner
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_remove_owner.js#L41)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_remove_owner.js#L41)
 
-##### d1, tx: 0x19954ec26620c38a5b584f7ec607561e041883fecdc899dc8615e61a2da6c7af
+##### d1, tx: 0x6f7485feeab4f392c48dd06716318e1e02a9d72f0434d3bbb2e236c47bc81819
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9DRzim3BthLmZfPKDNJ7By8GTPKC-nqG4RMc2z3un4EqOTEP1bB6cx_pxMCO8LYmwKz4WzaezYxBRtuFomQnc3mNTss6tGiVwfiNjmiECjrcZDLz1FjUi6Q_AkxHo_Aekoo0l6bhq_jhXYV5nR18EElqnNpkywrpntraERjKrjTsWzCLR-752IyqIv7zo-nNUEdyqpSXcUiGSmfh4rbsA2_epxylDK19loVxDzKszzppT7_kY6gY9UvXlV8dyyM7u7_NR1nK6cQHIY3k8u47gk8Df4AgmIrB58ebYY2ALIymgrqIfDoSGombX2O23M2LIC9DEUIY_kCmuzdz4-OoIRRtIp1shr_hT5zmCir6Y-Dnv_2Ja6Ni1dZ8tl-StgifzVNo-uxcpltV2MzSD7TZdkZU34TBFWZ9q6o1x-ASkWXwRjsN8QuwUhjLWB8LQlNpZDYIgaGqu3SDGVjx33Do0pnc5FllExrUlOEjc3HsUXROzZouPdMjDdyUGI1wMYGe828NEGIPRcCiYJT2xYCjLHYYeFC8vI4RudlYJT_-YOe4IH9SL6g43EYpnHOXrgJALSPu7QY38cE8eIcL02KcBIWzsIfM__5m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRziW47xdLw3qPLDN3GorSPH5JHn7dTIgbTRtwGndnwg38uorfEl--uXZHQiMFm3-lkExk-yWvAxpu7o_RGY1thUstnReIFTQsnqusD86AxHc2VgrScrlJTOshQDNwtoTPpaXiyuV6fmJEdmR18EE_Xv_ARrlNVtMMW_DegahkqNhWsBfpm7hG9uaTxtRDVY1-56_8UNoZ3s3CRMjA6SZz6VOPr_78iYO_xljwchZEreSw8lhopBe4b_x1kdBtj9xw3PJolPncKXrMo928KkHHbegOrYSy5XmXHnP1Ab9ef998OqeYYB2ICHQ9eLMNF6K1Ckq3wNdJmiA7Ps4VKA2RRxMzGv2gq-_BBf7i52XUQWz_cHy2Bo0JmWPxjER-MMUNbzFgMvjvrr_pFhfCxaSTnGuATrCAI6d0PBdVyeowA5kEZ8Rn_ZbQiLMZB7v-pSQvXGg38Si3C25_gY5BHw1XJ4Eky2TxytVXzR3klVeB3JDOMZPq8NMuR7uGB6zo9HGKCGvn5B6YGBW2SGCT30wLsgvMAaivy6P3yANhFiV7H8iLuaeKtuh9Of42x6IF4rmhL4lrvdGgKoKY6AfGeBWnEW7kGjhUFP_0G00)
 
 
 ```plantuml
@@ -603,7 +603,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x19954ec26620c38a5b584f7ec607561e041883fecdc899dc8615e61a2da6c7af
+title Txn Hash: 0x6f7485feeab4f392c48dd06716318e1e02a9d72f0434d3bbb2e236c47bc81819
 
 
 actor EOA as "EOA"
@@ -615,16 +615,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xFe0A7Eb08213EC780D4ce911DA28b0F621355717 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBD73f91544e37c33D4197eFcecBFC3c947832648 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x1400f0f7febec3f595caa19b32cb21080f04ac791449585c821c5d61e357bde0
+##### d2, tx: 0x0210c8ab571e87c9c154c55cf0e5269111ecfac4802e32f04c7d5cabd1a6b3fa
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLF1Rjim3BthAuZkig7h9YLsR1TPKCznrW8RMg05TYamo3AT25NaG9RRfCt-VOpZ1XsMotmG9L8azTwZ6Rjel7I-NHh6PEjhsouBTAnvq7ObdLo2mJdQygjK3tDNjxRCQbCxU3VBPtcMCpPk_CRWX47tBL2MwE2bFm9Srau_rzPBanezjqkqdYfM_d1XHi5zoLNhLWR_2jpgPmGH77mtiYordOFWlUjtPyUV-qUmll-LRVHyuHieDd3dsggYkinhRn3krXOkPRCu1xuM0USLhw8A2rJ3Aan29QL8Yk505GF1Ome6KaM9288aZ4CL3uGAov70OHWL9N96b2bFJy-lKv0Dd90zOKIRrqgl946zVhBeVaWhvrX-rnv_ST5TFE8_OQpBXxF9yJYSdfv3MfQtNdfyVs_lsRXNuMDl9zilu3Sh1B9MBZlxA4rBcztrBH1z3fi6jb3l6gI78r_7SPWB6KikCYcYDCd488kI8H_D4XKc66S378K93rvB5NLjA54tgVBwaJg0Tw-DFi0By4ySlltChqYYusXsCFTupyw1iVsOiPitv9NefJRD6vXJFkMSxs3ID16FjCbeJ1ofS01y07N8csmxWMXTUtHM6hFfX2aXLOf6slyd0MyB7nFuNs_NO8OyZVA2qnGDyooA-JHGc0WnJGTnmMSZSeTX929gG4pqVB0BMkdd_0C0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVRzem47xtNt5YBvkwRZO9IK0CDK1OAsrgfLRQIwNfS1omQXpaE2sqx7_V4JB4D5wM1vzzlx_lBenTLHwThrU6CQnzQUlLN3bMFMcxHeShC6gXR3v6-RHmPMtpIMbA1-zcsIoRP8mDAxyrQiIW-POAS-NWhNq2N9TElvRMeqcDNjYLifuo5lxeC2FZ8UMwTckZ_ZBSwrS58ZpgxZ3FjLs0uAtgLoE7dzicM5l_nbPwiVGLpBVmuEgYeBpCQsyKF6miN6Er703VyAxWCi5vBnOgYMLVYbueUprPSDNhHdqXX985oZ3XNHLq2nxAEEz9dES2etbG82FAfAVMiziKi88EoGuZshoMUeq4zVR5AlSTBIvK_arxzPEBnl6CliDO4m-Ne_DskBWOG9hdznwzUlze7zcmdSB7LevsNy1lrmf8MbmryXbDJPUz-mw8FgUg2dPGxWkanoVV19Ca82gY3ACmZE84KSGOSPInYB8a6QVJP989QhzDDIzBGu6wIgNNprG1lFjJw0Ey0V_4uUkFx8P6T1xD7kO1x-K063ki6Rix8IzN7hMfJc1E-PHpleT9sqGyqcL2Q-9e2aV0Hr37kD6k6H2T6w-SHMEspM1oIAMabVR_IS1fudC3_bVR51XFuw3equg5AeXb44n3qO_LJ2evdaq2sG_Z9EX6OK85Y8cM3tP59_sSlm40)
 
 
 ```plantuml
@@ -646,7 +646,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x1400f0f7febec3f595caa19b32cb21080f04ac791449585c821c5d61e357bde0
+title Txn Hash: 0x0210c8ab571e87c9c154c55cf0e5269111ecfac4802e32f04c7d5cabd1a6b3fa
 
 
 actor EOA as "EOA"
@@ -654,7 +654,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -662,16 +662,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xFe0A7Eb08213EC780D4ce911DA28b0F621355717 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBD73f91544e37c33D4197eFcecBFC3c947832648 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x05e63d15b95b747801ddff53224ccffda5e44a30b31a68677eb7770fee49301f
+##### d3, tx: 0xa21c9a13bf1307f0827ca370a570929de523e55766c93f13aca9bc761cfe6c26
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTQzim57tNhn3TIqlNJPBrOPSkD7MSjR2HiXRsKXYoVPsQEagmvIrfi_--6oSBBSi62tkSCRxI_JYIpaN7X9mttjQ-dLI4sDPFNJj9eIRDG-bcjhOJMi4ON7vXiuTnFMrT7a-hQKrV3PDX4YU4d3L-KK6FqEwv1vj3JPysKqelftNvE7NULlsg7Bi9E8-8XTyc336uXforzQo25u6RyX4ebrlVjStpqeqfPnlNzywUlTriWcpMlt9DERxt3KqNzBPkYm9nYIzz1VHsxkYbRUvFAPip1Jh8kKeZbHffGiRpl2XK88JCigB8hG8fRS3IW5iTQcCWDSQm0a160UC5GSeoZrjFHdrg6tg0ze0WRRxCofd5euw-EQW_McV7a7yeFNnXl4lSuJyWfAkd9xtTSNfyV4gHW1jlFNG9XtVkZfnjMl5wOtlBTzGlPa3HEZlfx5TRjJXOfIzN43Kq3LtIwGgalvsokHcaWoWnnYO3amXhk51n8QGMSH54HQWZCImkM6hMK4VqYR8tZBx_d5nX9tPl-e-dmON1n_VMZM7akdCT7lqjpid9AVq4lgqTtO-FjiH6BIc-HWcZkMGwqa74kP5IiO2f45qoKaO7FE9CQuay2CKnn6Hec8gCO5mBRT2XWr3AG1YZDnpjGyl4Fi2ellb9pU5U85bNkoUf_vlps-FyuvhrbL_baBNIakjd-f63jsNLFEDjm0QCiHLlAAWe9JY8KIbh5A8jWzihlQthBJkDmk_SG-riLIqwRSffFyjGrNrt_SDG9To6bl7OSjEFOYvYWqgdXr6c8WXZ0Lf5JBu4tgLnltgx1OR0-YP9MIXuaCGek0EP0JPpq1TXoeOQtKePZlf2a8aD7-GSl_X_-W40)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLHHJzim47xthx3O2uYnsN4I9uXLj6awa3OLgKXxGPgkpYMDI9tASROMkly-DsGLQDKaU9aVVFRvxhlp-JiJSjbOCBPTLeH0QslTBkTeI7DVwXKOMD8A2zJP2DHzOUfMPqbTrOQ-cwIJD4a9kMZifi81eTrO86Hew6E_fVIgDkL3hIrKmweiz1ArTOYvtHjCtE4JvAergmfV7CpA1wJSt-jk8CjANL3EUjMlJbvyx9CWVVnhtPJ5mZPqlg6tfirpXqjiQIkajsjDhw1Pd5Es1e-h6BYOvrmmcRF8amg4P1185djnXe4dC0Xa6AfOE1jG4C-L3BdACLHUI5p9b7MffzCXXOOUENb4NDbigSeLkAjEVseqNq53WTcNqk9tnZl30_eZGZf_UZOuV4vFJy-fAy3CWiNEuFXEtv6B_YdUztAm_KJjPeNKIGtBJlw0gdMBdVbs1s6mQUYMrZkGuNxBrXdtcKXO5iH-x7i8qlC3Bl8WuzaeaFDXn2DC_N3q17L27odxmEZdR-crUud3IV_pDYumscG1ki2fxkvrVF9QdBEpS_gMs4kunwcP_Od_-i0x4DNvlZ7p_rc1peSyzJQvUSRO32sKLVECLcCsPepjQELQs97NBHBNcyPHVq-mFOdsVeDjrnLkNbiq6gfgqtL3HeTAkN_4TeGJIIGYc8SfXBuVoWY0ImWPACd3D8f6mt6KfDmrpGlWGrtrjxOBC1fBaSSyy7qKKWanzdaiSQ9GZIQ9KB4l8-65VkG2k4hqzI2NRdO_ucy0)
 
 
 ```plantuml
@@ -693,7 +693,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x05e63d15b95b747801ddff53224ccffda5e44a30b31a68677eb7770fee49301f
+title Txn Hash: 0xa21c9a13bf1307f0827ca370a570929de523e55766c93f13aca9bc761cfe6c26
 
 
 actor EOA as "EOA"
@@ -701,37 +701,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xFe0A7Eb08213EC780D4ce911DA28b0F621355717 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBD73f91544e37c33D4197eFcecBFC3c947832648 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x6bc83059fb70e977be89846149bcd68573f2665fbf695cf7d784024c9c95e605
+##### d4, tx: 0x95a2a62a73ca705bfcbe334c358c715c3aa2d2adad9df3920cafe8614bc7cf71
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTJzim57tthx3O2sXZi_FX3yGgIfeCf4r5WBGNfCb9d1AHEfNZi1Qw_xxRDEj0guHMeJqjYdpZUwzFxEEZUn4wQPoohfrM2AdMrQQTfjgYvguqCsNL55Twear-ghAxYQrRaqTrLLly9ecJE8eHEcxSej83XBldLgjSM_pOJp4-gstvK1kdgc5LJinK6mU8XTia911SGyvQEwlqiy1L-Q0n3JQ-2vNdfPbWIdhNZyuUV-WtWVh_dvkcdDow1gSBV6tReW1Sv4fNQNmzD_XCDRT7cCnPcWcVXB98ET6IyrGBAG960vbcEHCXzmkFiR182oR3hE0v5m7nWancCjICX0WeonniFHuFiMhm7jWz1BIvCYjd2euw_cwq_QACckZyS-dqDqAxn2t-FOIwzVXmi3sEtxuzmbPFwtjzvPJJNSx-ZRb1n_rjlEljOFaHkyLCOx16JJjxhweMFbRfImmqMjqqU8dh5SXmCoLpFaf7CkPSnICUUufJBumABs1ULFYo44nwIN5AKhw6Ei2FcBmd-DFN-1mkO_k-NpXGerrqgyn4Zqrthls3lyKvF3p2bzgrrk3T-6XBkAibXfU77WS142QPBodbGH0Ia8W0Lo13pdmgAM4i01wya4A818A3XBX7AFCO1mVpHH3u7kUivsWNMgRgJe_jrIzgzdS2oRgrEvBwMsrTEB7rT8tq6egxhYyxw7ykkPLK_ilqLMIw2vKlh5dNlrKEMhSTTF6acERQgR9gdl0s8YD2o8etw2vGL-4ZWhPXeIfl6DmKjyswmR8hs33EdRP6LTMYAzGv7cOPj3ZNgLA8CAPAA48ZHVbGHjIBkFG9IsGMIYqYJxDGak0vyBQ2_wUt-q6YoP37AH4UzUE82p8ACWsNEHfw8YK90tSOSWgoHy14pmSwWH6QzKy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLNVRzCm47xtNs6DbqqmI6BdrpIgjMdA9e4wiKcyJ49N-z96IvpASKUxbVyTrmrb4vNG9WHvy3dstNVd--8lX9or1hHPr1KXi32DMjGJrAIzBTKSDDIqmYagEG1nEzNDGicigHfDNutoKPxbX9osPbLXZr3tp10aQlhGlL9wtkZolb46gdvLJbMDobZ4mkmSHdPp2pbVw7c5JpQkodkaFj-jNOAKfPfIt-kMlZjx-guhWdJvBrHRJcUcfPCLlTQBeh2un9IcGdgzLFGSsja9zPPf20540SHCGEo5aq9Ca34kM9Y8s0y50mXa019aAWkM1fw00fF8vnCHYoBsYMsPCBRqVDodqD83Qm-8RPifHJa7UzJnDuNw4oYOelnO6lpg-Svnp_e18IwU7lVsxzFNhq-enhgvmoi31ftFuOsw8QST6sywsrk_fsOrHsgjWjhPEwWMTh9nNrFRHerjIzUqsO3qTw_UKlhSOvadmvIdF4280nxwh0YbBmTXFEadVe8vZmPRg2FwGBst7ltm9R-mPEol-my7Qj5aCr1J72jthiEZv-8S7v_Gb-IkuHR7-kfd_kSdte085_l2odzHwhP7kgctI7-3rklciuF-vxo-b8__zIsu6B8LEdBvwFfAD51MxICcXjxGyxmD4rRFx4ssaymAbROwiEDaTvrsSRsramWxBWrg1LMrSj8WQLy8Awh6KSIoX2KmYNA8E8_Y1C2F8VB0Qb6K9ycWFqootBSAyWHudyJylkeI38OnAr8_v1nPB1WRSZ-DSIHG34OP4ocF4nP4FB49R2UwVf0pEzhVmmy0)
 
 
 ```plantuml
@@ -753,7 +745,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6bc83059fb70e977be89846149bcd68573f2665fbf695cf7d784024c9c95e605
+title Txn Hash: 0x95a2a62a73ca705bfcbe334c358c715c3aa2d2adad9df3920cafe8614bc7cf71
 
 
 actor EOA as "EOA"
@@ -761,34 +753,26 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: removeOwnerFromState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerToRemove | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerToRemove | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xFe0A7Eb08213EC780D4ce911DA28b0F621355717 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBD73f91544e37c33D4197eFcecBFC3c947832648 |
 endlegend
 
 @enduml
@@ -797,11 +781,11 @@ endlegend
 
 
 ## Adds the owner and then removes the second owner
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_remove_owner.js#L57)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_remove_owner.js#L57)
 
-##### d1, tx: 0x234fbf085922f0f96f7246cad2298a98df991b14767446a6db8b660c1381874d
+##### d1, tx: 0x0a364a0cdcf2fe400e2547889f7590044e9dc2b6f682b20c465fe36bc2ee8e93
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLBHRjiW57tdAr3wigch1iJ646LHFTTH9srgfVLzkZROGIKumbXBskxVHnmhMhNu0V0vbtFlFHU4Rli0FWnRYn0CeNF3jj8UzS_6xS335blTQgU-GltS-cvmgkXiv_7LkboNHOdGiWy7grS8Zzz6Wz8Ulqw_6DztthnqBe3DhMdTLhiG5Pjm3bX7yYIv6_pEwdV4J_EYCKtEs2CePLoBAPcWF-E-_3mLWQRytrnlsateSNN0JtvecgYBWWbMuwUzm_VGRnQOxDayQQg6Y5Gorf16yYPZ2Qz1CIO5IA4QAMb5aundISA1gqfKd9EQpWKLMQ9GjAmEiVJo8SVGurdSPoZQ5anjTX1RVVZjjFy13bgjlfkWVn4w1bx0PmYDz_7DwZAFhwyNkEvS7_nmpFhX8xeSTnGuATqiC4Ad0QB7VyfIEe2nFLfEO_nqTKVk226hjoyupYbM60z5782F_M47Mtq4SgMyxYDtlhTw6rkFwpvexy3QmzYomdbTnySI8aNsGgGb1G645a2pN1QK5PcS4xwMTIgrA9ZcgIJ9U-5BrlsFZWcIWejI4AvumLXMGhrEgIAGfu9bXMPiddEYqYG6e-Z4v0UwZMjyzdy1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRziW47xdLw3qPLDN3Jisnb4MDN4STTAcLbhVfpES7LI28uorfEl--uXZHQiMFm3-lkExk-yWvBxpu7o_CuH0xrlRxofqf7lHTWyETjHWWrQjGBuqhksjAbhJEdgpAJTbKH8ox_pHu8BGuTiYA7Jqz_XBwKFhz6jhFPYbqOtTeVL1iVQNW4qWpvBxtkqDlYD-w5UaKNB1da0fRHiQiH7wC-pppsCHPCp_rNQwsVgELaVwxFgw3hh4Qs-GFXyiVO1kEwFim63A4s1IoJgkCM4CupJ9XCZhBCqPInBCbOmhNdCHLp6J2KzhdF9AneW2yoa9baaVIYyVbnGwEWdxX0JRl9Pw3w7LnryMtNUmqA3wfZt-PD4GU0MV43BSftUBwpozlPrHsThEk_wKzSD7SZtk971MkfjHGiu394__bANGWpOTcOzZ_7IpPcl6sEBj2mrp2XM6Gn46u49_rC8EJy1IAOTTu2xt5cz3ws4zU7GMZ3aEBIkwb38y5XyeTfWMOYgWuYNm9E6P08Wou0na5l5IYDLoBOeo2iwy4xvctV_ea819pdaT5L8KwKRogEHLYccKInG9uxbGguZ7F9CXGN1Yz8FSXpKy-xy0)
 
 
 ```plantuml
@@ -823,7 +807,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x234fbf085922f0f96f7246cad2298a98df991b14767446a6db8b660c1381874d
+title Txn Hash: 0x0a364a0cdcf2fe400e2547889f7590044e9dc2b6f682b20c465fe36bc2ee8e93
 
 
 actor EOA as "EOA"
@@ -835,16 +819,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x4C68E806d6C227EacF51d0aA5827Ce223A60d54e |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x0c666f1Cc8C5Fc61E6b5e519ce840698dB16267c |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x63c2026170131fe598ea074292a95c25edbc8193a4b4aca74eab469f5d1455ad
+##### d2, tx: 0xcdca21424aa5b173dcae9145b1542c4aabfde4e59d8e8d33f21dde79d7ebe1b2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDTJzim57tthxXYBviOcvtc4x6ABAG3QHD88Eq5QRgDRuk5wrIE0orq_trk6g9Ewylou6jVtm-VSsuOEsySMjSkD6FOkjgqYobPrZmgiqIB2z0q9oE_OlKujtLhP57hsiAxIJafYvAniyQjDOqPTDy3eIGBh_qHuBAswgKs3dMkrTmio3XVSUQ6W8c_t9LSjdQfwQ-BM_L28CB1TuDIAZC7mNlNxywUVUuVmVh-LwPHymVNm7GDTxQTpNnTvfJJ17Sh0vVOF9m2NyMZAk11B18kHc96KPOIyYGCiW2pg0eYajCg5Ta8msc85IOXuJICiraaHHX5A9cdh7B-wULr3jZ0aRT7pDFcLAMMwA5UFnkoFz3WdEHtvUWN5rtW0VyHOrq-d8mFtyFnyIdaKjuwTFJ-tjopirw5ZxqTRxw0Moy9l3MuwEmJwjPljk4RyFHPQXhOGBrja0z7lahJg1IO8XS5YYJF2X4KIJRYyIIheepI8g0uodZuLcfQrzedgYQld7ho7S3PjqOVu1Nu9mxVVfPNNgB3QBOmTtXFJe6ntPYncpto93bKkjc3US4lEETRc7wQF8z-K_WniLw50V00QiWRRpg1_BfoP0rglUw4aP1NbHzfzvy4x1S-9F2_tgv1MCHfcV9OnaKG92LMaqX8ZdcK1ab1GJ3AOowZq0SppqJF1pltg_yv_m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOMzocIOfOHGZfGDe44aXxGPekzhLOk4xbED12zx_l6hAAQNrP7do-7xwxxxkB4ATDG1_QXHK2sr2xTb6H5ys3SKlqk01BStBw3DN3tDUjqqLjQm_lfkMqB4eXJfgmjZGHq7ttX9eylFGgm4NjpNFj0jhSchbRa0kSSHPs0LDslgPSjdvfwI_7ZNacaF7ETerQ6pS76VMcNvqy-Tmt8Vhwbwuny_lGGBM6Mz_EPfnN11CimUtAmGKszySGhPHME93n84OSLJ8TiafZ6VDz50yKMwkPffX6OvrHfeV3sK1gJUbOfrIHh0Q2ALE1Mo-lSi063bWU2AOj66MMo52ldXpvx-XmJlgR2VGpabtW7lk14DrxE9hizyFXuJ7aMjy43FJ-pjs9atuA7tivsNo1i5uIi7IuwEGZsfOls_0DC7sUcWOsK6yBv3irMWsBR9XXbPIOn76IPeWonIH2bSgapBAp_3mhIidjzwcgkhRyq3Iv2kQHAq3mVmfzW1U8FaNmzKTvoIFQZsOBynNlqJ48yRfculeDUPe26jkyWNaUdKTHj8N9syGyygNWDV4yXHtW7QZTkycc6n2Vgq3UeRNhRZ0QSgLufSD_4l0syRu1_slj2aGgIPAPB5HMZAOgaMLIZMWanugoE4h6cJwJoI195HTW9de-n2cV_7F-1W00)
 
 
 ```plantuml
@@ -866,7 +850,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x63c2026170131fe598ea074292a95c25edbc8193a4b4aca74eab469f5d1455ad
+title Txn Hash: 0xcdca21424aa5b173dcae9145b1542c4aabfde4e59d8e8d33f21dde79d7ebe1b2
 
 
 actor EOA as "EOA"
@@ -874,7 +858,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -882,16 +866,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x4C68E806d6C227EacF51d0aA5827Ce223A60d54e |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x0c666f1Cc8C5Fc61E6b5e519ce840698dB16267c |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x288204047b80f51a45a6a6da5e24a8457eff7852e0544d6ce9a747c4f7a4040f
+##### d3, tx: 0x524dc6ae4161bc5e565db7322bbbf477bce5dc2687b8ca211d038c60145b0b5a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTQzim57tNhn3TIqlNJPBrvTA5fewp5ZPIri9U2kF6bbDJHmcol2Ljzj-dE5veMJPOsEECyPNknv5qBZf6wBpsu7mphH22niziCnqRX-g7qix1mHHNPc9iVW7PmyJD6fidishcyAjXEaoJ5A6psYyhqqEuVUuDvCRXfswAyUNCbOypww7gL-N4Jetr0R7msuHX26uWvusRL-P5uAPyD9ZohUyQyhoq4qn9v_hUshEttIPGj_wLhSl9lQ_nU8blNLCK0HVvqbS6touileJw_XIJ1TEQ4Kwu6cjI20fSW0IPWp2CW-P2cQ9GMZ131EUvp4mCYgkC5mf25IbGe2ppOUlfg8-XnWV17g10co-pSWxXgADlrhYFO65YyW-bDry8RHDt-0yGQklnIMzt71yVd-90m8q7Rzg4mpjxXywwLhpkR6_r3llbtE1WBKnR-nMg9WpMwQirX3DrZLTujWRfRwTaeGRZGPmg1Ub0fGmKPI8f69SiAQAuq39cm-A2ZDK6wWW_OVA6uFUVqwlGYTsR_kDfmiB69_TW9sPastCT7lqjpid9AVvaVECite-FfWoDMk7mAi6Kf9p8M4OnfOfpGI8YT73nM2WPqPWIANdWWGaQGeHhHKIi6A6IIHKSCjASHqmfsN6q3orJU30ZT_EJciEzGBAsTazI_pVdjyVvnpMRAx_EGHkbHTVFz2Ct7iggViRRW0m88MlUWg06AGc392Yb2qAqPN1xfRTrlLMhKU6xyCPPgAfbgqqvxcTPK7NVNd-jHKf10w49KDMF4yeI5KT43kDCn4Odp4WH4_uIU9V6_Ufj5-29rAacCfS9Oog5R2XeJg0lD5E9OIpgIv8B7f9HOABZ0vs7R_W__G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLHHJzim47xthx3O2uYnsMdYk8XLj24TI9kA1D9UaAQpVKqZKgTotAs5xh_F3La5MZK9NfO7dtq-VtU-V9y9EMyyEB-SLuJ0qjTsELVeI7DVsWKucDCA2xHc1Fg-SFNIcgokQaVVZVDndkM4d3L-NU60qFQR8HXqzB5RKdfPk_AXjXwgOLKMTexM1yIftmMCm-OJv6Bf5XM-sBWf7v3oUEUx1cDAMr3EEjUlrfvzx8eWNVuhsvJ5p3TKhUcjMqwd0PVuqbT8RrUMNa8pEwLibKInqG8mve8hdM0Y4gFINXGffQPncYgDYT6HaAcI6YBE3Uj9BHYF4yLK0YIqJFjGUZuPKcZeGR079BJDbxfSGBZgvAT5znKi56Y-b1w_Czu6xl4V4DAUfoU3_Vlq-FYKXWRSUF3O1XpUsJjorlsAzvqTR3vHlruW3TR2lBK_e5g6oJPyiuLms3HqG-ijo72tP2l3OzRBc4dwSJ-E4D8eJdXlcXXkHacgXf9Bp6CnUe8wee-KVM3qyxVyAlo9_KN_ypOXCVfi1hR0YMtlTNZqMfoJarFwbjnpkCU9k_cJ__M9jo2wFVl6olzd1zepv4dRvFePOmrwAAlc6Qqks0LZR4kh8E50tZ39WZPTeFwEO3iIxSuDDgqgmhZow2nKrRfLWw53hSCxubl2zJBPaw143YAEHIe1U0g2WKwvoAKS3IzablCWcXV0-rJrjxTDmBGGOiepBRDah0NFXGewvtsDCcQYBys8YqYaEYG8dUZwGSx365x4tm00)
 
 
 ```plantuml
@@ -913,7 +897,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x288204047b80f51a45a6a6da5e24a8457eff7852e0544d6ce9a747c4f7a4040f
+title Txn Hash: 0x524dc6ae4161bc5e565db7322bbbf477bce5dc2687b8ca211d038c60145b0b5a
 
 
 actor EOA as "EOA"
@@ -921,37 +905,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x4C68E806d6C227EacF51d0aA5827Ce223A60d54e |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x0c666f1Cc8C5Fc61E6b5e519ce840698dB16267c |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x566aa4fa010a139b0ddb7c4a49c12515bde5d55d6e16da2a9a623972dcb25d75
+##### d4, tx: 0x6589c43809d3b54ac79919d220012aa9f49aba4d0cd6eb3d8de2767703d23cff
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLNVQzim47xNNo6wbvQkcoJhXrswqDHrri96obhOIs5SB2KnTPHWorlIPl_xBauMMfOD5lOuOtpIwUwJxfFqcP3pEa0Lcab923HXwfl9m5MaVYZy32gOqDADdBSNa3-CgcdZRJejfnLzrSjwMPeHSbQ7HUawXBRFs85r5NtQT2czcbR5uzG7ABjbCV8JvmCY3iCse8U3QyXPKyrAzsBWjdXqbCkjxmQiBVo8ShPnVM_jsTlD8iXc_cjV5wDngEbWGU-gPZX4N1AAK3fwD_Vq2khnAMLpfJM070BZ37YK39Yr0vDBa4dEXU9gO9soIbdjkBOW804jeiG8cm-4iaOHf2mFkFIitwLGqmEq1mHf2qLUp01BxN_phle87aREVYY2-y9u6xZ3Vq18cqzFEhl7wV7nAKK2RWC4rmOStljxShRPYjSRsrc-es4nSnIjXqbhlqBPO6CLlbn1LAwkwP9ELo3TRPVDpUM5Pjc5v8P5DdCyuav92OdXYW_4PHBbKaSMXcke8_f4sHj6tt_Ehd4dTY_wZzNWn2waO_0Zr_TjNOT7VujpSd9AFxdGL9xknqTJu4OjARv62QEvP3hHKSAvaLAnYAaONJ9HHaSyuKnhgHE1nmE7c8mDKtWY6DT26tJeA9Oo4iRe3KVxq3A11zUlRdzISxWNIDxcxadg_ytvRJd_E6TzvLSnPAsqvEQPVbWNe2ZhPxnTial6s8et55IK4coag9GL2j6MmUsLtkPrbgr6uNSUNEMXB1UjDbdQpNDKzT1U_pXM6OSOzJ05Rhf9oaLgaeZfNfAhnCMfS5ebJBu4tgLnlthR2MIguoncskfK29D1tbFSCkYgM9ZK2H5rDRDAOZ119ZPya7Fyul_f1m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLJVJzim47xtNs6n5n1Zi_F3SH2hQDDq86qg4aXxGPekjfD6f4xbE1k5xd-VQx8Aj6eIl2mFFljy_kvy-JuZTDvPCBPVDWX1RrlTBmjbK7TNwnKOME96LKhB2OYxohIzbbdRj0Q_c-MpFCiHEklikb4ZXFstK22LmO_34kEBrjGFhRRGZ9kwqakbhKCixIvWvZQV85UzMJNgnSPr_Q0mZNQ-Av2orXMcP73zylRiur046l9Vwgwk5hR3nHhVcBui7IwojMqKlhdN-0AwnIaczopcgOX2Jb8P5d448abJcieW88G606aPfL1098cGJ1MXv5852KiI4ieW56M9NCk4TQNdyp663XyuUu1SssmjwXMugyv_QcM-WePAoI-rLTy9zO5x_0S8-VFuPBH_7nyVdsBNW6iBLlc0mrjzYyw6N_5-iAFD9spNAuMTrR3qzWSqlPjimpTR2AEw3czmkmKPxvQk8RnWnNWMna0Y4SQpHAGifl64HWKFP1XCMPPoGU8dg2FyYCa7WZz_oo_TdzXVz3zlun8hcor0Lsgk_RqEZrwBSt9oYj-IUmbtQcwk_-H_VU8jYF1dtrZv_-o0FuEUj8skdZ5MAWjrqpsZrPHC2I5RMZa9E_AwIUQqQHprTmJRaMXtRhJngd3ZlLL6GzEilHea7WlXtX7h2HTcFEHGi1nO5B640z04675Af2pdV3AUyYodJZGlWFUfwc-lJq04OwoacU1PF1ECvgo8LKnJeNX4MChbXBA09S8bS9qO-e7EtUXUnDy0)
 
 
 ```plantuml
@@ -973,7 +949,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x566aa4fa010a139b0ddb7c4a49c12515bde5d55d6e16da2a9a623972dcb25d75
+title Txn Hash: 0x6589c43809d3b54ac79919d220012aa9f49aba4d0cd6eb3d8de2767703d23cff
 
 
 actor EOA as "EOA"
@@ -981,37 +957,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DB60EB41703dEe131e544a97151b2D93c463daf |\n\
+| address | ownerAddress | 0x68b6bAF35a04c35F7c96515B14b82d32D6C98c05 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x4C68E806d6C227EacF51d0aA5827Ce223A60d54e |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x0c666f1Cc8C5Fc61E6b5e519ce840698dB16267c |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x08e738eac7a90eb7b0c7a75397489597a6eb7a0efc33084d54c45e4515b69182
+##### d5, tx: 0x36af7ed683ae0a019282a952b78da2ac5dbf97452007ef512d73355bd630a607
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLRJzim57xthx3O2sXZinrVOiGgIfeEf4r5WBGNfCbDt1AHEfNZi1Qw_xxJjEj0guHMeJqjYdpiS_biVpuw1w6JEXWVcac9a6b2vPh9q7fKtnLkQhoPuDAEhSjFJNOtzbNZygGgAu_VzDD-cgG87TTXNjeEmkrtQqrkFNvSBp4-gtpnKBbWocvPZDt4kW28ex1nw8Dn1Jbj_BIqpmnNnOF5b6zq5oRF2pV6bAnLFrfv_65z2BJU_zpLnVWsr7WunzU-6Oq05uKYb1PVpnm-C_Nj4IOp4biLnTPaocXYXsf8OAP4f1MFjT3AI50QOaTP596Ovu9dN5Wkg1XAJME6WB8imD7JGHUR6k-1t4D0MoYoOchWgeFlplelnfcnpJyNmNuZj7NSejz3g8t7XvtjTlpsxH7sTbBTswjWWcrzzc_S3JfUlyQxjUmiFk8mdreCqfb9A-zDsS1awRx0GAEtTOqNk5g2T3TBCbEzOK-dIfcqfr9c56KY6J4kMJAAz2YMclL7fsIeLb07-16JzmH_-fgUmsDiF_SB5wfjI6wD6zk1Q--rV_2tE8U7H_ZIXiOxl1iVJG5ljS3mAy6Kf9n8BIDDgU9Sa8Y865HS2oKZgYcHaWCFJ50m4Huh0hd229LCAb38AEOyOah9DKUxq38nTtRWhtvHixyJIDR6xaZgxsnhpNrVJLP8hv5nrzLb2_tFKswPAl_Jz5NIT1SgNuXPrR-b3rgr7NJnf9ZcDfYYh9_mrYCzGiYID-WkK5TXaa3Ry52LDmnkYjichhDe2pQCis2zCsKvRmjrZhjP1Yqkj5aPnoAb9ZQ49eQghaueIvIEYEphJ6WR9ynAeGb_3hojuF-fRJVWYOpJcCXS9eofr6HzGNDYkY9cAh6CHLr9eEM0Cm8crdoW4nYXMVy4)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLNVJzim47xtNs6n5n1Zi_F3IH6hQ4Cwa3OL3QIz84sN-D9694xbkD12zx_FTRCEj4eJQDhou7Fik-_EzyLV23bj3MWphoj2O6uQDQyprAIzBTKCDDIqmWagEOJyTgARkP99KpMQlXcbepH92JbfpRB2Fg7kcI98rFInUwNqlD7bGwCCL8EgdAWQbR68XTawZEpc1d8srxCAdsrSbGz8UR1TkmGfIpMXd7LBtvqzUTyLGRhy5wej9rFJqcn9h_MyA2mkCQMfa5ul53s7TdfCsS8NK4GeHUm3Cc2yvyKUz48lYs897kIXp8fU58GUOn4M8VTavFjXc4dXCn0i8hPbkR6bf-C1XPRkMRj7RDjCcPSpi4STtolKdq711EMdqk0tnftZZlKzGbmyFUhltgU7XyTKOztSuPK1Wyvd_qRTa9EEZRUTxQy-KBES8RLMGUti7LHpErcxhwXjeyQsfIlQh446srUsa3nWVi9as0jwWOSGUK78_IAKN0x3A1l4FCOq4CCDr05zfEmTen-_fXUMZDrr_-50BPfa2cg2O-NEjN_mKfoZesFwcjmrtE9ON_tC__B4Qv3SnRwoyb-KkksHRkeDqj-WzRhvug3_EQ-lvUD_VGikXco4Zbm-kRuI3PHL-uI9CtR665ipOVNCtcGxIQnGQQi3MqwsrsaRrryvYR3Zmg1MK5LB9msI3lBSYgfn5Fb9xCUGYHH448We1k2HbHd88oxIE1uEpk8avLP1dW7lafZVLrq2bWiX2fxaSHAESi5JaOKOybwESS14BvP3BZmHvJQ1xKJN3t9gH_jx-040)
 
 
 ```plantuml
@@ -1033,7 +1001,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x08e738eac7a90eb7b0c7a75397489597a6eb7a0efc33084d54c45e4515b69182
+title Txn Hash: 0x36af7ed683ae0a019282a952b78da2ac5dbf97452007ef512d73355bd630a607
 
 
 actor EOA as "EOA"
@@ -1041,34 +1009,26 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: removeOwnerFromState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerToRemove | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerToRemove | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x4C68E806d6C227EacF51d0aA5827Ce223A60d54e |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x0c666f1Cc8C5Fc61E6b5e519ce840698dB16267c |
 endlegend
 
 @enduml
@@ -1077,11 +1037,11 @@ endlegend
 
 
 ## Adds the owner and then removes the first owner
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_remove_owner.js#L76)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_remove_owner.js#L76)
 
-##### d1, tx: 0x15b69f3554541ec0bede65d94767e8f0c9314c6a6938da45acc22058cbb08a46
+##### d1, tx: 0x9c5834e5ec65fafb3595da821e795bd149df444c27cf026caa349edf3df13bb5
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRziW47xdLw3qPLDN3HnZcoYBwZY9EcbJAwtlqndE3gg38uorfEl--uXZHQiMFm3-lkExk-yWvBxpu7o_QmY1thUstvNeIFTYx1uSx6Y3DLgz1FLIkxQtkcYRrj6RpNgpBjQ4p3j_R711wF1j4JGw-dlyfVIXTUQrjHwQl36rtQ7rGR7obu1D8C-I-zxj6tn7_32lI7bymPv0QsDhoja8_Hds-UUn23Bc_sexKszzHyiZVNPzLGLTuerla3uVB7s0RZkZxC15cSXgAaGiOewAbQWn4Lh6QP9YLZ4bfpnM2IHoccc81IWLHKnagYnP1d52WcNAXzBNZpc5Zax2FY71Dc-KsKDezV6NHVSTBDIelncFFnaV0g_W4qA6-_HkSPsdjxSpgbhRUTUVidxuIAx7dGJEIdSpIiXvWEJfdx8qUZ1DH-RZ63_ThDYACRPu-qB3d4A5uL240RZG7xMmmnEGQ-sm2zpbtk9jQ3si1u_EGjCSXvOrpPKAZyK7YXsoJAmvPC1u0JpDPS6Z8fLJbcoa4XAp8WgkInQ_5xvctV_ea21diP1995VLKeXf4PMPp9bWUH5jO9ckO2MMF1Ky2Gc24wCVv3wiuTd_1G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLBBRjim4BppAmZdqY8DIkejmpKYop9Ie4K2DFTYnOTCHAOCYaBjDFtthcN1Q53hG58pozdTMH9ottjmVjYrXC3WEpliQkL8_sBi7XpiQAiQPUKAn4lZki7AicixHsysrQOgAq8MlJ-sQade-6qLIENex-cNqeVEcTVEUcYBrZHsfwn7HUql0HiapvBxmUrRzOxuOLuLvT45Um8fZMqePnFqPzmNdwSYo9J_g-rDi_KzhO_qsGrQeoxnnhUAFXyiVO1-EwVia8iu2oCLAv746dGTndai8GkuIlEubZpAfOwYI0Ifq2n8140OvKhgK6eUrdLCq3BXiVJgiQ3GqndkCuAsUIFC7h3LnrzMkUzWeL7oc_7g9-DZu1LyHiXudzujh_FqzdPEHMTxxuPJrWyVoVMuay1PwMvE2JaFa3pzKvPK7apRayKqnaytQxPcZ2tVlb2S4rQ8Xn87uB0_Qc6dJa0XfLCzSfTxoxUnTLmFNZaBRNiSMvQq408VYqUA7S8o2pEeamgIA4hI382da30GAK-gB5iLwwoiE3hpJlYQTV-ZOu84uWqFWhpYaCGYrenLabT1L6If35C9uMOLQWab9a0d9Z_8FQxuxFy2)
 
 
 ```plantuml
@@ -1103,7 +1063,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x15b69f3554541ec0bede65d94767e8f0c9314c6a6938da45acc22058cbb08a46
+title Txn Hash: 0x9c5834e5ec65fafb3595da821e795bd149df444c27cf026caa349edf3df13bb5
 
 
 actor EOA as "EOA"
@@ -1115,16 +1075,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA0459629DfB553C2b89A050AC2FaB7DaD5B17516 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x6a5F1229E1a65c5f00Ed1E24A87d37da3FB3fdaC |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x5d9a6c27fd42c5576c7872c6c489c72e0331a661ee76d41f82572ef7e5475054
+##### d2, tx: 0xb47e3fa0822cb128a7227fdb81f0ad07bf1ee27205d104078690366e059f6ddf
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDTRzem57tthxXYBvkwRaw8yu4OQWYmLjhKIgsqbqgJiHsmQXpaE1sqxB_l4bB4D5wM1r_x-dxud7D3o5NjkVFDoX326r_PPZLNZjHFsgwvuoimQg6i77Fnj71LOsLHcSh1kzbqDYscX0nhlpLgHA3zbefBvU2rEm9SLqw_LDPpankzi2jbFLOi_J5WXfU7akl6hOtww-9UloW8egFlZakfxG82shb-jtRukNi4wVhVs5elbhw6-HOUN5EMM9TuxOs2Xus5Qrul1q0tJ6Oy5c5IoYWKZ2MnID8a5B68qamaeQBzVi3ZE50gYMKKb6d8q5icYaK9eomYI9dm-FJfRGwyXXxQ7a7Ql1PwpH7gxI-ht7Tk-KB9RzghdpHe0y_uUuIq-N0vEdyF5nS3oAMyzzohzu_saGmx5JvsThJx0dwxLe3MybLhdxbfSBCFtm7IvrHTmmwgVOFyUAIRD6NJWAUS1WKFaZmhWh18iZwDPvbWcKgBKCKiez5RgNbL6KpKTIwyViOEuDrRem_m2lGJXQy_fZSeqNaqUvW7l9S38EGmPkJkX3ofFDUcFe4veHDAwHucJXFoY9i2nyIX2aV0Hr37lD6k5GZNZLVEScEshJ0ISY5mfFr_4d1Q-9p0_thR1ZcDM1Q7sQGSCzOlmdcQvPJHl0XdV9nC-8IDWuG5CJP09Ze-o1Mk-7F-0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVRzem47xtNt5YBvkwRdO2IK0CDOMmLjhKIgsqbqhJ9NQeLUCWnscXPV_xZf0Xfl6oFFZi-_rzTs7ielReVBCqZ67ZAziiS-LO_QJj2XqkmQY5il8IYwU5gnehfvMf7BoRP_DicZ4shlt6g0c3zdjKA9M3j-u9S5Kv_LfPZoOrUc6NodhAMFg3mvoC-vIhngsC-ijmfryLYFv1TujIQhi0mJlLhrQEFtTDiAx-jQtruj7Na6_WtZLbINcPrzuek5zRkCBwSGHydVTZ5PR8ao0eSX4a60T1NCey4IL7oUEy54e5SS07Kl0-ZvDeoCCeKdmmB2CfIqQK5PvQpsvIm1fw97kCQFEwq2iag3SlLhdlQ76Xv3VjrKykMiSJ-XvZRJoSJqxRuUni1AcKTnwzUlzW7zYucyB7JawsNy1lLWf8MbosyXbDGvUT-nQ8FgVg6hPGxGgaXoTVXzCaJ32FCepw_IXE44MC4SSY5b6M99VfB9bcWjhlKkLLPIXGrsdXzJDL0E_-5Fe0Ry0_SVZw8xkc4Pr6iuEvnti-0iRsQyPkZyYJogCszH7C6PznpdSmQPk8HxfCQKqSJU40-03g43VPjWEYS-sLisZCfXsCXBGeQANzVn9mdFZKWF_LjWKY7Cn540mpWT6W69ISPr9aGJzDOXd64iFvPLXAd581OgBZWrtGIJ_dRm00)
 
 
 ```plantuml
@@ -1146,7 +1106,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5d9a6c27fd42c5576c7872c6c489c72e0331a661ee76d41f82572ef7e5475054
+title Txn Hash: 0xb47e3fa0822cb128a7227fdb81f0ad07bf1ee27205d104078690366e059f6ddf
 
 
 actor EOA as "EOA"
@@ -1154,7 +1114,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -1162,16 +1122,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA0459629DfB553C2b89A050AC2FaB7DaD5B17516 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x6a5F1229E1a65c5f00Ed1E24A87d37da3FB3fdaC |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x4ba9f91421c9bd71339a8609d3151c500e337fa460e407c89ca3bbb8a32f54ba
+##### d3, tx: 0x4829954ad493cf59ee9c8e33dba63f1f8620d6d95ae967d526de87a99e786ad0
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTQzim57tNhn3TIqlNJP8joIfTg6CxQs4ZPItifJ2kRJanTPHWorlIPlzzYkE5bcM3XJtE65_fVXn9vw9ZX2uR2xLjPnL2qDgvQMUfhb7pK9e5r333bPveamyXUvZKyzRaqRoQr_ZLA1abKOBGHMDNbHuWt3rJ3RckyLC_nVXgNfUFSsEX2gjoOcRQM8TOs5t2o0Mta8ksNbJwHU2sVDIO-ZlV3UHvQIQOajxrlRCNR_jDe7xzQzEKawbjSBh2TtLR50uNsT9M6jyj3Rw2PdgEoT9FGHMA-encAiqbzJm5WI0gzoYd6IT4Uvuim1T4-qHcWSh0IzCq08yLt1KZHrbctTQJSOYXmKVE7Y57cospSW7kgEDlHjSVmS14vnzAgxyGsYNkyHyXrDNZiy7-E3uzFSUEW5iBLdS9n_Vc7btqhNZTsy7w7RQhXSRE6fXrzYjKhHjiqjSRY5et3LxZ-GOat4t9KiPfh18f8Obbma1IngE2-O95XQUAG2WsAeOabLke4_o4oHk2ttzEhbqdzc_wZwTn2siRJS5CzDXqvpe--LkSixDp_4dRjZRuC3xQqZLgZTqhEPE2-aGeuIbAfUzpuX4UE9Ulk1GULPG8uJiU6ASkHFn04gua8rGm8Pr3U87lUqnAqNDq22qpUD3Z-lOdDSS7WMHTxO6a_c_ERu_pZsksLtwJWxPAYswUwKUkBPHLyuotcCI4a0rlJb2TbBX1v9IoTaAqOt1tfNTrWtMdKUwxjBesK5MhJfjo76QPKtNRNVyWu0c500YDWCfGHPH5Kdb4Z5J6bGuYfWLNn7y9l4_ZVlLs2uJ4vqem5HT3phs8fO4A2ITXn4Omb374V4Wbfwuzo37Hyu4ktTVzdtu0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLJVJzim47xtNs6n5n1Zi_F3SH2hI4Cwa3OL2QIz84tN-996f4xbE5iBtVy-DsGLQDKaU9aVVFRvxhlp-JiJSjvQCBPRr8H0PnlTBMPeI7jVwIKOMD0QIzHg3FbzQPfEgxIf6qFVJR99bcQ4dBLsNUE8q7xC4HGQ-ZXiARriJFNGQ0jrKbUbNg2s3h6mEuE9Eto2N7PcMUEBWvlg0IaFThfhKAhI9ULiKFtgvTd78GaonB_IRLNERKjdQtfhkg9mkCHMjaPwkzBq4jhvAMMhG7fn70QWWjZFYp16Z7E9lgzc8Fo25r9uJ0aLXu2nY5Je2OKoWZZ6I0fGZBYIvTQbdaqJ2YqzSFA0kBBPAg-MuAuw_QdHV0KD9QelbSNlZFU6U_G7XFJ-z6Iq_vmU7vzILu0R2nPxWyCxVKVEXgTuFyZHvXErwoLI9pKiUla3wiujjkQRBOJ1jgKRscn1ajsMhHGFc9yo5SP177W8aHU4t2z2nTKuZ6Q9v1ApG8oVe8xe8sKV6FtyBRjoBx4_wN_UnWL6cyv1bpZL_RqEZrwBSt9oIjyIUm7tE3KtV-A_Fl0M9EzztvZv_wn0xqEUUfjSFsEiGWjLtJwZrGMxO8njQULQs97NBLBNcyPHVqUm7ObsVgDDtnLkNbaq6kfwtNU3eacUkt_4zeJpK-bBc8aCH128I0Bm20I3FE8YatASNCWquwvfNW3lwwg_jNq00U64UrwSSH1X7XQCPOfdNf38IFcH0dyozWi5gGlWAZ7KWvoxsVs8lm40)
 
 
 ```plantuml
@@ -1193,7 +1153,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x4ba9f91421c9bd71339a8609d3151c500e337fa460e407c89ca3bbb8a32f54ba
+title Txn Hash: 0x4829954ad493cf59ee9c8e33dba63f1f8620d6d95ae967d526de87a99e786ad0
 
 
 actor EOA as "EOA"
@@ -1201,37 +1161,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA0459629DfB553C2b89A050AC2FaB7DaD5B17516 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x6a5F1229E1a65c5f00Ed1E24A87d37da3FB3fdaC |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x4bfa2dbb12c410ee3cd155fe36fcfdca2a1f97e0d53baf368bc9b2a4ee9d55b7
+##### d4, tx: 0x5776eb94a1b871ea90299c58129be4e825671c8055dca0f71a51cbbc70b5fe31
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTQzim57tNhn3TIqlNJPBrOPKkr76IjR2HiXRsKXZNjfoOEagmvIrfi_y-nV52oxB1mXvdZAzqFuwaSz4nGfUrWyerin8XQDpSDhF4LAX-AEm2AfZXqaoCpVgGFaogUMEpU5xEA_ngD1mDuo525xLRbQQ7SFjC3MIcma_T5EEhULKypgs3CYgBYPqPwpnYxdO98n_SGYwQQb6Q5u7Ruj5WodU-6yYomaum9PthUsiltdQRGDtwrxOk9bDNusI5xwecppqkSeKh3RvRMdm5zVGSaoLFSc1Pab2MSagC2TAC2f6RGEPfdgN0WEPQ6PA9884ya66IweG1DqPdGYGAUSfIvxS-74SOQdpaxH7ojBaYBHRWZph-Patr4InCJFQXSEOBeMtY7lyHGcqzFkljZ-FJqtFi2RXru4oRS7nlxz55ruhNdUsjts6tMXZihOLPQxz2sVZ19dszWQXCNUCrdcz0ejsKBDMWBycmpwaYGJOqDA16S0vQKK4JDj11ocMGGRw5Ei5FcBmX-FtduRNlnFvD__4qVc7ZuYdOYHdRzbp79t-BStPsZZyPrrGM7yP7K_X6hR5_bM1AKawabe6cL74kI414w5rS2oK3gYcHaalDcA0-H7YeYD2A4IgPLDuXWv3pW2abEuuEeMK63sPStVwavlWWaBIjFP3K_ytvxN7-SStsoczoq5PfqSqp_SYCWwAid_4s80D2o8OtBwXUIlmWzafPUI7QCRYxqhkwthhLAFzTEbDPACjLgqqPZjBKgxfhhtyOYY6540YDWQf8nvJ5IWT4ZdGgj0bZPgJGXBy4tgTnlthR1IB2XPPC3_A-447Cab17H90ePYFegm4CH9ygGNrxa6UYumDT-g__F_q0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLHHRziW47xdLw3kfLNN3MnZuwgBwZZsMcbJAhNINYfDPy2ELGT7c6n9c_tt4SUBMYsQrBwC1mwEk--EupiGkkmi6BkSDmZ1qhPwEI-KGTr3hHTWO8uRLIajno0UAjCkjKpRfZNuNPxbMPeXTD7PTQD62FTZfa0gWv-6BSPNhQaVMssXIPgwqdEbhKCixTuWTuSxoCNIB1hruk2sVbIO1dlT3KXPwmfJCgX-zVBYuv046k9VwwwkPhR3nHhVcMLPEbnaQzieVBVI-0gwsJacAnP5eIhY06Z18weW9buS2yQf5nSgKDnZOKG59un90QICA30gYa94f62byYbo9HFMfPvD4mmTFdBo2BcosLhK2t1NdVxKodm53PMINsghlXFQ6nxG7o7K--EpqU5pV7fwZbq1RYrOrHiSt-jxT34ynVj1ZZQVi5ql57PImxoNFw1PkiNMVBE5CAhhy0QtMv1aloMha1TXaUG-0n88d-MHY4D6sPW61VUaxqt2DEQ2i1tK2Nx2v0F1dxzbr-ub3YVzpzkumCgcCz2Lckh-NiSdhyKvEpl7RuazXmSrDRT_uhy-y1P4zBvlpFn_Lg3tGRlUHZVF62kLXRhfdj5gGYQ4a2sjN0ixyhf5wdhJEEhl2ROdqTvljEcxmiqhguo6fbdttI1n8eJxHsnFE3_bFeSYp20CWZ3Y03I2a828Q9XnFaucFCseQveNm8Uwwc_jZj70SkfvSKOXP8ALX6IIPbwGy4ZwaGG_7_kbXDG5S9KOwe4ktUn-nDy0)
 
 
 ```plantuml
@@ -1253,7 +1205,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x4bfa2dbb12c410ee3cd155fe36fcfdca2a1f97e0d53baf368bc9b2a4ee9d55b7
+title Txn Hash: 0x5776eb94a1b871ea90299c58129be4e825671c8055dca0f71a51cbbc70b5fe31
 
 
 actor EOA as "EOA"
@@ -1261,37 +1213,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DB60EB41703dEe131e544a97151b2D93c463daf |\n\
+| address | ownerAddress | 0x68b6bAF35a04c35F7c96515B14b82d32D6C98c05 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA0459629DfB553C2b89A050AC2FaB7DaD5B17516 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x6a5F1229E1a65c5f00Ed1E24A87d37da3FB3fdaC |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x4847ceb3d26b982411d4d4748155b7009e424c50fcae4def2eff7509e5d129a5
+##### d5, tx: 0x9ba0abeb16c059331b00575f5f134ff81e21a6b96954130a16197555b03cfa6e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLNVQzim47xNNo6wbvQjcoJhXrMwKCT9ri96IblOIs4ejfoOsdAGvIvfi_zzYkDb7GkKXhAd6QEJxawVfE-EEm3EQgUiQye20DMuoZJbH5jGt-LchgmgOQ6dsgHzbTnDRTMODAwAoi8te-5e60y1EAtTij0z0DjlfbMgBNpibX2ULpP_g8nJHLJaKrDgupnYvhOE8s_SGCuREo_q7uRh_453JBUwIvMckPb2Z3hLZrQUVkWk0RhpBqoTJsUkXfCblB5DbdbSu79NQ7YpCF1SrRCJY1Oqf2BHao0bV293GZ5EQKe53J5Z4u6Gr9JGXA4iKPgcEYCwomJpQfPY8XK3dhB4-QiFnn5KDJpmyW1usboUv7Fbdph-RhJzeeoQwlHpxlGtX5l77Ve30DhzyBYtsmxVlZs1LfVLlRvsokdMv_3Mt8BJBXhlEjbRVOHkETVGIwFALjwhel6JjViAUXgjhckuWjKQ9DekqI8CsH2hK24SAomY6MCI2naWFf89apgCYUPC8hg1EeAF4Br7yDFNuOKFnkvxF_EWMhjufinKZqtxhiEZb-8S7v_0A-qQQ-1-V3IvZzKA-bym8ZYcY4iUI8m5fGm5Y8LUHIKJFC0I8yufbuGmx4s8XW8nAGZ2d73X5Jm8AGs84BpZQ1zQIdMdn_Rw5pM7Uu4axTuzIVsTRQrvPAjoW_GQ6NTJNRNG_ppbrgdoFqrV9KtteVAPFPlwj_O1cxO3BfyKqrGxbHVr4zu6Q80GMlFckuklgtuI-xPXVLNUChWjRjjzlLLRiFsuSDeQLHJBjb2dC4eIt-BS2xFoAV2kWl-tjZqWGfH9JkGWwpCMn6GIoWWn5CLafFfYe0QiZmN3FZp0Cz7n0Sxyw9lrJm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLNVRzCm47xtNt4QBvl6m6wQ7vr6jIvBsIHG9pg9bqdeaZXfjCIf76UqM_dVkNgX5549TKAG1vzZttrtvo_-mjXvOr2RjYePmzRKggrYgLbpNwWvQgoWbBbKwGKczxckMvM6TLbhU3MEnb4OCNRMc6KfXmpiCvEOIWrFtIl0LQsBnrePB4TbaQjAAaE8cTauZ6dp6NBUwdafVzcO5eyIH7-pTeDfMgWS1E-MlbbxzhOhWdNvhrLJv3FJGBo4Mzrc6U4oKvXImkr2mHKsirFWYq6C76CP2o_Xxi1nHCovwxkPcmcddsM1a3s1NZpm1cvVE1o59mQ-wxenTv8CFS9ac1WgFPgC01iu87l0wDXCaHHpf5OdNvNK7r5XBjCFXP5VkB2EEzOF6BFnS3BSlG_7nwUWPLK_oAb18wtFuPswOsST6wyxEroz0xESIo2hiBBs0SkM9clt5T0nQjaqi89w3JBQlFA54mPEWB4NeTVlUtw0A7pqE2Q-yA8Wk1XT1c4ag0qBTGHFmDzmUFyvkYOoTjVzXuOQQS8PgbnEbEthy6XVd9EJKtX9xWhlvKHFV-JVF_4Q9B6nBwpy9wLsUwphwXdfRz1wMt-oqF-SrvVoyR--1Hl3deMEtMnTtrGQBCfcYubBViavNpD1UaOtcIOX2PKc7TXmihbEcxZXoae4ZGiZjSAoN5ffI66K92IgPa-Aje5tISplgpQ1X-vOz7g3Y5JDJToCyoWLKQy_2lpKyLDqnXTEbc982UWaklDWvpJIx-4x)
 
 
 ```plantuml
@@ -1313,7 +1257,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x4847ceb3d26b982411d4d4748155b7009e424c50fcae4def2eff7509e5d129a5
+title Txn Hash: 0x9ba0abeb16c059331b00575f5f134ff81e21a6b96954130a16197555b03cfa6e
 
 
 actor EOA as "EOA"
@@ -1321,34 +1265,26 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: removeOwnerFromState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerToRemove | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerToRemove | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xA0459629DfB553C2b89A050AC2FaB7DaD5B17516 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x6a5F1229E1a65c5f00Ed1E24A87d37da3FB3fdaC |
 endlegend
 
 @enduml
@@ -1357,11 +1293,11 @@ endlegend
 
 
 ## Adds the owner and then removes the third owner
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_remove_owner.js#L95)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_remove_owner.js#L95)
 
-##### d1, tx: 0xcba0e7e47c2e87d06af36f0d628cf8583d1bc75d5a1ca7a9c04544d6211720bc
+##### d1, tx: 0x13bfaad0d030ba1371ec8d24cc8ec0df02449ec0987bf09f47dacc69e7bb22e6
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9TRzim37pNhn3IbmrTCId-3hAWZckZ0rgqmFe-q1Bj67NaG9QnfEl--nZ725OiVf3aE-f87iNORU_0kc7RCWQ3wyomBT6o_hKnEx2mvItMQFGQr6jjky7eh6ixow-AlCYpdB5bxmujhXWVlms2Hij_Jx-SttUsUUkCWpPjczfiqJXIhDmve23o9BaRxAx53yIFvWsvzC_OCsZTc9fBCK5_ndtvTIg2JVc_cxwfDwxdvO6_sA6gI9UvnhN8N_Q6tqE_MN2nLoK8ZD2Fr1pZI8iGAY-iX0xdiQhY8FQqB5KKw02aWWWI9Vp0zucMCfgBKZ6oJ3agFNzAEVHyHlkCaMskKSqEgDMdNmRj8nYeKJyq3dyAEGPUm6UCZVVvpUeopw-l5rnrfdTsE6Rzz9bTZZiAd9Hk5fonqm3PypzbQNJGj3rRJcFySdKdxeGGg_TldEP45T8Xem5OweyRsE8HIBMss1DtlhTw7rkdTU_G6cZRmzYovgbIz5WSKM8Vnq4k8GOXCv1HccHodaM99y8YKK62SJR7C4Y4_r7uadN_ewS4GUbL8ed5kYYAAYZy8ALHOf5vNXvwmeCWNajVAKf0Jan-i5jQwTd_1G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9TRzim37pNho3IbmrTCSdnLu8ig1Cxw80DBR2-3xGaEq8TEP1bBEcw_px6CO8LYnya-KWToJinTjzvTBxVDOnXxrlRxqhjMFTYx1uTxg3HjRPgXVAbTcrlrRfjMWStcs9Jh0l65fq_Ddh9OFYs6fLsy7ly1NXedNbjhSScQqnjTzfwOgpy9M53mJFbldVxHhyB_32l6aHumPvGAMDh47o4_WpxulFO11lhVxMTgRU-W_88pwwlAk9btlX6m_F1mWDsspdmWvYM5QBYYazvYMAQ22rJ5OHIfbfoLV4W36TqcgL9MV5P5IOAfOndEYdB8D0n8ycafzQBnmomWmdj4qQoUIFD7cdKnrzMk-zeiTRgc_7w9nT3uXLymjXm7-wMr-DmUpi7sThEk_vKzSD7TZtlH71ckfi3OsS3sTC_RIdjqJGTMumsVhh9USuvNxvz0VA9EgJ3cWnmD1zOtEaJa2dbT4Unoxtbsp0whGUldSMcEGuZAyYafCVYASGFqtKwJR6C2up3C4vIH95Wp54c8YxIT9NbwReGfCmxuclI_OyE1KgXyyqiusaURGgHLr4HyoGC10zNv1pFeYW9yb15L82K6FLWzxJIi_yB)
 
 
 ```plantuml
@@ -1383,7 +1319,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xcba0e7e47c2e87d06af36f0d628cf8583d1bc75d5a1ca7a9c04544d6211720bc
+title Txn Hash: 0x13bfaad0d030ba1371ec8d24cc8ec0df02449ec0987bf09f47dacc69e7bb22e6
 
 
 actor EOA as "EOA"
@@ -1395,16 +1331,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x85b3f0980BFFFf5F45A6afeFC33E6303a58B14cc |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xb1eDF9A08D5FE1Df5E60742104B87b0A5572D4d5 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x78c1749fdb1714dbfac021d912e0a7179ee41f58325432e99ef5c4801c535b5e
+##### d2, tx: 0xb52f86a19d4ff24df0b39851c06c4136ef08ac23f831e4eb2d5630e9eae8283f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLF1Rjim3BthAuZkig7h9iLMR0TPKDUrrm8RMg05TYamo1AT2dNaG9QxfCt-VOhZ1XcMotmG9Ohaqtka2JbldR2kMzI4YCurfbkKQ4dxfCrIMB606kTer8MGJtFRT4PbJTrOU5VaHPxbX4nRjwvnHg3_7b4ejF0w706k6gjV6kD4dTPwRXPedAzOkNr0uIzt9PUTNTRuryMTVa5WuTvtAvJIPWwC3gxVlPr-7Xv11lnhq-hveskXNCEzxQhAroLEknhXVcNWIhIF4w2hA9Oi2fDAbInYeIeh8Uc8gOIDa8g8HGbYo2eU1oCU1YDC4gou36FA90zuoNrD8gJpJyzlKX0jd7XxGhniJakz59xgpI-3zhimOexgctRuax8-y8Z_X90-7yvcn-_Xz7G2gL9tJZXy_s0Uo7JemiV1pZPVmAsN2DuQiUZjiwWxlzc6Ry3BPx5jOGFD5Y3T7-agZddEH2meomIBqYHZeonA0Zek4iaJZBCHZdb2mxTIPTFKFb6tgNJwsIE0isz07-0Lw2SANt_arxv5nzbiQUxudas0aDsOaTi3yHGweUlsWEOblQIKRcdwQV8w-atcnyJwBkm9xqdjysQRla5-NJcqHjJrkc-CWbHAFzBkFmKuB7oimVzwTm2y32gQnFIYA8gA5o5FnwB28Wk2V1pGGF3uWeLIUW2lnA07EVUh_pd_0000)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFTJzim47_tNt5YBviOcvslkeXLX2OTI9j00calIDCbTag4wrIE0orq__kk8QiwhI_BWy--xz_lBeoTjnwTxnQ6CUnyOxj5eHrh7skxH8SBC7gkhRh0yd7kciwgQMCQ1-zc-IoVveoTjNvjz8H1_preLDh1w_04k6nS_T9OZoOrzTmkjFMKiV8xXnaPtr8kExSq-Y_3RVsYGKGxtGqgLTiv23weVlNoxFFG11lgNzcsdZ_u5eertBckgYWlyxKt6kvM5YwnVJW5lYhYe989Yh6AgYg8LCMBS2nZKVAaZ4IOw8fBB8Emag7GaIu25ISXrsEDMWOoh1XHLdfgFRzE0Liu8dd4Y3PVb_KI2UhrizNkErgSQ_Mjzled5xtZ0VqHOtqyd4mEs-7u-1HIfMuzUlt-tjwpis4A7mSvsNm1lrvg86bnqSidD1rTjkuR8FgSRblOGBCjaEwUV1LEPIYnI79CeYWPIKGnmeHZEH99BkL5cibfBgZz8LNHD8O2wpOjVVr45S2xFuK-m2lmJno-_iYlQ4I7qMnXlk4zEGN6tjQCtUoHfxJ7shHxC3EUSSwtC6cRY4UwJ6bD74rX1tW7QXStsVG3edFbjRDepBeVZ8AqB6cb_NyIi9_uq83_rVO52g6psJZbCejdkSYgE4_uA0e4ZoxagE1f78-2B58n5I0c1ZxOEPtqS_u6)
 
 
 ```plantuml
@@ -1426,7 +1362,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x78c1749fdb1714dbfac021d912e0a7179ee41f58325432e99ef5c4801c535b5e
+title Txn Hash: 0xb52f86a19d4ff24df0b39851c06c4136ef08ac23f831e4eb2d5630e9eae8283f
 
 
 actor EOA as "EOA"
@@ -1434,7 +1370,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -1442,16 +1378,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x85b3f0980BFFFf5F45A6afeFC33E6303a58B14cc |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xb1eDF9A08D5FE1Df5E60742104B87b0A5572D4d5 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x2b10fdf61929b350ec36265ae89918b4688f0b5d86d74a8adbff78a401f96075
+##### d3, tx: 0x7cb7f593b4f150970767fd8fd4937a5aed54487b51ed7f162d9635ed7f76a29e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTRzCm57tthx36owOni1D_nDEergO9cmJgn2RnCWavYTr6IzqgSQ3Tod_dDYtL9WeI5Oz4aQzzVU-vzd5yWj1butNjssc5a6xzpBNJpDIeUIZTNDTwYYipDguOwFnXNCzQLyIpQbRZLscI9d62q4NZbvNf8Tmz4wCBK-EdxH3ZgrbTFiwSrrM_AiTkQfm7HEjt0IbCRY3dRJslp8k9s_BHOCfslXjT5AKROqgshk-TlNYxNGJQrhzsJJcU-0PdItnNjzO2BlAbhmo-MpXyfPl9EIQB8AF45bPG5QWivCJaeGW4roPIYaOP4r5aISQBI1IIwKWNcRKoqenGgmIH705bkOUb9wC-rWq-0dk4W3PVvkLSmrP7tvofFsgdnwRuK7hpXT0kS8__2A4k7v_rzi_ZqzDp30JSUkrD5t1yx-xHnVOeNczjR_KE--NSOB1EJplxLLSjTDRXgpL4RPe6h_1i3TBV3Sb23hEXIgJKoL0cWPOquB4Dc0XY6oeR2HMaTa0okO4wmK-Ol27u_UVa6avY_wB_k1ieR7myqMviHgxRr_79t-ASdPtZJyQtjSE7yT6MS50h3A_aWHIK4Q54g2YLZ74I4Xw1YoakHKWL9K8mu27W5AO8YoJXIWQ4meSZmI72YB4ma59iEJg4bgb-CAFwzYSrnmU1v5tkWQJ-FvpVRkSVvsok_3e6RPGMtJpJZy9uNLRDCzw6P4W8MVC6WWfI0fqObB868TenkBlIkxpUgjCeQ1VUr4vNrRBJfWBtynnKtNVNFufuGa7d28qrbNqLqo2MAYGYLJbN9ee38xWYx2NmFetxrRifmBFG4XMHGPgcbgUCzuMs9et3C14X2JMF1fJbEHG09hPye4jeuV_q0m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLHHRvim47xthx2wbrPTDplO6AekAW6oLjgKIgcqbqhJWGr19IOoPalQxB_FeIngjMXI-p8UVFRv_Dtv-3uZTDbQCBPRrWX1PnlTBJDbK7jVwHKOME9QbKhB2UJtfMawBUEcRWn-DqsdQPmYTD7QJQt62FVVGe5K1ZyEIuol6bCzDDf27TLLgPTAMuTOs7t0r6q-GQuwiwhLYurvzQ0mPNlV3KXPwH9JChX-zVRYur046l9VwxOg5xR5sGRVcgue72wobQqLlbrhV0NjuXoJjSWpKV3GorX1EGa54RueP5185de2E2Z96Gj4ngcIeg3-I8Q-ntTpuSCeT9W8SkjAJsSHXXOVENk4NDjibLShS5UT_TJAV0KDfP9VAgk-4ze77l0V8TIVnsVZm_luzFGSkmRCBLZL1npVwJjqCVoAzuCTRpzXkrafxAo6PMz_GDsvoIvykuCmgctn5ZSxa6Y_96j96V5Y8dd8GZPI84QCKw_Waie95raKq42bp9yyGPtWHqm-4FpvMthj_iJXelzv6vTOsNW1kbGptT_h-EIrE6Tdv_WjkPTmhsPc_YV_wnFlGFB-x1ih_vyTwC-W9ssZcsUCbSf2LRVFQ9MGX12oevMJi2ElcyHEcyPHVq-mFOdsvyRRNXLkN5jbDDJrfbU3n56UktV4zeJpui0B8FDJy1dpHG101VW4Sa7zD0WcKHB4ANMYUG5yI5L_U_i46LN9D8n8aF1fIfE2fpuHR4G9cpXXauXpCKgOv2w1wyJG3tJfHlSY_WO0)
 
 
 ```plantuml
@@ -1473,7 +1409,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x2b10fdf61929b350ec36265ae89918b4688f0b5d86d74a8adbff78a401f96075
+title Txn Hash: 0x7cb7f593b4f150970767fd8fd4937a5aed54487b51ed7f162d9635ed7f76a29e
 
 
 actor EOA as "EOA"
@@ -1481,37 +1417,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x85b3f0980BFFFf5F45A6afeFC33E6303a58B14cc |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xb1eDF9A08D5FE1Df5E60742104B87b0A5572D4d5 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0xcb1a69aab532e40e3a327a23425c39fb89dc8e01c73a30fb78cf447d40dce124
+##### d4, tx: 0xcda49bc4314aa4ac3dd46178c0a1faca2ccd156ac4fcd76b5c379e05e101be90
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTRzCm57tthx36owOniEElU1hLsZHXaq2Ts2HU9g7Rn6cZfMwLED1kvR_Zfg7QH46Yuf4eyhNllJwspurF4Bgi7LIkcPK8GUFcjfcDJONgXy8ke88PBit4s6m0wSEacZSsY-RblCAlaZY9enYXYzgjIjD3k7sc1Z9JuQTkYF7Ll2eUvzP1sI-BYPqPwpnYxdO9YGzk8HTDjIZDYy1jyMWmvJlV3MHPOIUOaixrlRKNRxjDe6xzQriNawchyNY5xwecppqkSeKh3RvRMdm5zVGSasKwfY0rm5Ymm71Y6B10GS1u85Acyt6eipGqXARAHqW-Lc6QSwuoJhBKq80ZJrdg_DRZKHz3ZO-yFKAUDbUanGByKKVVhAa-WeM9oJuKpdmXj4tSupz2g9sFpthxu_Zqz1nx0cuTEDCc7D_RUtJHbU9rPtlhTzYj5WPxQs7MsgzGDhwpILzl82fJrtYDvnkG_cv8bceua2GUSAe8os936JM2Sz2A2ZeEXfgbNB8CyYtK2Nx2v0t1xp_7rxuI-pVznzFuXOsBfc0dPcJRSnsV_2tEsTav_cHSKrby61zDuGkrnlvL8b2ISYArP9fInRaWZ8ZGkxWMIZAgAP6IInq4WleGuQ4YGgk0K1b8vHsIXPpxhqZ9ZgD3Q9d1WnbLjp-fEJu896td7aZg_-ByzZZ_UCxsoczoq5PfqSqp_SYCWwAid_4s94D2o8OtBwXUIdmdyafPUI7QCRYxqhjvlNMhKRvTEbDPACjLgqqPxgUfLtNNNlym536540YDWAg-ZcWGASs8J7Ggj0cZm4YX2Ny9l4_ZVlLk5n1ZbXCTaa6I9Bb8kEXBo4qICHPBHXY8S41vcle5F1CT7-ZIj_x_z0C0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLHBRzim3BxhLn3TfKNNJOhbHuekgEF7Mc132gJ0BWK6Mb8SeuuSoCgMjDb_d-9wGOi50zhBT10bYln8KHz5o6LhqTZLeYO4LxRHgqMX36dlAxr4WmkeLQcq7AEuBqspqZ9fwiR0kppBioGZvAArcrgD27HZhb0g0u_z5k2gCTL3eotMSLsLUg6qTOWpkpV8tU4Jv79bbhLwSJ2j7XGmljVTe9ILBe7HNlMhanSV-oH87_zQjrKvjoqK6xWrgzdCuH9RsLh1xLh35RRpSw1h8P4F2y4znX4v2azA7h0m4XJP30KEX93C3r3mcP1XKFZ22uUA-efHLgWX9QvamhhKiqaCsCAHaqV4bSrMebgYk-hafrRcAseibVnIMVMTiixmWFw8aCuVpaQ7p-7qz1nS0QOMhUeCZk_q7Rded-9zBqVRJs0tImLEQbnqyWVMAxVOcMzt44QrBMoXsO74-orT1r4H577k-KYvyFmy5CF0P_wOyI8QI6-G1idGLST_WZg1Hw0VA7p-bbsxbpYSz3zlum8hcynHbsgYktiTdxmMv-pi7DuIUu7tQcAcV-A_Fl0EH7I-RypyVrQWyo5FlKrkdZ5MAejLtJwZLKfJIkcELgw57NdT8d6zQHprzmJRasZlDzfsNU7cjLL6OrrlkcwG40lX_X7R4SvB8Y_28iWmu3m88qGMOa1HX2p8ecWSfr6IkMvx2Noeg_xMTW4Afj9y6DCezVECfJC_2sZ81upoSHGMDFRzS91owHXDN2NwUf1BDxiVyJS0)
 
 
 ```plantuml
@@ -1533,7 +1461,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xcb1a69aab532e40e3a327a23425c39fb89dc8e01c73a30fb78cf447d40dce124
+title Txn Hash: 0xcda49bc4314aa4ac3dd46178c0a1faca2ccd156ac4fcd76b5c379e05e101be90
 
 
 actor EOA as "EOA"
@@ -1541,37 +1469,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DB60EB41703dEe131e544a97151b2D93c463daf |\n\
+| address | ownerAddress | 0x68b6bAF35a04c35F7c96515B14b82d32D6C98c05 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x85b3f0980BFFFf5F45A6afeFC33E6303a58B14cc |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xb1eDF9A08D5FE1Df5E60742104B87b0A5572D4d5 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x305f8a4852bf36a4e471d0a72e2147b961c10ab1bff4513a7e2591200f60c4c4
+##### d5, tx: 0x1f725030e3adc0f6f5f8eb278b21ad397035634b2dc47e19b7f33f7610575f88
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLRQzim57xNhn3TIylMJR9kTkb24yTU2nifRM4lXI7RSc9goq6MkwJD_liKnyjQ5YWBPKypHaSwbq_IfyCv09mrLXhRLYK0ihMrRgj46T3S5NekZQnWgQPAPoEPtarDtUeihClQm3Tn54TX1C1fOvUb6W3OVJCbCsNWOx-4yBmsnKEjhIo7PJ7LbTBM8UPswn0xumPotffvgPuPhei71J7TwYvbbXLw2Z7gLJywUVgXFmJezx_GJJ6TsGOcItXZsZntkC0MjbJmPg7XkMnc9n0j26AvBwdFl2GdN5951SwG59xoC1L9m76AaKnmakUKOIA5ybY0FOHoZbAQKk0eIwqxUZGPGjd00oSFWAFD5canb-wga-zQcIzIowdAFXTMVKEuSzoXFm2WYuV7Wzrs-FRj2JIggk_LjPLMTJw7j_eMdFQlyQwNWzL7Q9Tp1PtKikhalInRDrcxhw2ZqQYcWIjOhq66soLQYF68esX4iK0aYnGcM35API0mmuat3aXAESbale4wWeyGlKVmqzVemZt6xdE_SA56sN0czLHDT7UlmwE_nJa-Fe5NohP6m_tuQ0ltLYleVi4ymJ55FE0am5XGof1B4z-fQC049pZ0Y7FA0yzZs9aGzGLYWV0GvXuNJi69JodnXE0zH_lGKiaxDJ7NlwWvt0iaxMBt9FLtjdNcsDJL1karCkwclkgW_tdAhLFbVvg-IfhkG-KBCPlwj_O1cxO3BfyKqqnPMPJD4zx6Q8mGMlFckekhgsuIkhPXN5NUChWjRjkumQehs6vSM6MqBCjbLwWpE4nJr-9ibvM-po8iVObmAB4O1Y7sGX4GnECWPO7oGqzn5Y3w77XNmVzJkzc09IH7WOz6SHpdBAPio6Mkuf2GY1D49FD7cAQfsy0nqVC1pjpeclLF)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLLTRzCm57tthx36ooOOsFcoEurgQPEmIQ1ER18laz1DugJH4gTodD5kvR_Zkg5ieXBQX20Fllwuzrpx7li4eRDEWz9zKoC4lMvbtwH2eUwsaWjGqE1Qb4Bc4yXkIzNsCf-sTQlmgoHEuccCq6cdLxKO8so_kO1SAFmm334-RrLrtqeDTLXNfMo4r0Qnq3k7n2nk8HUzMjJYoS9LTIymzNPpbv3dbImn9SFKTsjFtmsRG4F-2zbLvLntE5tXQzKNXS55kjArmDTBYS-XcvzWigG5StpY4k52df4YAFo2YzHXF7KevEw84TSFN2zryinZWevILhXkmG9AV6PSEJ8boxJPUZmBCNJumDW3PCgcgwnQW3dgx9iKwXD8A4N-iTBYAw7MSS_y0K8s7X-Fzw_ZrwzFi19DUoUkD6XXVGvlv0qw7TXuCzZn-ZtMguN0nafehBs3kZUTZViQcp8gqNLuZTiDIBWRacN0qo0D4zS7ucMkdx1i5FZKdr0lvKxkEb4m7V6C-5ke8_o0oLk2Fto9BmmP-_VzXmDrGa_d84ina_PSXqVFnJa-Fi4loTt0hPYfgv_vdvzu0vBPs1Vk_1UbTZbHRRD5-XkqNhUVBVG_v_MbVFolks1Zq5ReqEMZvviB3LNTFM8Y8X4XPCE4qJFpaardQeHA6HtOSR9xJhkuyTfAX6cNMYW9TRsoqf3ZCCkCg6fBaJlbBeSqY27ml81n0CeW890n6iISJyA8JsDg5EG9y3w9-NtM9aYfY99HI7Za9p6D2ZyE2FCSIhm9Poa9VPyvaPUREu1C9OPwe3FJcj_33m00)
 
 
 ```plantuml
@@ -1593,7 +1513,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x305f8a4852bf36a4e471d0a72e2147b961c10ab1bff4513a7e2591200f60c4c4
+title Txn Hash: 0x1f725030e3adc0f6f5f8eb278b21ad397035634b2dc47e19b7f33f7610575f88
 
 
 actor EOA as "EOA"
@@ -1601,34 +1521,26 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DB60EB41703dEe131e544a97151b2D93c463daf |\n\
+| address | ownerAddress | 0x68b6bAF35a04c35F7c96515B14b82d32D6C98c05 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: removeOwnerFromState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerToRemove | 0x7DB60EB41703dEe131e544a97151b2D93c463daf |\n\
+| address | ownerToRemove | 0x68b6bAF35a04c35F7c96515B14b82d32D6C98c05 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x85b3f0980BFFFf5F45A6afeFC33E6303a58B14cc |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xb1eDF9A08D5FE1Df5E60742104B87b0A5572D4d5 |
 endlegend
 
 @enduml
@@ -1637,11 +1549,11 @@ endlegend
 
 
 ## Removes the owner and emits event
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_agree_to_state_change.js#L110)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_agree_to_state_change.js#L110)
 
-##### d1, tx: 0x6bc562059d7d08430429bfab875c50e6fe548d515d603df7431bfb3bdcd26a4c
+##### d1, tx: 0xa10416f4d6d1e09f3bd60be25e5b832370fa5dc7771195d82a67fd7b4a116b7f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLBRRjim37tNLn3fouQkc7oHBGTPqCInqG4RMc1z7sX9TeGwSY3BMD9r_px5CO8LYnvquI4FoKCHSjyxj6xOjOJWu3epx2fbIV-YpHujxg1LZJ9oZUAbiTrWPDwrdOMRiYYBl21aqRjZgvO4nhLLA9M5tzCJuA6p-hKp3jjLgnkpKyPvnjfT74eFdYdtWzstwXtmGxyg2EABxGcbrAQ1W4wcF-Ev-3mLGQRyNqslcwtheJh2intgslCIfrshuFbWu07xxHpe8Qa4IqBACfbAokE8nc5MrLZnb0b6LL8h5dF90YOJ6iawZQEWggkeaaA62SQ2UCc4ywKNZol07cR-d14lczD2xz6t-lZBAFiT3JPAVjDE_QJ1w7Z5FYDaZ8UxvNKSRc_d83hJEpkSidxuIAxxdGZEJ7Tp8EGyGFBqJrbIETHjJnRJ63_TREY6Khfy-m9-Jhv2Vydz0Apl3mpkrCcmajAgtcENkENRsBhV3qvPWsrx75kMi1B2VnRd8NhWd1K1SgH1Za6wol8WpDCieacP2POfdeSgOHcDtnDVa-v_wvX0n9Ker-keY7d8qp9Z2PKyoTQKfrZpDKP-S5cmyV74Ap7fGUxzxh_zNm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9TRzim37pNho3IbmrTCIcMFn9aGPt4GGTiQ87rVQ0isJ5gou4iOqdN_VSnZX6iMFmWoJpgo3kAiVlEe_DzKpE6lMzjtoZZMFTIsJqwRA0sfR5wXVbBwThUwdLRjmvkjjasMsUCBJf_hCsImV3j36hZuFVu2_3GkkgrjHxhjAvAsnZhYR7mbuGjWMVAVU_sjNa7_AXU3GXvYJsXrfKjGV0nz6VO5v_79jXO_wljgdBdEr17U7PzKH0lyvMl3JmVB3nWjvi3Fw3WKaI5r94MXi-AGEc8ApCDJQYIO1h4lC1Gvt4S2p4BTJB5A2vqh2GA4QcuO6HPxgdrx345x612-uIHRRxAgpsIrCTVrhZlQB4q-blbpKykXiGhyGbZmtsuMrx7uVPs3dbhE-_wKzKF7zdrl1F1cUbk3eoT1yYU_cbB6uzLtR75ECPFDnk-uPmltxu0pOawfCEQ1k187rXip2cGQkrCHzZbtl9ja4xhmHjdiQwFWsGDQPxJO_44yKEmJe84LPHX96KK9uWYneXZ7eieIv9LkadMcI1dtX5Vi-x_w51WLSYLKZDHO6P8Hop2KAQSos8p5TA844MkH1H8Aa1EZ7wmUrhfsVy5)
 
 
 ```plantuml
@@ -1663,7 +1575,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6bc562059d7d08430429bfab875c50e6fe548d515d603df7431bfb3bdcd26a4c
+title Txn Hash: 0xa10416f4d6d1e09f3bd60be25e5b832370fa5dc7771195d82a67fd7b4a116b7f
 
 
 actor EOA as "EOA"
@@ -1675,16 +1587,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xc4bcFBB3E48287F9560d869B087af8Ba343191D1 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBf4Bbb91faEe0D071554A004fD214e15a1cb1634 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x92954748f3bc46c82131db687a5c2946d3edb06d62278e9a18371b047daca934
+##### d2, tx: 0x51bd1f22d10b4b89172c5e717279f5c42a3b13883e32b011ba9ef9b8bbd17f0e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDTJzim57tthxXYBviOcvsaYOrOHHhIWRG9993sWZGviLiiNATo7DP2zzzt6qBLQNrP7dpjw_lXSyuD8UTja3vq2qk8x4BZkaMbFMaVZLjABnTWzLmxDP7ruzmtdLD5OniFxwRbj2nAGixQiBPwJA3_7hHKsiFBS0IuRBnvRboGDhTcxXRQ1Qmu2xk0ALw-bbnsVcdrNnUtvba3ItQ-6wcKSNDWT73zxktPv-4HPEX_vLepVmWjL6kuyzriXdL9CC5gk5ivk9JjmodGbOZ4ACaIFekhEabh7h6OgIhbcHpLaKXI5MjLqLIbKPHnBIJZSSOgccHArbB42K7Awe1FBwzpa2qSeJqYI5imjLbAX7hzosd_NJevr-gR2VedPNtW0VyH8Nq-d8mFtyFnyIdaIjq66VJxUtTFpWOLFWvslFa2ORtKWDR9HM-VfErmimtV0DBdTTl21ffjWtntf2lEHoMJN59MI9Rbec1HaOcOfbDHZuJcHQJJaQ39MwcgQImccZQlWtd23X3yMwCFy0Bq4uMlFyehbEWmcYtCLxmdfq38wvYHcptob0xIs7OFvWMze9HkOU8q8O-uAN1CFAgm0xm3jSiRRtg1S5q5xPsqTjqBeo2lQnpfy9y4x1S-9F2_thv1dLJrT3A9ouH7F9kAKKeLJyM4uhpD-4J6ISm4ky1yWamCV91pNF7d_0C0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVRzem47xtNt5YBvkwRZO992266Y2ibJQrKYljfT9qJXomQXpaE2sqx7_V4JB4D5wM1vzzlx_lBenTLHwThrU6CQnzQUkLL8vLJzgkqU4AZ5eecqymUrguihRvj3IbWtVpT9vEKyP6bTyQDMRGV4k5kNBmrZu1hakdNqlhqIH6B-nAMKyP2tzqc9Fna79TkxLHVndkzQi24HvrTvZdsYv0y5Rrgv6ZpsqJhAr_OokzMFeAv1OUN5qKb9TvxOs2Xus5QwoMG-2Rdf2vABhTN70PodWWecxMKn69Q53qih2BWHH170Sgw4ekXCI1AWOobXGM5PnoCimyjPxU9e0LT4Xs6D7cTQRNI51lNwnotz7YGkNVj5S_kMWSp-WxZ3NnS3a-RuUBYo4aUNxlqQltZ_QHZTefV6pbUFS5_7QjWAJ5LIEVqTHqsRllWEXpggfW1-M-G79yyaqmZOCOPJ_5VXZsenXHHDZdc4MYdyRn99d5qrHG-sqgMPQ60dMLP5u_KmNmxa-X3_06_1E7hp_I6nhHUJHxc0UybqDWxB1cxEw4l5nvrAOwWJdZCyxv7YPj4_58bocjYQCf704VGHtZnhjcG7Hkl78MZTasWyaXoJ9QQV-V19mcFZVWVxLDWKaHJgGSY09JHJWYqUk52UTXCUkAK8aUYaoAVX1I0MAYvODTqKa_vsy0)
 
 
 ```plantuml
@@ -1706,7 +1618,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x92954748f3bc46c82131db687a5c2946d3edb06d62278e9a18371b047daca934
+title Txn Hash: 0x51bd1f22d10b4b89172c5e717279f5c42a3b13883e32b011ba9ef9b8bbd17f0e
 
 
 actor EOA as "EOA"
@@ -1714,7 +1626,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -1722,16 +1634,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xc4bcFBB3E48287F9560d869B087af8Ba343191D1 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBf4Bbb91faEe0D071554A004fD214e15a1cb1634 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x5e4737ba72f149d429844049b1b26e5687180cf9f5131e2878b18056f1f73ee5
+##### d3, tx: 0x52a799689aa0065bec535ee067449228b71660139c197f835fdaad52bcd1a075
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTRzCm57tthx36owOni1r_nDEergOfcmJgn2RnCWavYTD6IzqgSQ3Tod_dDWtL9WeI5Oz4KQvzVU-nVQvzWj1bxKtbcrc9a6dyt3Mpn5QeVYZSmbHcXaixiIuRcFHXKiqRbqNpSbxXLwDu54SnGXUrNvMsXt3xJAt9R8MVkYx6L_EgU9mxRyf-MKpSp3eFYBdV1OnWS0kvQAf5QLyCt1QF5bE-yzsOB2lS15FIkRwtzk9jjmZKpN_jwc8ozJLELlYkQl8SS94lV6dntTBXArDFpp5P2ijLe1AZM4wvpZZJ8UU4wuGcJ5eXGqL3akOw5pIWbeKgJC0XP4vp5LWh452MUbXwFEvZK-CZi4S8QFD5MYmCR7NypTdget5cOhCFXRTV26q3z_YF46hpyLbl_pW-FJt7GC2jDzws0SVtxXvTTALutTdU-XtsguN5O9sPjVQhAHjeRCBN6uZArZLUu_a6fB_hagKQ9aCTAsNYeOgPKPI9A6TSiYWFT1vApKRvW2Hg2tM2dp1vG_3xp_4rL6B_el-u6vZO-cXgtCIENRkluvE_nJaxEyUVh6ygXm_ZeocWK6iChn9CISg9r3BGb2hE1Gc82EdcK0Wb0wefaP833qnG628yL4HenGYLJ2fmo02EKC2KaXr7Xz0oCmzsNDt-fERu892qpJsGrF_5-Urs_d7EziflOj1MQT7DC_t8h3T5MJ_ZRKY6X90DRo2e82NGY40fAn2Y7OExAxtBwwrRZOBlqjlAcR9SjTgKuNwQWghxzlg7eOYf2GsXaQ6ghoFA8gK38aSw5Tg64RDIQC9V0k_Jk5-zxGGfJzBHO134F0Gr7MaXIGQgCY2XCdauC07VL748-GYOwFX0b_25_zCF)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLJTJzim47_tNs6n5n1ZinCx7uXLf6aOI9kA1D9UaAPBV4aZKgTotAs5xd-V6x8Aj6eIl2mFFljyzxkFtC-4d7SMZ5tE6q9WQLkzdETeI7TVwmKOcDC6AzHg3CLzPTgbLcdRj8Q-kyWkiZGZvAopwmP7XFRV346XeO_3aTBBrjGFhRRG94rTwJbgwn1BkpEuS9TFa8kbMJJuukAcVa3AnKvt3KhLkgAS3QfVlJpxE2H1XlXNkgkhcUrelgQtPbcM3fVOsZP8RrUQNa8tEwLi9Jq8upY8OW360fbZ8Ns9o89GYDZpeZpaGS2u7nSy3il8bwK2KDBB2yM1XPAubXNMfPvD4meTFN3oWBYssRge5-1AdVxKQBw2XWhLbzhYTyPxmptw0q9wVteosdzFZuzFgMl0ZGMBlS7XdRuZPyElU3_8qUOJjUi5KYSrp7lv0vgbsspDDri8Wrr7DxJTWYIx8rifBfYVCYLZ4GiF8VI4v7uf5LTZ6UP9n2FCH31-WZgYZvHzOFJpj-pA_OdzIV-p6XSORJe3NU5KztKT7hqMv-JabBubzXpkSMfk_iH_VU0jID7xlZ7p_zc1teSySPjSFvjOXHRgfdisLXCsOOnjnyfHs0slswIEcyQD_cx0TaEqynjjUbQuTMNHQ6YQTSy6HPEYSE-8xGVEJoC_WZp8810Y22C07aB0e73Cow9ed4oYDEEED2-0zx7gRsqVO5oASPx7l8GCNHqXbr8aZ8boud61N08lSXxumWLmdHZwGSxTwbx4tm00)
 
 
 ```plantuml
@@ -1753,7 +1665,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5e4737ba72f149d429844049b1b26e5687180cf9f5131e2878b18056f1f73ee5
+title Txn Hash: 0x52a799689aa0065bec535ee067449228b71660139c197f835fdaad52bcd1a075
 
 
 actor EOA as "EOA"
@@ -1761,37 +1673,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xc4bcFBB3E48287F9560d869B087af8Ba343191D1 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBf4Bbb91faEe0D071554A004fD214e15a1cb1634 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x29341603bf58105cf98dbfab8c5285dce5eadb2b93974393d38f5f64c40e3f29
+##### d4, tx: 0xae64eea1510005fe932b7b7edbb112dfd291f1af78f15ff0563f226d27086943
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTRvim57tthx2wbrPRDziO6rTTr8J0McbJghRINYfD1ao22YOofalQxB_F8InhjKZLecfFGuWBz-DW7n_T2y1POwMnRLK285jRwxPAb07DNQ7dqiWAbcggT3QIwTtKrAtEmhgi3NmJHt4KHW2SDdPPgW60tJLJCbC6FlQV49xNfdYejPNbi2ockbBQEiJSRXDY5zn0pbipBzMpm7Nne22cMz-bpB92Jo56lUj7Pqy_z8i0_VylT5DCPxQ1oHBUc3RF7IwmXIqLl5beU2wRsGb42o8yYXdoajmFCFBJN0HPaiiaI7qI-5cgV0UNa4HuWbDFU9aNv7xEQ4gHyd8YWACijMxfqMG8PGCFd3q0ZZPRfCLSkgrElcjblaWjfohxN5Zr3U4kSOV_082k7XuFTiVXsxSdqAYglbVNLbhLvHpUwbjmsf_6kzuELX-XNSuLT5RBghFticpTopfz1HsDHZKDNC5w3JBSVg857oTZ4N4kep6FYEIO-65EA2DXxeayO8B4-GWbV0Dr11yXUe_Wfw_HXJkCtUj-OKEDik5CwgcQw6vVXqT_YtDyV0Alb6sDXllnqHRkh5RGtTmdd66Ac62Um9XJwYCFENbGH8NFcOS5HenHnmFniGiX6d3a2quGPeHnvs1UGAb7E6SzH_lGKiaxDJ7NlwWvt0iaxMht9FMtshfmREfgW_GQYhkfhpheVowvjLJ-o_HLPBeFbI_KRFhVEWTinWwuVD9CCsLbKJPFU1kZCK9epPkRBgwlkfVGZGtZklAMmMrpszODLbt3Ti-5LKRBibnsZJg3mpHr8yvsgWm2Fy8oa0Y74lEX2349kV0GYqNg2nM4H35V8FeSU5V3_zFR_I2bIHgFHbv40nBmMFWCPKxi8nHmcGSZwT7rAOvTFN1Cz7o0C_Tqm_ed)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLNVRzCm47xtNs6Dbqqmi1FdHwTHBMrJDWdKYKtYPHAwn9SsMk9KZZFQhVplk6ufcwY4DY78Wy-nxxuxtnT_8UIiDQ1DLrU4G6SQrTKPQjBUbceE6cfQuHIL741-EzLDf-ImgHfDNutJSJfC2JbjpRB2Fg7kcI58rFHX-qhfUQFB-qOPg9AgdAeQbR68XTavZEtc1dBUwNc5JpQkodkaNEpMBa7AKaqfPzkbxywUljiMGRRvBrHRJcUcfTcINkkkA2mkCQMfa5ul53s7TdP2sG8m58Z00yuO2mhi-LuMPH7ABEFSauNqUhpWK4HnmOEYO47e5vuNIYzYSTWJFh4jouqjFPqa55fwOEq1iMqpPLxEmHvryasX_WGAfYW_bWQ_CkuSzwmV4EBYwN5__pvz_Vg4QgoRExmoOD3v7Dwe6tAwPUFDrlPNxwbPpf5Qgw1szWwgpaxMxYjgswYnRUcADckGPFVA5f8BvW-P37gY9po4o1C1zuj0SZa8eYo9UOof20SRg2FwGDbRHZzyIIyi6Vlh_iE1MZJ36QWfJfGxr-7HSt6EZq_eItBNS8iJVVKp__CJhq5o5_l2odzHwhR7kgatI7-3rklciuF-vxo-b8__zIsu6B8HEdBvwFfAD51MxICcHcnajMBDXDKpUvFjP6Y5IbiTs76okqwxkFxAIOGT5mQrWgfQEccGDCbpAwh6KUGFOp-6B4mX52ACOW0UGSWWZtYOnl4W6SN3b5i5UGAyJs9-NtK91eKOP9dLD4ZHdYFYGI0InaGnyhX07W3FCnxwmYQmdTZsWvpPqVuUVW00)
 
 
 ```plantuml
@@ -1813,7 +1717,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x29341603bf58105cf98dbfab8c5285dce5eadb2b93974393d38f5f64c40e3f29
+title Txn Hash: 0xae64eea1510005fe932b7b7edbb112dfd291f1af78f15ff0563f226d27086943
 
 
 actor EOA as "EOA"
@@ -1821,34 +1725,26 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: removeOwnerFromState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerToRemove | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerToRemove | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xc4bcFBB3E48287F9560d869B087af8Ba343191D1 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xBf4Bbb91faEe0D071554A004fD214e15a1cb1634 |
 endlegend
 
 @enduml
@@ -1857,11 +1753,11 @@ endlegend
 
 
 ## Fails when there is only one owner and they try to remove themselves
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_remove_owner.js#L126)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_remove_owner.js#L126)
 
-##### d1, tx: 0x1e140b59c70c974e4b3d643813fa405d821e0465f4db58310010e35dc89d65fe
+##### d1, tx: 0xab454857c623e80ffec8ff04d08ae8c19535db404dc8d6d3984f09c0445f72cd
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9TQzim57tNhn3joqPN9iMIOuKir7KIEjXeONqVidNjY2foa6MMTDr_turZmigY1tsSS--vNoBaheiwn7xh2D5zR7s_BI6GxiNwdGvwInqquCszhbwQqFRU5Arh0xrUhzQhOaN8l8i71mj2XxK1RI3Gt-EJqeSssDVMH-roPnk_1HzHiOvdWpMI9ybT7tOEtX4_x2jGBixOapR6-ePoDa9_XdF-UKo2ZF6_-iusczZHya2VGr_Ng4kYZGxeyzxJ1zrjPfJjEN31IgcgAQlKL80e4vEA9ED9hGMJ9fjmO2ALjJ2bp1BE66UGI5DboY2AcaHN4LDVFUPKT_GApok2ROksiZkDfJx-yX2-QwyRCDziX9-C3uONy2j21dzwkxZCqvkR6QrQtyNG7wD--4Wksnq5JagtCqh8QO3awP-q34HjNKVcunW_NI_PaZ6sUFj2SKwO8LuA7430-gZNMpW2kJ41EkJEVekteNJSzn62ryuTXf8DpQiAFqj4YkspJAwupZJZXURJN1LyKanLmjArggI2h9X0AXKJxuKljUv_T0XG9BcQ9FTYALJ9p5AaYjTbaauIoLYc5CvMPgKKw4-m4sC_o1tk-Et_0W00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRziW47xdLw3qPLDN3SVOnb4MrKc8EcbJAwtlqncmOvNW26CjwRh_lejZHQiMFm3-lkExk-yWvBuBu4E_iuH07rhNxqhZIVVIk3rus55hQkFq4jHBxTlUwLLhMqzlDd8ZLvAGUHUErYm87Rwj0Mqy_Jt-KlhG-kQrTG5iOPlQxOmBg5Y5Iy06oRFallTxQzuHFvfNGoD-mPv0wyRLD68Zz6VOvv_78iYO_wlhcdeREbeUwRFlgmfrIMY2DVJvuEW3TDiPPGSeUS95agbq6Xl1gieeKLMCQoR021NbIPpeaYEWX4vrd0jUiLmnpfCgcofDq38Li7JvM53ew0Jt2K7RGgEQFM2hZx-SyT_1GMtqjoQOdomQ0g_W4qA6-_HkSPsdjxSpgbhN1T-VidxuIAx7dGJEIdSpIiXvWEJfdxAq2T3OZip7CNwwMRCrOspnzeNYdB12FAnm01xxemvsvWGKMdlJ8NUvjtWRMiVr48ntOErnQ5dJGYbyB04fTeXN8XPGfX9IpjDC04GPf0nK5gLIY6Mn5YiPeJFlXAzPzpyw990u6HDDfOgIg2WpNZ2XDikI5JBBizmiaxLOndAQOG9qOlI3tEEAp_ul)
 
 
 ```plantuml
@@ -1883,7 +1779,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x1e140b59c70c974e4b3d643813fa405d821e0465f4db58310010e35dc89d65fe
+title Txn Hash: 0xab454857c623e80ffec8ff04d08ae8c19535db404dc8d6d3984f09c0445f72cd
 
 
 actor EOA as "EOA"
@@ -1895,16 +1791,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xC3A923B4D49b0dD4691fb3623500899c9758b541 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xE398e12Ec151Ab74A08cFBb0AE7979eB5D8B3E27 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x89bfab55d0802f9b9e0d03063d7b76b73c2ddfcaa117005fa357d9c154bdbd0b
+##### d2, tx: 0x662f516758668c064686c09121553ca7a24b78db6c3be9198eacd14e9ea67810
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOczCaJOnOHKZRWRG9993sWZITOwTOk4xbE8n2zx_l6aB5jBui3pxxV3_yVT-5iTCse0_TqZA6NMXSjvJQi_RUk1LwN8BL2-tK6LRt2zzqJfMDRJoycy_citB6s4aRrbPF6FJVdKQbFJmFHu3pnfkdnWMqXJKBjzGkKCKwx0BcTFbISjNvbTL_NLoR9mrHilDTeLB6BI3YW-jtRqy-3uzWG_yBrvh5NMX1hk76TtLDTLammMguUNHmZktTCV37NCWQPPegdlDHBQJGNF6OZsELoMmiixWQALLNY56KSPxM6AUP4bMK9b99nIKZogf0JvzT5e0j790zO4HRC9LP8K6z_EMq_uuE5rfzCq7_v54VkCT_m5YV3qUJ_VTmU7WCXLBN0OD-V-jksScWmiV1JZPV8AnN6iWwNFRs0Mr7cstu1eW-hziMDj1i6nIx8t6HfxC8S-HHYL5MY38QbPaWCkQYIeNEov4Ufu8dhwLaqrXAD6rH1VD07I3urqOVu1du9mvVVymkIABzQBOmN_0U7GDZBsF6hjwGftH0OzitCATyoZdVmgHf8XvfKzAOU59X1tW7QfStsVG2qVeOj7TexReNHa5HLJJIuJy9U5judy3_Uli6PLo8KNoMJ1CXkPecOn7LCXwFufJpN8XAP6akquJo6J4nyC5EQQMVymy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOczscZejOHTgc0saJI23j1McwE6wnS9tASQ25xd_VDMGLq_goFFZi-_rzTs7il8uOOhDqZ64JAzyi2nDO_M3z2WCkmPc5yUKOzSCYL8ql9vMh0hoRvRDyaZDsLiUDCoC6xNTli3G1Nhedm4KLx7Fb8xhCsOLV6Xyfuppk7MPaV4svQiBAcRyCD_RPW4ZskciiI-iN87Yd-jNAiyzT4wohV-bhkxYFDHGRk0tDV4vvMRJH6RXTUxZ0-luK-5hAtdmWP3fGKYhDPIALr7meUc8mw6jCiPSKgIeBgVk56OgXCgXBaPYXGPagQe8eqv5Qpwyom1gEI1uneYrQRLT8KA-Ul0dVqUF2bDziD3-vQ1qFw8yOQ-FXP7JO3iV7fv2LvKt4QDxV-JjsratXOoT7soyGDoi393qkM_c8hg7BpdqBH5ymTGrRg7O5ilsJh_iJrLTOo1nbaX0wH96YvAXJ8NEbnjbKJN91xNUfYgfo56ZhJ4VxI1KWXZ-5Fi0By4ySllx8Bsb4Xz7iOBxYFJa5nbxNZ5s_8Qyq4Qshty2SyYddV0UJjebufCk4rYJG5FQ0zw3sSQDjEo0wrz44Zyvjsi6Ka6bDAnt_au2tYGyD-5zjMo3lqmA9Ngx5G6H5ccHSwTcuu5cU3jEX6G-cQjpFUoaL82OwFjWvdVHp_WO0)
 
 
 ```plantuml
@@ -1926,7 +1822,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x89bfab55d0802f9b9e0d03063d7b76b73c2ddfcaa117005fa357d9c154bdbd0b
+title Txn Hash: 0x662f516758668c064686c09121553ca7a24b78db6c3be9198eacd14e9ea67810
 
 
 actor EOA as "EOA"
@@ -1934,7 +1830,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -1942,16 +1838,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xC3A923B4D49b0dD4691fb3623500899c9758b541 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xE398e12Ec151Ab74A08cFBb0AE7979eB5D8B3E27 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x98776d921eda0d070ca47ebd2713af17e11f2a1d04d96159925e61759019a5e0
+##### d3, tx: 0xd4c87abbdfb3bfb4a26bac7f8e609d8de5cc1a62858d3e02f22962507cdd6b2b
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLHjJzim4FxkNt43QR0oXftcpQYhA6awa3Q106qVnZHTOxT4f4xbkD12zzztJREAQUN3eiXddy-Fxvvx4iPEAeVMpIO5OpXpfPbDXjgowZutKxGuWKAFjL6dcDsFRJapAYcBqiBk81saISfOftABGdSPrC-THgKjF3TBWBFIva-bSLZqYdni9jeuGXovJS20DjUGqvcT5lglZUlyIOFmDxvBL2etOn2ySVsgRUUeIO8rzv-RAX_VkGg62xYniz68S9dBNQ7XPcxW3AkxO-1p6KTHgAGdj4AkUCGpz2CzL5uasZWIaHPYvA5Gt5So586KNg134GMI2uc1vemeonobdbxq02lO8Rl3Y3QNP_aKgTIBHwFj5pGurkfpxlHFBkh0BVuTnkhpSDZTlWy71yT015mxTBeEsByrjwpJjE9zOxlBZ-0MKmra3Kvg-u35Z2QhyEKAmkggWYMKAv3UPiddSHoa0cFa8a4HzMGYl2IIRHuEP1P87IUU3gbwVmtr3fw1V-3mwLjwJftOdlJyyFkkrUh7ggfrUOV7q7dxYDPG9xlGoTPwefXkgtMLVaslRjwqMfsZsj-5Lsg4ojcL4fP0xzwV6l8AqApBscjoP4fJZ_87ukmrsjSAPvSl-gQqmxoeNbpSvttE-OfS4ZAra2O9ATGI-8Rc3PMRSvJeIXiqpfss1ejYKMj2GI_Bw6jo_qdxI-1jslhNMr-Gj7lIQv_wVLyEkUhxeHIZOJlqsW7diPIPZ89u6FXqdX4J3H_iX4RwB_m6)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLHHJzim47xthxY1DBOoDYTj4nTr5Mdh3gHD843RmvYcI-oKYDIf70TQwFxxhcbMCQqyB8fyzldy-UwxBs7if7HeNJNB6SFA5QQQnTgoyYupSxGuWrnFjL53JEwcjgYC6XLvOM5_8YTo91dhbswPwm63-hdLgBI5fsO9S5hOxB4m3lCepwPcfeqZnDHj0oQqkO6SLtQUwxyshh973Lvdwxj0fJ8p1Oythb-rxNzeac3D_MUcpAQtheHu2TUsIbF2PIvpkORhXO5JB6-FWIzK9n4Xnh5AutQSnXtqWnYJC1Kwu3qbbEucYOU1Bxf2jJNtKz_l1NwNXubIGUp7Z2XB7AKkpoF04lR8xZ6YpML9DaSgzVp1QFi53Kwr-fmv_PDxTU0E_nvZzNau6kpUXyF3Oo02hXmwNGUykJ4thD-qubrZ1wkFu9Pp3MGDpcfxZtb5atNuQWrXTLd22eerIBHTyaLx9De2uq1YqEa4eK3qGWmuSU85KeXXD1OZwL4DDTHRU0B-diEdR_ACEh4xwSNHztshrOzrLPloZewX__e1hQ5E3g2VRFH4CODMwr9-bPVNhrgj_eVQFu0NQeJIsRKILa3lmPyQiXBGRCewQ79aIbEFidlYx2NQDmfd5y_wfhJ3B2-VNJpcOyxvcbmIChMG9YDIg2NmBSrRAhVdAD6rDcXSE6qDvlcoreI2A4deQtB_IVjpu5tQ-jTRNo3RFQ4zNoPUrulYi1DnaKo6COzas0jxUjWTYs5R-Y5TG4mqVB0J6kc_y1i0)
 
 
 ```plantuml
@@ -1973,7 +1869,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x98776d921eda0d070ca47ebd2713af17e11f2a1d04d96159925e61759019a5e0
+title Txn Hash: 0xd4c87abbdfb3bfb4a26bac7f8e609d8de5cc1a62858d3e02f22962507cdd6b2b
 
 
 actor EOA as "EOA"
@@ -1981,7 +1877,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Address is an owner' |\n\
@@ -1991,8 +1887,8 @@ deactivate "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xC3A923B4D49b0dD4691fb3623500899c9758b541 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0xE398e12Ec151Ab74A08cFBb0AE7979eB5D8B3E27 |
 endlegend
 
 @enduml
@@ -2001,11 +1897,11 @@ endlegend
 
 
 ## Creates change when more than one owner required
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_required_owners_amount.js#L56)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_required_owners_amount.js#L56)
 
-##### d1, tx: 0x9cb06375b44cf2a75dc1258dfc03618669e29691ace3400ac5f87e727eb5f1e8
+##### d1, tx: 0x8d5d18ec525ef7e8f095eaaf5ac81385246ada54fd3f1895ae15acfbd4d54b2a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRvim47xthx3QbqrTDPjWm54MbHAYJjhKIklxTDW7iKfCP8oMTDr_dqDGj6hXmJRVT_xkxZiJSjTxS7xOjeJ0u3ixR2jqf7ynTWSEjhJ51gs-1_NIk6wmkkZQpj7hTRakYvAGHUyFBIu97RyDWaP7Vq-_b3vqphnsraERjwQnMxG-ADR-7B0Ev4boDxXTY--87-OLAO_Fs1DeRMn3EPkWF-E--3mLGQRyNsrlcetlQNMWpsweww1BlF4jqkUzfG_GR-QKxQMgM39BHHN7geuW5LhnI6IwLcoMy2n994OoaHmKpcB6G8awIp6DKgn4pJ4ZmJBbG-dbOqwXfrTXloB1Dc-KsK5ezV6NHVSTB3IelncFFnaV0o_WLuICz-djyZ9FRsxcL7MszsuuPltmaLoEEmgSb6xdb93J0CdJFsLfz63QdYocCNwwNh4LOspvzeM6EOKAmw480t2XFsfXYqSWrzfX7xZplUNRs7fOznwTXROzZ2rhcYiL7eiF5DjdcIWvPC1u0JpDPS6Z8fKpbgob4XAp8i94I1Q_5xvatV_ec229yrWMR2LMaiUYZghoFbT2C0rYngDrN1KLP5Ana20uCVb1xi8QdlrV)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRvim47xthx3IbqrTDHimE54MDH2YJjhKIklxTC47GIKcCaPBkkw_xq9Gj6hXmJRVT_xkxZipTjzvSBxVDOn1xrlRxpReMFTIspqusF46AxGcXUAbScrlJTOshUCtwtoTPpbZyyuV6rmmFdnR18EE_nv_ENzeNVtQMW_DigahkqFhIR7qbu0raMV9VU_s3RuZVjIlo6LqmPx0cDfMN8eH-ZFiyyzZ4MpC_zLsTRNr7TyS-RFhov9qcQzzW_pvOFa3TDiP5mTjb94Q2nKeB1FKfPWg12WL55g6MWLH30PKL9gmb7gg02LHvSP4HaMR01XPLdWgFNzSSkZuXFO98zjyNTHxe5OVVrbqty52XUPRxV6da4FW5Np2s72Vtosky_psTiQBrdRUzQUi7pwowt4dWRFItOmpTXuWU_gdB8CUwgPZyt6CdsvMOYM4MBnzuJGdgf0E6Gt0KN_SmWvFmD8OXnrnbtkBjw5rMWyUdOMcEGuj6xui2deidYXn23CTQjZ4ESHH52SQG2OG2oWI6UTQfykLpd99phmJlcRT_-YGGCaubK6M26cqY48KOPGaAfv6SXsamNeLYp9DLQOf0Jan-i7kQQLd_nS0)
 
 
 ```plantuml
@@ -2027,7 +1923,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x9cb06375b44cf2a75dc1258dfc03618669e29691ace3400ac5f87e727eb5f1e8
+title Txn Hash: 0x8d5d18ec525ef7e8f095eaaf5ac81385246ada54fd3f1895ae15acfbd4d54b2a
 
 
 actor EOA as "EOA"
@@ -2039,16 +1935,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x64A49C0D5D9145f2bEBAc550da5312F4bCba89c0 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x516B12C701d8043e0347756941F2B2FD60fBB5C8 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x3aebcb68c8de0f02d48a41861fa9506d98853e5cc59c8027eb5afeff3c9735b6
+##### d2, tx: 0xd3375fbbd135b7b24e417ff0893806fbc47753c98c6b0aae81b76d27f32abb6c
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVJzim47xtNt5YBviOczCcQLAnYf2c0saJI23j1Mcws4wnS9tASLWBtV--QnggJklByk2pp_V3t_TT6BjeF3hVBWnZsFhQjejIETOyQRj4XmimQgwil4JnD7TrQsLUczh1kranA_A2iVF6husQCEY-HuLIENZjZm1NjTCljVLeCgFdTg6ifugLtmVCw79NSjcwfL5_NTpf5mL1kFVTefJQpY7WlUjtPyy_zuzWVVzhs-Zves-WNCEzQwkAwZAllL5mlx9mXStZ6FXgYAeKPPo8H2fUyO4C4mo390ugJ2CUopH9eg6AX8XIaV31I9KHLgggXY8T3QCoPaIPyFJquYO3RE24x0aZshmMUea4zUQNLUuxMfmh-KrxzPC7NU0H_mbZNJwSJOxVm-df638fxpnwzVx1Fh3pNeMFlPrile1VBnMGjRZex3EQbZRRy0qGVKur3MoWtZR8zaU-8gX5W0do8CTWbALvCCX7wP37ivJWgoGVg3XAUVXMggnhGucwoOJNpzG1l7jhz05UWN_YyFL7SKqI7KUpXRd3UpO6ndPZncuFo9FAepRD0SmfdtBEjp1fceX7skGq9evKs0FUWzhdJJQTGBIkl78MZLbtmaZ8XA2Hzlz9m67XOmB_w-qQn64MfZcVHjCq2ADgK1QNcOWYBZ4Q1eDPMEOb9gdWr82OwFbW5xJIp_a7)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFVRzCm47xtNt4QBo0Os4sQPDEebgOfcmJQf4tYPH8wnqvdpNKgnndjLlvthbceXkWBUV3Pz_lxxiBOUHlGXsvf6SCkDAvRIkrP-s3S2ZqkmUg5TcgArSF2DvrJHMCR3s_cvRmiIiREsh2nUiAW_-urAktXUNW2N3JUF3KkeCsjMRYbTe4orc7lC2VZIyfLvrTM_sMuCKyQHBpNNQDInYr0y47rgvTdduOcs53_qhLcSHzQa1kuzLrTKruMJB0QRjSEBh2zFmM-Lb6KZcifbOZ6CfMZMCSYhMkUdKGPJsfPnMawZggJh4eaHzIPa6cYHcaTZL3Af694MHMezV8g1spXYEGH8zg2gSmA2UhLJwVzDtIuqEgh2Ve75xtZ0VqHOtqy74yEs-7z-rF8bRe96FJREtV7peOfV1ZaPFiPmcQbWQJ3PIyVqNPqsRblWUZpkcrX2yskGBv_ydLKP566CYanYUCapH15YWd7AXL9cMNJV9OLfQ3sXrIoQIm5cZQlWdca2X3ydqBlu1duHmvVlfUNDAB3Q7OmN_0Udm9ZBsl6hb-HftH0OzjNC6TynZdVmQHj8XxfKj2QU9h27l0Ur3vkikq7HESwQE_Gsaq_60LvLT5AX_yau7NYGmF-LziN68jaAaP5oeNAU1nf7ktMApc9nNmq7Srd2Q-dqt6HKG5YOk23dTD9F-Tl)
 
 
 ```plantuml
@@ -2070,7 +1966,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x3aebcb68c8de0f02d48a41861fa9506d98853e5cc59c8027eb5afeff3c9735b6
+title Txn Hash: 0xd3375fbbd135b7b24e417ff0893806fbc47753c98c6b0aae81b76d27f32abb6c
 
 
 actor EOA as "EOA"
@@ -2078,7 +1974,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -2086,16 +1982,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x64A49C0D5D9145f2bEBAc550da5312F4bCba89c0 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x516B12C701d8043e0347756941F2B2FD60fBB5C8 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xe6b7fdf83acc175d4469e6aa6ad73df92a1c3d735fa8340c673c85a19e26d038
+##### d3, tx: 0xa11d8a093552146a6d0e807ffc6eae1fe424043b3a6aa3a2e9c2a198d933bc0a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTRzCm57tthx36owPHi1r_nDEergKfcmJgn2RnCWdT94uRBNMhn85sA_yTDmtL9WeI5Oz4KQvzx_MnVQvzWj15xQ1opQn421etjyqiCHMg7mgxW0fck3GJOxDBI1ycrRonMJGlvnL-DOf7SHGZT5wxLMdw2BVFr41cAlpKTJ6-cbV5uzmwA0TbCR4pOvr7pDqkOUI3MyX5KorAyo9mMpmQJFdETmDPLjW9fgHpVM_j-Tjk4QYR_zhMnMJgQfoiy5tLvBd7HQvmfS5tIukle9wUOR8qCb5vbeS1f2bL8kDSQYC196Ggo7BDWAQ1RueSme2JLAeW3GLGRPZCI10YJrdg_DBZyG13ZO-yFKAUDbUanGByLiVVhAa-WeM9oJuKpdmXj4tSupz2g1sFU_tzSNnwUeOz0RSEd6aJZk_jFJhlIl6wi_trE-nM2uEzjJ1hxLSe6z_OfAyt49MfQxp6ymt8ODSbIpLCXZfM2kAXYXaeoaIKCovPb0Sw3wLce_oI96eBTOAVC7b3yFlFyRMlnFv5_t4tVcBZeYdOYHdRTb_79t-Bq-kTuK_6DPN5X_7H5BvGQ-nV9PYIb1EfPQ0fLPmB4X0HUXVNGic0QagazAU4CK5zYF1G4Q4L8rGoVpe8aK78US2KaXr7Xz0oWmSphcv_KdDy44ZQZZsGrF_5-Urs_l6OxPNVvA2jqgARP_gH6GT5MJ_ZRKY6X90DRrvGlPJuHkILil92j6DmTwLtu_hhLgFyT-bCPQ4iLwqsPNYGfbxLNNlzmr34548WD0Ag1ZgYB58w87AaKw5D634ZXIRy9V0-ZVlLsquW-O3hY0p5K5CkSfR4buDK29A122WRyIHA8DGfyHDu9Ze-q8N_-l_J3m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLJVQzim47xNNo6wbvQkcsJBlq8M6ZlEMjX88OMz5CR5EZkcZXnaUKlQx7-VudgXPM7GlimFEkbq-kvq_ZuHSjaOqAPTLOH0QshLhXQeINDVgZLeMD4A2rGoXko-q7MhP59NjQRlfkaqJL92XetPLZWYjFkM218rVUoNb5xLkdoebO5gN9M5Mg4o5Z4tXu2ftNo2NBTwNU6BZNdvW9IBW-y6f2nLGJdhNRywE_pO5q7w_DUgAOkbQUXYIszrc-SMbvZIL4XlDufUGRCSKBO1pcK8B78zp-721ryo35cGvvcFW3n7uGWct8KBFe0B3aQP0pmAPUIwYum1iItBZ2qzdOqfDFJ4sXDYssRAh5o3lUhifqBz5HGKAB-K1hyptWKUyPyGqfsd5wFZ-_JyV41j0-O637O1ftVgZWpxN_6-jwFT9sgsQwJMAbXrzWTKhPtimtTx28rDGtUqteEC3qksaLmmDs7IYqGa78J04HvtSqzo6Nl1OXpo45FXnqzGP_IHiW-CVlwMNji_SRpeVzx69aQJB44LE5FTlKxFNejpSJ6WRyczWdkSwVcV_AzFl0V9khDlhFn_Tg0xGvwqJMwUCLQYWR9gdj5gmYQCiJsjh8GjUUqaiThKble7WXr8T3WtsdMgiEF6e5PGLTjE3PAEiyo-8wOZd9k4RWWBFmLV23y80NW0FeCiu7uQXl5u4YOfjw9v0NnCLNzxkmGUzsFk906pIhTIHkQA8F3yIF2f4plJYS_oEFQIq2QmdUZxGIxjQ5_4tm00)
 
 
 ```plantuml
@@ -2117,7 +2013,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xe6b7fdf83acc175d4469e6aa6ad73df92a1c3d735fa8340c673c85a19e26d038
+title Txn Hash: 0xa11d8a093552146a6d0e807ffc6eae1fe424043b3a6aa3a2e9c2a198d933bc0a
 
 
 actor EOA as "EOA"
@@ -2125,37 +2021,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x64A49C0D5D9145f2bEBAc550da5312F4bCba89c0 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x516B12C701d8043e0347756941F2B2FD60fBB5C8 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0xedebdf51a5d1027c16ec2f3ac0f8cbcea6721853b8e793b04e4b59fef2a1a312
+##### d4, tx: 0x69a3d5c0be413f6fec482dd6d4b2fc7d57f25de8e1259225cea22ab824b704ee
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTJzim57tthx3O2uYnsOdj98XLXBGTI9kA06alI9EJtBGHgTivpjP2zzztcuOAj6xIs1uNHRdE_JY-FbSv8UIqTjgwPbeHeXitCyqq1KlgkzBCjTLJMi4OJ7wcixkndJKcJsRLpD9Nmy5ma0m8EQdTie8UeUqr0Ps3fG_TAwNdCrlUpupJLLoLOpC5un2nSDk48GOtaFF6pYju5hWkxu5oiVLTwZmlpPXorhc-j_RaRTS4wVQ_C7KvdhYQfajwOvkYG5pYIbS1lLaOUgxhoJ5b2yWXpGl9jSmvyuACAyYymjSPAy8ipK2hmEEXzDCGWiXFcG2HogY0mjDS-zmZI5dciFN1AAQwfdjezmZIvigid6iywkYR0VjH6ps6_4Ffu3FZRU8E_nuXRJqzwksEqyF3Org3ku8lJMaXRtFgU8f3SVktvfQST4DvtTdUwXrropbGj4PFM_jLLmqkrkahsfJOuehEMg17M7HucuG3-a3P6qRVVnfS8DExc_fjjnQmtsIYpHX6vjff1_i7VufpT7HChy0rrj2_EYNUWVG2nGLJaV8ZpWCX9FEP3D4b8XaedqUSAILKv7cIOuY9C60o2Zp6bQS2T2W_5CBtWa1r7Bs4bgc-Wv6zVgHc_qKWMLlxGbB_3-UNn_d7DPjFUfr3DafABf_eGmvEbrNzXBS-wpF6rhoXOA9Ku2919RGeD5i6upp7uM5iMzTRjHg4puK3QtHLBLljoMcSPMk1m11RXA4SS1rgnXFDWpXAk9UWi34rZ38PGPXue6J4n7FWNHhsixVTG8bOH0dhotx4XIoyT70MPrAoN4kKow58arI7KSPm0sIYuuESuXF_Fpy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLJTJzim47_tNs6n5n1ZSz9yWLX5cwO3QLFHGDeBqdI9Bwb5udIEmrhe_lTTGwX0goR1o_BWS-xZT-VpxypOMMF1sBOg6OFMrhgjKZIikLLw0GOgNcA1MeuXkorCtMePrsLj-BjfCatYXB7JngvA73BUVNC4YOO_zB-SdzT6tTVQGZagLQ4hr9OGSxjrc9Bn4NBHcaM9BmnNwXwvusrrbo2bqWLtHA_wtSdJZtqHhCz_eHjLp6t3qnM_DcsU4owpofR8hvUQdqCpF-5Y6Hp3GFgPID5p1dcGO-P5hfI1z58tpqBfXxdhIupGSVrZr_Kp1DU5D7AzD1GU4YQ3p5BfoMp4eU5x9FSOjSsgJ2s0ZZhxfT5y1Gq5oY_AuW_XT8uxz7kCTV7yQBZRpWyFJtY3zXl-R9L1sVaqeueknUxVw1jssb_A-ruErv-uNIsGazHGTV8EofOs6_SrRnMLkEPr1_G4ImhtqU60Ft3nGV3FtvCBwlJkelvPhK6gDvw3Bd2chonOt3zuBSxHqGb_I-uARd5chfxolpxn1YJhOjzO-V_iG1V37cUNNJvZf4GBgcoUaMKY9aA83LbeH8cSj8bfzWnHUqkRaPHq4h9juuRhZlMqBYqQ3MMvwjWk-IZBDfGaarWEucWGGHea47XU44O0JWY1W2nqWYIAngD952SE3SKBu5rJyxUsI-0xmTXnur0uCXBU0CN02qC_EFQSgJjsfvD0vEEn7qUKW3hHzuETqKeltXy0)
 
 
 ```plantuml
@@ -2177,7 +2065,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xedebdf51a5d1027c16ec2f3ac0f8cbcea6721853b8e793b04e4b59fef2a1a312
+title Txn Hash: 0x69a3d5c0be413f6fec482dd6d4b2fc7d57f25de8e1259225cea22ab824b704ee
 
 
 actor EOA as "EOA"
@@ -2188,34 +2076,26 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 | uint | ownersRequired | 2 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x64A49C0D5D9145f2bEBAc550da5312F4bCba89c0 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x516B12C701d8043e0347756941F2B2FD60fBB5C8 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0xf1c77d714f07bd2317398552afa7a325645ccb9b4ec2f5f2fdc886e4514c3fee
+##### d5, tx: 0x02d55c3ee836059cd062258cc38faa354e76957ce3740dbcc9603ded78ee8bce
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dLHTJzim57tthx3O2sXZinr_n8XLb3GTI9kA1j9UaAQRn2aHgLiv3ckX--zpqwm2hTeqeiZNllVws3w-nmYTDHwSRsSrGj3wkMrdcN6ekQ_i0XpCS6scnXRdaDzFtRorHJAlvmw_6QVZD4aHEctygZO3XBllpa1X77xgXnXVp5trEBSUwc5TJUtCM1yGIxzB68VW5dBHkaLjNWIkgqU3AT_vhg0eAZl5bFIkdvqz_T1l0lNhNzgccjxv1cShVEFQiWouo5U-DlXcQV45D7Sdc2nBcYjLACfBehA2HLH5EXQ2GGaA8YOa5tcUwOoRd9MYP6MHnx4qN52UHwK9c0Xo7xQUJeOO6dmGx04AjFaghnOGZZhvOOtx0XQcflXSUVETq2vnZ_y0eMu-FXxiZ-EtRq-mCxFvWxdsu4sNStXhRz5fVnllUZjOVyH-jJ0uM0kppZv0tORE9dsD0utED0rUu_a6PBWRagKQPIETAWNfIAKC56KYAHcNB2aZNSPIit5vJZArXJh2JvYy9_ZJj_GoNCR-VV_ZG8tnoHtOgPdOxbo7H_-BStnyWhyQtpgBNyT7MuMxMkFmAy6Kf9n8BIDDgU9Sa8Y8EBYu5af6L5CY9GyyC453YF1O4Q4L8rGogO93HZ7d4LDAzXozXfOPt9k9k_vDpUiu-SkSRQLjSj1MuEZgMTaMnaDLDy-8794H8MH3PD1ngE3GIO90NQZ_7QMxCjhD6wmxQOHswOspKDUhJX857kPvU4nyLt9nB58ACH2Q05L3dL2MA1qHETQvq2PEc9524_uIU9-q_lHs2qW-v3eX8p7Ib0STP-dvC1U2520YoiOyIpA8TKx20e69dWzq5jhmBFu2)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLJVQzim47xNNo6wbvQkc-IVIkb2OyTP2nifjB2NmhX85yVKbeCijqcR_UzJ72-qB30svWUTT3fz9zttdGcvR2mOsrOb8T3QMhVL30rf7Wgz10CLBJ57hHAG3xcfMwtIkgmDVJV99bcQ4NBHs7M9GqAxRu6WqD2NVadfLMsAvrfRA4TbaUiAjNM8SxiFcBZD7UIoDSiItspS5iz8UR3ttO1IXSufPxthHsSlFlQN87t-QzqK-S8sTBQcTwQTpnqkiOKjaTwjDBs2Pd5EsOfvAWobZoZyY8K3gLZaUQ6GqXTp03yCC8u6OIpHZmEcPb8E8kOhLB5mHsRIOHAGrbqzcuueDFJ8sIFYocOBMIp1FNNwfD5y1GqvgY-5nU-CTu47_4U4TEVfsV3mFZqzFQS6g_eHRorOx6AEx_KzkUZPUD_RuUOJjUibKcSrL9rzXB9rastuXheo6cmQkg7r5cIqNxALuW7pKwR2GJ08F8JO2qBkpqF5LHB6iv7W0hCWIdPG9_I5iW-CVlwMNJio3j_x3mzgqAOBq3bETVUkuvE_nJaxEwV_ahk21voQsr_v_tlY7PtR6BBh8dBpIXiABHHbyugzCHipnhRikMPnCd6Jr7M1SIBRyxZdQdzkkEdqvyQLHQEXBDUTxXGTIUawrdQy-gdm1SoY3A8WY681m6E86CYOHvaGoMWiqemxURu1FgJVtxrTWf172VVIc74bME0ZyuCu3gD1m2TUuat64PidIPWAby1Legy7kNIZ-_Vy1000)
 
 
 ```plantuml
@@ -2237,7 +2117,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf1c77d714f07bd2317398552afa7a325645ccb9b4ec2f5f2fdc886e4514c3fee
+title Txn Hash: 0x02d55c3ee836059cd062258cc38faa354e76957ce3740dbcc9603ded78ee8bce
 
 
 actor EOA as "EOA"
@@ -2245,13 +2125,10 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -2259,8 +2136,8 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x64A49C0D5D9145f2bEBAc550da5312F4bCba89c0 |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x516B12C701d8043e0347756941F2B2FD60fBB5C8 |
 endlegend
 
 @enduml
@@ -2269,11 +2146,11 @@ endlegend
 
 
 ## Fails when there is a blocking transaction
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/OwnerManagedLite/test_required_owners_amount.js#L76)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/OwnerManagedLite/test_required_owners_amount.js#L76)
 
-##### d1, tx: 0x505cc1ef6922e0e0605e4804b81a6c8235fef88dc3262ac23f010ac1fa5cf18f
+##### d1, tx: 0x9683cdafd7284818cf5513108dba7ac2f3b0f7fe13f7931b2c5097cd95542cba
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRzem47xthx3eowQkcksGu2266WAeapQrqle-7VObM3KESXmDkkw_puG8hHfvi9tlEtztzvq9kMy3-D3jB27GXSPrkmrwqhuOjmSFEsgnHgSNe5vgttHEburjFBrPhzQhSaN8h0r7YtD2-s-BeD7JtyClfG-DDw-D2s0BQsgtGnUYOXKk0Uj8dYNtdTzRV4VyCAz8-VY2FO7MnjMKim7wq--ppqCHPCZ_rRMcteQMRexqsNTL5NL9CC4YVJuu-W3jTahP8MMfKXohB1S26RACfJYMRBoH738bHP9MM4cfLI8o0Kea5UCC5AyWLHMN5OcMgH1BNpqM55ewYlk8HDk2KMOFiTN7NmxzTt1Ge_vc0lval0-yWey8wU_Jk_brdjxUJgbgN1jyTyhwuIEv7dSIE2lTJIaXvm6Ift_AqXZ0s9RCXZ5-kbco9MDi_lQ5nZd52kEXZ0FmiJ_gO8SdeD3QOnkvoxtvMzzwN0y1lGDhZttBcXPAnSSI8iKEKgOh3X8OBu5FYhpaefpa2SlMkKfpbAN0BCtP-BtmDUl-H_i4GgGJdHISoJBFnZAERI7POZcHWYNBf9JBBES998kO83en-47kungV_Ly0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RL9HRziW47xdLw3qPLDN3Onjd2YBcZX4dRIfbTRtwGpOiUhW26CjwRh_lejZHQiMFm3-lkExk-yWvBuBu4E_QmY1FhIktnNMa-wbTdlmiAEDhQmpAz0lbMzxP_AsQJszsQYDoXKXyouS6xiWTFYs5eprzFVuI-b3w-lNrWLebarTkPrr0HNBS0dO87cMtFT-tzXtn8_wrL8UNx0dCAPs5ULiXFuC-_ppM0GPytzrNLrjGqUB8ttsVLcYBWbrQ2nzFZZw0DrsHjbXccP26oYDZB8uuvakauGBpZ9JW0GTbQ9WfImj5wMS2bv4Ec5JgSqqIU985q3GCXsmTFMufD3H2UuJWhQ5MjTxm5OVVpdhluE3offlTR0_6Hy2h-0JGeRxz6vndQUtjpEgMzS5tv-oVlX8hiUT1CvATpDAo7c0vEcViemDK3STcOzZ_7IpPcl6sEBj2yKvOOLuo7407lkZ3dRs12oDyRP3xd9lyJQqZkiXME-WQOv3ouOkjSR74f1Y1v5d8eCYLP36SIep02uXPQ0bJrMMhPRhB5SSdNadVCsw_z5p0f6g9E9SWKsCYDHAgaqH9Od0GQwAKgLIv2AL6qo0Jen-a7jSyTd_1G00)
 
 
 ```plantuml
@@ -2295,7 +2172,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x505cc1ef6922e0e0605e4804b81a6c8235fef88dc3262ac23f010ac1fa5cf18f
+title Txn Hash: 0x9683cdafd7284818cf5513108dba7ac2f3b0f7fe13f7931b2c5097cd95542cba
 
 
 actor EOA as "EOA"
@@ -2307,16 +2184,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x2257d3A108C964835fB80BD78203D3C8D6913a3B |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x336E5211Eae5d32EB7EFb25538dbBbfE673C367F |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x91e3d1b7c499f552f639777b5d5df8bd99d38ed2228fccc8a25fe9dcbf739a2a
+##### d2, tx: 0x194b4b805ac9036c2ff1259ec02b0f001a48d6d721aff1d5745e4df2cef163ce
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDTRzem57tthxXYBvkwRav2Y8qOQWYmLjhKIgsqbqgJ4pjWrJZ8SJfesN_V9QI8QRmi3xxszVtmEUU6aAlQ2-URbI54DBwopIfNZjHFsgw54oimQg6id8ZYQU6gnigiCfM3T_FPV9RD21dLVclKc43xBPMGoi5hTmIuhfn-gQmN9ZLwOLVAUgnO-cF072yF9TUDMnlrryMzVb4Gz8--Eo6bjWi8QEVwtThHv-uHfEj_OskzMFeQyYqykAOiiIxnsXi53niBrw9U3e5kUA0Y6UH9qUUyZEEm74GyIP8ybh4iMIuvbn5JCWn3LXP5mKGObuhB8Y-JY8jG4AIiyFZqsMqAeeOUsXv1shmkz5eWrDjVLhdlmeg5aj-qLpzfq0QUyVS8QVFXSdp-7YukXf1AUU-5L-yVxICPTIfyxEnuzmNyTgq0hHMhrZuBq-1c7xu3fC-fkeOTLFi6wV58Dup5iq0mGODC14dAio3C4XxHmPmNCLSi2zKWvhJ_LYglAeE9kauBhv-n0tZtrkW3l0BzHE7hZzaDIdGUpHxc0U_b40WvZ1cvEo5FAY-qgKzWJkcKKhg7YTE4FE8cmp5ngC8Hy17KCM-yQmN2TUELiyAORIkCXBGeSAJzVn9mMlYSmFzwsmPX62SoIWFACZxeioWk9unEfWaBQJIDCZOTy20IqGGR81CT7-GAL_mv_m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLFTJzim47_tNt5YBviOcvrl4Aj8YpkGDe44qbwGfali58lKgHm7MkZ-zrtJhEgqlYmFFlk-Vx-xC7RHUdI-czUCOUSRsyqBxLZxPEm27SwXrZDjrHZBfvbhEgicJTquU3ULKpcHZ9stVbNh4OF-UzIej8EtuGbmrJZpsbYFTLwRcPrhwobZvNSEKp9kKouwjwZrNuOxywf1H3lTBIfbx0m47rI_Udd-UMY23VMlRMjcZxw5OWNthgigoikyyRM6-wM5AsmVpu0lnMbKH4N6OonFUPYKGLM983xL9GyANd4kCCfKej9085bKd4QnZbGLbBeIILXIJeQbfzRbJGxOmX798qQqULEQ1HBKcnUhtNUqEDFgc_7w9nUzum7z4MDzF9oC3jlX-FWCSgNkF7hz_i4-iFDX2Xy7ELf_0RzQQ21fSTxBPwmxkcpSrq3qETssi8PcKo3VFVaod6HXXaKYCOcY9CqGHOe9np8LYSooSNwPJQIWzeTKHTFK56ZQlFJccIg0TtyAVO0tu9yuVFqXhsb4Xz5iO6xndfm1OzirOxTxv2djqTJj7inBViavty2aRI8UwJAXDN4qXHtW7QXTt6ZT3uZEfTVEObsl-i4eoCkILjh_9m7xYGyD-5_jja2Oo3WGGgAELHZ8SIgdHH37OQQASL7990qdOP9EgG0nCV31BkYad_Ct)
 
 
 ```plantuml
@@ -2338,7 +2215,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x91e3d1b7c499f552f639777b5d5df8bd99d38ed2228fccc8a25fe9dcbf739a2a
+title Txn Hash: 0x194b4b805ac9036c2ff1259ec02b0f001a48d6d721aff1d5745e4df2cef163ce
 
 
 actor EOA as "EOA"
@@ -2346,7 +2223,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: AddState(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |\n\
+| address | ownerAddress | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |\n\
 | bool | isActive | true |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -2354,16 +2231,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x2257d3A108C964835fB80BD78203D3C8D6913a3B |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x336E5211Eae5d32EB7EFb25538dbBbfE673C367F |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xc6ab045661c09d7b3800f934dd0ec675938a6c5b8ddb3e4c25911501632092e0
+##### d3, tx: 0x1cf92bcde7ffedbc45b1e5fa9eb28f3e17be2faa17f209aee2bda09b25bcb946
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTRzCm57tthx36owOny4TinzEergOfcmJgn2RnCWavYTD6IzqgSQ3Tod_dDWtL9WeI5Oz4aQzzx_MnVMvyWj1bxKtbcrc9a6dyt3Mpn5QeVYZSmbHcXaixiIuRcFHXKiqRbqNpSbxXLwDu54SnGXUrNvMsXt3xJAt9R8MVkY76L_EgU9mxRyf-MKpSp3eFYBdV9OmWk8LSDDMYj2y2jyMZnJJO-MvCbXLkWYdfNDzRU_6ssmJgrhzsTJ6P-XedAtnNDNaEkCWNlhJuRkdmbQcdvvWiKsaI4WWfQKfqfX8U4f9h7cGPiQbKGlFGo5GaOPObt0Of4vfIGQZaZ6Xc2GBAKWzRZyTzR6fy1FO80Ms-I8k5WQEElpbRVJJEJ6pseV3s2w5juXx_4KBjV7pMsn_7fwVd60YuzSRRDk7utjsZYwuKhplRMx_3VhMm6AmpizP-DMK3dKtwUWDHsRh6QppVWFHtGx9KmsIeOwLCF5GnCueo4UKia2pAkSv3gTae7v14RQ5Ey1CcRmX-_pc-Xahit_GVJmCBMnzDZPlOiMlFTNpojpXdP-Vua_LDvV1XV3G556gDuLM2AKa38hNaK6aL189m8a9m1LeeoQccHCe0U622GeW4eI92AmRV19CA79A7GS2PKhBZw11QPkR1ZglRdzGS7mIIjdCF9FL_SNvxd7yyPtlbDpbegxJevfb-PDQRegoVyJOaGqB8XZSGL90Iw4IWb1K8qOx1tPNUpUkjMus2TkbjvKnPhbfjod0_JK7LVNlzmr34r8I6qCXGrTSHPP7IdCYHJeMsOSIi59e4Bu7tQToltdO1g8pAU9-ICD8o2Bd81o4P35N821_oA1nAJRdX0rW0cEZuG9VGml_f1m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLJVQzim47xNNo6wbvQkc-JVBbreuYfhOIE55FPI62Vhx9WwSf2LBMcp_tsAuuMMXK7xCZ_efDFfkzFv-qJ8PMl1sEMy9WIMjj7BkKH3seTABy30dDPOebOZo1zAqoorofgwCVJTM8n59WYvQEswnW6XtJT3K6ZeKx-azBenrMEZBTJ3kYhr7BLrY8NT1upTvWvoiJIB6bziJAj7f3pO-sv1gKgNbBFUzQkp5n_x8aYV_qQtLJcpBPLhUcUMHU5mYQriZVHkfUarjBDpobOyBr9FvWhZea0byo2K7CC2KfHUKlZ8OubU0S3ZmcCf87fI0Kkb5yfSfa54NCjowqeNao65bXuvUqHSssoLLmjmLvtyr6Y-WeOIrPVAudV6ky03_YD2klFqR71udvwUdbFNWAa5Yrt0yRs-9nVzhtZVsy7c4xNh1L9dDSmx-mFgfPjimpTR28DjIpUqsO8CzqksKZnWViPKc0Pfu274NX1olmWLLwCmbiE49oY2QBI3Eg5Fb7rWzFCtSUF-nE6Y_taRbnXjDWDTuaHtzpe-UItEsTavVKlkEJpWn4p_v7zzuYr8tfrzO-N_imFT6RBJDhbznbY55ggwVKQhAtR56DlIoadOaTTDCgTDuwY_9zYUHFjpWqsd2ZUkB1eDTRtkrA3eCC_TEs8xmlbPuYSW8m5H44HnijKQH0poc4SYIKR3goGJt8dc1V0XLVtjtINm8n5wd0l0KFcU6CLYxFGR-ecI8rc8AFOpFuh7Be7hHDyFSkb6zoB-1W00)
 
 
 ```plantuml
@@ -2385,7 +2262,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xc6ab045661c09d7b3800f934dd0ec675938a6c5b8ddb3e4c25911501632092e0
+title Txn Hash: 0x1cf92bcde7ffedbc45b1e5fa9eb28f3e17be2faa17f209aee2bda09b25bcb946
 
 
 actor EOA as "EOA"
@@ -2393,37 +2270,29 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: addStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x2257d3A108C964835fB80BD78203D3C8D6913a3B |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x336E5211Eae5d32EB7EFb25538dbBbfE673C367F |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0xcae8ea55acb9471cf61d8a8af23aea53a8b2b22bee091f64b2cf11b7a47bf860
+##### d4, tx: 0xe5d0e899b0f3dbf71c49322fa65705a999a43a49692cba26f0412963e30f6b8e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLLTRzCm57tthx36owOni9t47zMergOjcmJgj4tYPH9o4gUDbhh5SQ3Tod_dDisgJHGa1ez4KQvpxeUlprLE43ghl7Q-dfK8wThFRJrBZ4FLNM4NskaPBit4sAolqxk9czSsY-VbtE5Ne-5e60yHEgtygZHTX9jhQdHc77veNp4-dxlYVcwzBdjbCR4pOprKpFqkO0JERSb5xHQbUUQuBkuDfk4EkzHPLjW9fgI5lZVsz6tR16htlx1LCPdw2YShVEFgF8Uwo1U-DFXcQV6vhgOTJ9QfDjBeAD9fea91qvpJJ6gfSnPem0Cj4vOmbXX35CrvcB0qfpGHEXH9BZb1G5dgeVNXk8TrXG_07Y2WpHTfiT1mrF4tQzn7RVN4P1yARpuJsWJkmGyGQlBnINU_7nyVTt1b_9NvKXVEP4rCrPl1KFpXhRr5f-rGNhUsktw7_MfXC5YhPutzgiiQ5flmDQuBQ76DvqsXnx80i6t04Nx0v0t1xpyDBu3f_KtzjbjdeDzugkt4ZEsrrzuS7lrfdPEJ3huoldOM_zKfuHOH4vo6X2iUA4f564Oa8944A5IHu05Lb70USiLOHC55GYb8f0GZb3Ck0E213CE02S5RZbv2oqpVcR6xVgJcy4L5qYRtXQJ-7yulZ_EFSxQVz2O6RPKKNJxHXynuNPJL4zu6P408sV06WWbI0OiObD21qEmOx6KP30zykxpkkj4WU2wzSLQNvQhHdWptqdGZ4E0YIocZ8GLz8pJMLFHKJ5aiL43uIAMHCZ9cXaUAXCyBxzEmdz5c0vYCo88U9J9MF9H1bFSbwG-4P2GO1B4SS4K37VHX0s2YvGETmHF-Fpy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/nLHBJzj04BxlhnZH2uZIhX_n0z68n3W5gLLGWzGBKZNshXqBUvskrpI1zBztufW8rAWINEh3pdeUtypEVhECdJS6jMchaZ5iJQtQAf6QDNU5Mg362agPIoN6cDxbkcwLYEgorl1k4a_YA6Rih36hKWuPTDzSef0Q7ljVWCjQ5m-rCbYEoY9NbLI643EpSvYGSGkvQFMYb2yCi-91WkNkTDSeHA5oi7Yl-jt9iuzz4QpFVwMQ8f-R1f8LtEWsomYNcSAK4cwM2YwncPy2Nyg1u388muHdZaWotqhTqB7j3Bs1pmSOXY6w3hgX5zffWhQNSTUoGy-H3i-y921CXgcXqkFf2B210v87ZDfcYhHO81rr-aj9_HKLvb9yAOpymQtESO_-WB4k7aw6--rmV7mAZJJVvC-sq59qFiseeainXxVgbftrb_A-byFr9p2hXGII2gjEtcFPqcRZleQse1BNK7T0Jx2aiBSEH_08_0E7pz_ZA-hq_gB-MQsML6yqHvNBgPePDFBmwBKu9oUdy9RS5Tx9gPuzvNzzuWr8siM-iVB_sO4kXcrdbrq_OwIG1ekoUKQM2tx1ET-GXKQKo4cRY6PF4xLtj1a9GISXsovkkEvOJ-lIIAsmB5STsmMCqdH3IJBnfHC5Je295wFdkfuV85e-UXnJt_BY81YFBe8ejcWeNW3lcvg_jTi4ZXSFRCkAaORPiUEn7qyIUp1m0f6CaopsV2ToF7z22QWJVJ_OEQtqulq1)
 
 
 ```plantuml
@@ -2445,7 +2314,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xcae8ea55acb9471cf61d8a8af23aea53a8b2b22bee091f64b2cf11b7a47bf860
+title Txn Hash: 0xe5d0e899b0f3dbf71c49322fa65705a999a43a49692cba26f0412963e30f6b8e
 
 
 actor EOA as "EOA"
@@ -2456,34 +2325,26 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 | uint | ownersRequired | 2 |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: changeState()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
-"OwnerManagedLite_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x2257d3A108C964835fB80BD78203D3C8D6913a3B |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x336E5211Eae5d32EB7EFb25538dbBbfE673C367F |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x4ad17dd677f63a246ca9b07e3746a67f9076b6f508b294974fc20ccb2971cd07
+##### d5, tx: 0x8a747bf7d2a2ac8b41db7aa3dbe09d98b7efddd87788da9409974ee7e036c29d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPHHRziW483V-HMeUscrTGECmLHTrCHsragRKgsLzb9f8ZPEh3eumhXBsko_x-9uKQj5crRBuk0u3lZk3eGk6g-TRnSLGhhrjMqNK-DGSr_QfNPwWIipCpOVwUn-vkhMvd5TrGw_6QVZD4uHEc_ykZ83XBjlRdHk77xgXnXVrgvyhAtNrR0gPtPXh0UFXTyRZ65ovtBPkcLbNapSb8y6KxxNNUiyB-qCKzAhVdRo_4D_2DJlVsMRSZRt3PwkyQrhYmBy8b_wok3RbSMNkfcVORBYEgSopuMKXGWquoBJQaga2IGNMiX24IcceWX9D6MAAycBZ94iWu6aMKua0cIPXwEdao7M3Ju2UOG0co-pSgdXgfCVrhWlskgPoJ-Ntdmdj3Cye3z2g5kFJmU7v_7RjsVOcKNzO6wyzgQpERwpT-YyZyQxNWus7x5VBmq6QVMYam-wQg6pDTzWmEXCq-0DhhTEXliXMSbacgXKIfqcCcLQKXR61Q1XSH6e8XAAZOiHcSgTgnFyXCbxWZzzIwyW68VF_OyBDSR7SsrdPcAxUnsV_A-VqzCp_DNurbdyEXvj2R7QOFXboAIWd0Wb0aMfv3ma0GaZK74LIX5GHOaG73YmaC8KuP4aePACKC6418K88iu39gNe6Rq6oqBVcucx-OtcTKp-icQNQLiRj2jmTFqiRNFZTLarpq0c9264R4527KC6GoU60dMG_tka-pJQhnjikjA0TkMDixggrbr9v7YOPV2O-2xbeYXCgOuqeR6cSgXYocAf0YB6AWkLYM9cHAW8V-duK6dzgUqsW539F1XI4iLAy2W8Yr54HecC60cI88uIeMYWWn5i02Hw7kW2MdWMVm40)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLJVQzim47xNNo6wbvQjc_nJSkb24rTP2nifjB2NmZXRPyVKbeEiT4cR_UzJ72-qB30svWUTT3fz9zttdGcvw2mOksngGc1fMxriCZIaUwZq0WmqjCOIjPf0_b2QTgbLsjQjeM-cSYfJISXvPzSrZWZjlpc2GaEVXoMbLwsfdbfjeHxNLQaRrDOX5dOVC7MREyZ5qYngVBLnMpqXzSAzxmQKgdH9FJQuVlJs_CDm2JBalzPTLSvjHxCrlJFBed2un5QsHdgtqlGAklaPPIi1FEHPmPKFFkGY2psLSO10PSWIbOYCOw6K4fmBeI09MPBm494Z2-BSJnHn9SkjkxgSZIbqzCZP8-BAPgkyMe1xwkoxHlC5D9IeFbSMlp6l3ppWFoAaFqzFHuVtwTktPzHWqpxYhGMBVSpnlRudvmCRxmOxsdoaThr0wgo6fhUFK2_TP1k-eQwC1hkERcYx1Hdlbsobl905ALDH4YQXZy3zCFA28bAUcaGy6mjFe0pZoGxgX3vJzfxHJr_bjIFZyBt_yA0ERJe7NU9Cz-ywFlbRdDFJC_elkHjum9cv_PN_loVUqRcD8Rik8ZSljA7GGbLtBzYxP9UCiIrxhbcSJDmaTLrWdCZsFEwvsfyRRNhzkN5bqMYewtMlEqN7UUuwrlQy1ga816InX3WCOou0F0unWvnxiHHYChuKgVISF5y17zBlxzvTWY2MaUzv4Z1IWIydN4upFue2eR99LiYO1saGywbBu2enr8DSkD7zUtu2)
 
 
 ```plantuml
@@ -2505,7 +2366,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x4ad17dd677f63a246ca9b07e3746a67f9076b6f508b294974fc20ccb2971cd07
+title Txn Hash: 0x8a747bf7d2a2ac8b41db7aa3dbe09d98b7efddd87788da9409974ee7e036c29d
 
 
 actor EOA as "EOA"
@@ -2513,13 +2374,10 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: resetChangeOnState()
-"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 75276140696391174450305814049576319106646922510300487059720162673006384432776 |\n\
-)
+"OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" ++: makeOrSetChange()
 "OwnerManagedLite_01" -> "OwnerManagedLite_01" --: 
 "OwnerManagedLite_01" -> "EOA" --: 
@@ -2527,16 +2385,16 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x2257d3A108C964835fB80BD78203D3C8D6913a3B |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x336E5211Eae5d32EB7EFb25538dbBbfE673C367F |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x668701dfb574c6663b232cdb050b0dc5906ebb60716675c0a0f2a2b686e7b0d2
+##### d6, tx: 0xdf7ceb870163c8c7162af3be3ba1ef6f4179b58d948b9e54be23c7ab883cb555
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHXJzim4FtkNt43QMnb32Tfx0Hr5MsI3gHD843RXp5DJk8KYzIf71TQwFxxBcbKWLQYo6UVp-Uxzrv2o6bjXR6BMKc8MDXABsQfDAI-LtekZ9X1AQTIvsEHtKzDjT1vL9MLWVr9CacYX911RLUb719edpifScdWkLi2d5L6FLNQYd9KggcUIMqnOs6t0HFStAISByoybAyshjMJ1AU_zLsAF5Tw2WxjN7zREpZkYY3T_UUwLjCxMqEwWXkpA0hCIwoofOIRfOOpKT-T05qo5d3gv4Ngytx66FDIrtEpFAK-JMcU-I5bCaqPvGvZtC-ee8Kht9G5J78CS0b2bbaiFRaOWQXX3-qUGTYiojHSOAiNZrgQxqABgSo_AIl_KASDtE7V8wGz3qV3tVjmU7W2Hiwg1tbjXPLjp8TRVKi67HkVEZjSVm6xcaj0gyMijG-YNE2a2Ly3mcXaNSCQgYR9QBkaInwdSPXmBfAO9wxWZkj7XTjdRbHuOH6mq9qKOvhoJQgFy0pqCuMlFvDp96DttSkZN_j6vh-RnZOT7ft0uFsZC1h97C8WsqWAOuQztbNo8xcwUTVh3OvR_n3Uw15gQnenh07VWsIfQjiigxaqmgfAWz8mDzMqQUsWAvVa4XbJ3mZVMoHiz4ukNx2OIojKMR-e8QOnfRJ16MMDXE8aGhqQJBv5V8lgzXpMt2W5nwMLHekoNBKAoM6KPVXjsPQ18F0JHmI2Ef5m-2YC73VYeKVP94H9oY1o9KDfzbydtgMq_xtj1QxhyzmREJI8GjOFFByO1tGSyy2bNkn5GSn2nnFU62z093eyo2cE-9Vu1m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHjJzim4FxkNt43QMnbZAHvBUegsk8Ef4qWGDk7CKsN-58YKgToN6YX---xf5456aIHppwVptVFyoH275SMZLtC2Y5mOKkzc2LaH7MNwpaQd451Kz9gXEdTr9GBhSPbKHhOdSY974iX-fLT5JGGq3otX8eCFBLBWDFIv8-bjbWCYtogPwGjPypiDc32cvkKyuMP5_HYuof_973zhUy2bShr55odTVrjRF-mBKAqzv_fAf_UsWgI5LoRHPPnNc5pMn1SBpMSOdLx1CvIPL5AIHmvRkYbSHgvOHSpBo4lGPUoCFFTg9S4iUhvSTAZm4-ewwKH9d7ifKaG188XIosNBi-7W1NiiDqH39lDqtoEtEhvWoRp7JLEINtBBVrnt2Rm5V-E4CrvE1YylW_x-qTWQ5RUqvL5IqtCXnjz8_ej6vzQErX_0RkQ4x3LE6liFHOBdjJXQs0O3LKLhA6iamotIyR4zHrlxAYWv_VyBc7KzGFNomBbgb4G9SFOZKdwuMYJwYCyWVFPWQy_vHcJyNhTouDVkuRKxxgnJOS7Hz1__u16Cva3wASRIN7CeDEvb3_avVMxJgT_sFW7y4QFK5bJYs4D_Ex9PLxPUbdEoQ3DImsvXhafftLhUssvGX4pbjypV6-HiD6xk7Z6eYABUL4zg-74EN4SfyQPPSs4ycJCUZMSV8lu5jNjEQwvLWgFIqj6Or6i6eKe6AOfVrksOS0RnrwCIIWnzFqmYX7T24C7QttAE1uDJ-AnT5b8BnA_fhJ_lPiBl506NTULI87okd8KoKdI3G8lLiaeoMGOUMClZ2Py0IFHuY6EUUI_n3y0)
 
 
 ```plantuml
@@ -2558,7 +2416,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x668701dfb574c6663b232cdb050b0dc5906ebb60716675c0a0f2a2b686e7b0d2
+title Txn Hash: 0xdf7ceb870163c8c7162af3be3ba1ef6f4179b58d948b9e54be23c7ab883cb555
 
 
 actor EOA as "EOA"
@@ -2566,7 +2424,7 @@ participant OwnerManagedLite_01 as "OwnerManagedLite_01"
 
 "EOA" -> "OwnerManagedLite_01" ++: removeStateOwner(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | ownerAddress | 0x7DbD9E77aED7E2a7125Cf2462Cf39f8692FfB0b7 |\n\
+| address | ownerAddress | 0xd1403C0d594942ea724513f5d1dB57bA818eE46B |\n\
 ) { 0.0 GWEI }
 "OwnerManagedLite_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Existing operation in progress' |\n\
@@ -2576,8 +2434,8 @@ deactivate "OwnerManagedLite_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x885E1a8a01Ca17A9C12C79306F9c59e8C2e65904 |
-<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x2257d3A108C964835fB80BD78203D3C8D6913a3B |
+<#FEFECE>| EOA | Externally Owned Account | 0x3C838ab6Ea644678aa17a60ac716E88BAD8CE101 |
+<#FEFECE>| OwnerManagedLite_01 | OwnerManagedLite | 0x336E5211Eae5d32EB7EFb25538dbBbfE673C367F |
 endlegend
 
 @enduml

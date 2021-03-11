@@ -1,13 +1,13 @@
-Test date: 2021 Mar 02
+Test date: 2021 Mar 11
 
 
 
 ## Cannot buy when there are no products
-[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/4fdae3d04e4addcce97e88f438735f476fc16bb5/test/Shop/test_shop_buy_product.js#L22)
+[link to test...](http://github.com/thedarkjester/ConsensysAssignment/blob/7c5b2f21f354ab6c2adcbc9e6ca114bc570081db/test/Shop/test_shop_buy_product.js#L22)
 
-##### d1, tx: 0xff5da7aaab60ce9ba747f93008c2ea7a552c0437eeaf95bd2ef83d842bc2e2cb
+##### d1, tx: 0x2e3b35959e6fc115a0b72138b7864fadf9240f7cb946e2c830fc65736cb1b3b6
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDHRvim47xthpXrBvkwReQO054MbH1e-zHAhRINIfEnJO9A3BBDbhJPVz-5C9ezpW--yztnST_dCo7Nrd7ZkcrD2EzSexjjeGonBvLkkU5RgDLQQRdaucLjcaxBjAaR0n_oBC_IZ92vTVjQBGZqQwEuL0RUXYF0RMEgrqOxNYTrjTPRfHqYbcuio35vWcmxqzRgdyHZzQh0OsFiWKjPwJLuT0Zzxktywz046Vv_fssrtZWBnHwUJ5UMY4jSvMe5JpiDjznkPa1tPHb87dBEYoaLAYvuoC8odb0Q2LzX8WXyGTaaL8gNSL18NvNHH4RCBp3lYuAWPC9Xwzbz0jp21TeBWhAvIbGjHwgFcwRzGRq-EVWNXFHrSBLuZy7bvGn4ewqptH7nuxD-9lD1vC-3NHo-WTkt2j1glktjJrvtw1pB3u3g66Kj7C0YxlqlhKmoXkWkzkLAJLXEq-ca2FoK-QddqIYQXjcAbg7d9upbB60dk4_m1lGBXPllsHtg_DxgiUyJWQiP47AQ3_9mnbegnwlQdX5OqHMbz4W0nm35G2V5-pKetqXbR7NyRd7ebSLzvvJHlAxtS6Gb8H42Pz7z9wrpuBytS_9we30A2b6epEEUe7coP9IbsJGh_I1Onj9FqdY5Gp594GWP3xp9DUxuUlu0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDHRvim47xthpXbBvkwRWQCWIYBIbBIzgcLMcalbIPZJ8Bg66JCbhJPVz-5C9ezZWVVSNTytFVTcP2hrWdhkgqcH7IkDjqsLvQqBvLfX1LRq6gjJB4GycLjwyuKorhN5ZwiibMsp0YPjMwlrPn0_soKA9I5j-4LuBQsrMjjdD2fhjPcgun3nDAD1IjCdY2RpZPQ_PDuh5uLU6oCFOYYgCmQF3g4VlTszdLeWWp_lpDjjTwu5l8zFDckB16NkCff1Kyx0xUYtKo1xdmLv46OX8dYfVIyKD0yyhqWpgEOir8KPU8pMaOoJnXNlem3MaeUHW6NkPS7EISecNJOUdQVWcXXWdP2K3PNoQeHIFLnKpS_gDSd1tz2I5y7b_Ft65nSJ47MfdMsEo9-V3RFP3Q8_7cmyyCtSFj60LeZjhtzANI7ph7y0AYELMqB1sWHz_wNKJOTGtINBHQSHc76YeGbXLyWVHajP4Av9uCaOX6FevnpUeBx16z0lr2u-PxTeSxlhHxxFX6ud08Xf_qW3sUi2-L4fTip0jVqcb9w981hW6AWiyJvMfHlf3AsEdutF_JAuhbpoXgXzHwEh0f8fSHTTFz9wnpuxsHENW_afpJa9GiOuoLEDmwf7_efprOhllAOhtmcE4rKZ438UE1Dhl34s_C7)
 
 
 ```plantuml
@@ -29,7 +29,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xff5da7aaab60ce9ba747f93008c2ea7a552c0437eeaf95bd2ef83d842bc2e2cb
+title Txn Hash: 0x2e3b35959e6fc115a0b72138b7864fadf9240f7cb946e2c830fc65736cb1b3b6
 
 
 actor EOA as "EOA"
@@ -37,23 +37,23 @@ participant Shop_01 as "Shop_01"
 
 "EOA" -> "Shop_01" ++: constructor(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | shopOwnerAddress | 0x92dDe34F0C63b52C42C1108867ED0f712A44F454 |\n\
+| address | shopOwnerAddress | 0xEBB6075E4d949d2d2e3c7Bc9061c39747687b660 |\n\
 ) { 0.0 GWEI }
 "Shop_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x92dDe34F0C63b52C42C1108867ED0f712A44F454 |
-<#FEFECE>| Shop_01 | Shop | 0x785bcbeE1a1c0FAB404CE6Ef255B9d2AC9Da7a3C |
+<#FEFECE>| EOA | Externally Owned Account | 0xEBB6075E4d949d2d2e3c7Bc9061c39747687b660 |
+<#FEFECE>| Shop_01 | Shop | 0x2A056f43446f3b6850252A6EFF6F142e24a609e8 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x8ffe50cf77a100997dae81440600b2cd162e878c368ccdb8aa5014a1dd571da0
+##### d2, tx: 0x34f83d1db5a8b46c554dc82c4ece49c6452cf01f7a548d1ba23c361ca79e1dd0
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/LL9DRzim3BthLn3fPKDNJ7BaZmHPKCUnqPrQ8BqFj2GdHXqvaEKjwRh_FjPnqrO7YkAZ7iL7CNRRUNI-tpUCOUzRs-zBurZtLDi3Ejn3OxR6wXMgfwrhUwkpjcaTN1LvaMSvOulEdngpP32idK5j7FmTZm1thQkVM-knIPjwQ_V6UcAi_2MX8F1CUUZTeJ6VW4tzR438I-m1jQxj5WGVG_-6VV5zV0GRw_-qNRtT-GxA4powlgg8b_dQDmOUZnRkiDlDWH-JgZ8XLrKSe-1yDeircaH8oIFEoq1f4GKcYHCrZHAbT9aWXbn855g7iT386KccF3qzlqy1EvZGFc4acwzLVK1gTRDh3x-u6C3Hdp0svC7DyZq6rzTp8AxwDtgpyMI-V6Nlw6lg-SxD71WxZuGzV2YaZSUwwTXY7CotgpLVSywNBp-0bAVwv6GagQCgO75lNWEfrivqX5tkBL-6PiWUlN4Mc-O4zt-iqP0gHUFt1F7ZBD1hCvK5pw9f6GQP338XU994SRxcLIo2LCf2Xl8pyPiOPsyWYfEmLAN91Gh5YtGbkSpoAA-2C5pDT91cipN6ECs8Y3eU-sQtPEd3_WS0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/LLB1Rjim3BthAuZqig4h9jkoR0TPK2UrqPrQ8BqFiYGdGXKvaEKjwRf_7-juwQe3HV5HZ-AZ2BdjW_1Xs5j2n10wD-mRxKd_RDn1UB47gxVQgPMGprlV3KwjEzjvkAghkbfNX2pwSB9wIM1SEosKzl1xEWBSTzwyT2u8MrgpTNlj0ZAsuP9G8tYcF0p-OFK7O6DUD4Ji4diKIXctXOXEeJ_ZllWwFO9CzR-xtcnteOVc14z-Q5la9S44g-7fwE1UzBivq6F2sZnHaMfIaJUCopHbIkQnP5fgLaZEqbYsD6epaR9SHOs84vdmI8giq95IbA1aCk3JguSIH0ypt6S4PGj6ceF0LZUxxl23HYCu-JD2nZouMRx7uFfw3iXbVegWDm7Dfy_a7NrBFT-vcGCXvv6Gn_yAAHs4iJrPJ8FvSdL7xoYbozTlWCfZVNJMAAd7Ak34Nhy5IgMyxX6xt5k-ZisWFGRjdR3s10-_d5PGIedZ3mZHOxLQSPgb5LC5ArIiOft8R2KBYk8aHSOodcSDv_GZyJynpjv859SqvIrB6EDjql0yfN4QbxogQrv7BDOn4vmMEaSYx7ZgczoYnG_x5m00)
 
 
 ```plantuml
@@ -75,7 +75,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8ffe50cf77a100997dae81440600b2cd162e878c368ccdb8aa5014a1dd571da0
+title Txn Hash: 0x34f83d1db5a8b46c554dc82c4ece49c6452cf01f7a548d1ba23c361ca79e1dd0
 
 
 actor EOA as "EOA"
@@ -87,16 +87,16 @@ participant Shop_01 as "Shop_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x92dDe34F0C63b52C42C1108867ED0f712A44F454 |
-<#FEFECE>| Shop_01 | Shop | 0x785bcbeE1a1c0FAB404CE6Ef255B9d2AC9Da7a3C |
+<#FEFECE>| EOA | Externally Owned Account | 0xEBB6075E4d949d2d2e3c7Bc9061c39747687b660 |
+<#FEFECE>| Shop_01 | Shop | 0x2A056f43446f3b6850252A6EFF6F142e24a609e8 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x774ac175b04caf4c8b49090e1dbabba05b707ca83733001a49ca20314ed71a75
+##### d3, tx: 0x57a59b9187b10f0f0a5181e67c369c151cd0889359233b8c11c7c7b391229b1f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLFVKzim37xtNw71tTZAsEp4QHAkwr7ITF04WzxsC7Ox_qgRQvhq70TQwFxtgMqeyB1SOicI8bdV9nDoLZjXNJCl216DgyfcBeqbzIml5yAAEHHcOafzBjHiOgkcr4bLL1OEH-aeJL92UhLR5QPFOFjCZT36mbEx1RYeRFvObKuKWoAVb7DJEioOkNt029sxb8l6BWhpnd6RFnfWV6-x5bhdvGGORKr_jxBtfJq4QUjVbdK-cReQv0h6jiaop4jSxWe3usK95wAUdW9TXY4NYeM1f5o9ZAj8yfZ6r30jXPI21ZAaeHAH7_e-fKpmM0cF-emR7J8H1WGXKmwFdbuDGDHmWFA086mkL_b2OAktqshnXxAjizKF2Dd6mKd_nGR7nwSWczMrhNIZt8UxyexqMem_jRA__WfkjJ20iXJphRmNHOFA9dmDJOuLrr2xIis-DrW-TolSisU_N3bJRm9cpGO1r102QYIDc2yy7Peeax6dgETdEfPP5FE8UJHc9lGpvkkeQnH62B_Buz3h1ZIC8xxB_H6UW7wcY15y-vbU8YqldIrFVXrQetzlsjtrVN8AlVSFmfP8PHzwQZTG6DFlT6xI7-dD-5sdq_kojVVXFrXWctOp2cl0zmZ6KsCD2FpA2XOx5EkZzdH46-GflnVElAPXDzda-XLVsZYH5_MhUaCwnBussEC08use93YP5XFkMHXeRKsDllr_UBxDJE2wTCQMeYXMSFLG6Wq3fV0MkItuiQU7nkSZcdHz6NW9znB6Q1HrmtH8iv1v0yv7FE1l4p_Fr4xRiHW5KacJCi4K7GtEEUL9saqpBmZEO-qDadWeGk4dc0WxRlicPxZYlVy7)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjKzim3FxkNw71tTXWR7PUd9ZhUhIG3Zx1eBTz6BkTOpjjhcdISnneeVllKzDGuCFo9bbI93_IOq9EQoUjQ-O58R9nLTdCKsD9FSlBXRHo3eMPc58FfPfDRDMK-gmgAWlxesIKd2M4z6gtAaoVG7jDZTJ6mbEt1BYeRFvObKuMWoAVb7DJEioOkLt029tRb8l6BWhpnd6RFnfWmSvsBRNEomamsfd-jhBtfTi4wUfVbdK-cReQqXMCRPDbc9Uut1K6niiIBcGzFG6w32CPYbImE4ePpV2M8OkPuP7okL0iP4hJE1P-A3pVJsF5c8fKbFg2UPv8MKQmPShXrfEh0SWQzb3k4MoRorM-a0ZrTbej_b3MEZjzZv0s3exxBpOuEZg1j5bTsqetodsuA-z8h-lnfqxsrr_1hHO6K9PotifxMJIeRCBNqEHOSGsrgzJiUuFbSxV2DNlsfojdwat0hDbq03MwZAX9QSnywUd8n5agF4KzFzCYpM8HnCoZWfd8pvYlOsuKHaYV1oBoU4WZ4GVRt1_X2UXdIX7fjv_99Oxb1Tdo-DU-DVht1kuMz_49zDu_I5lYAFlGKrj2OKp_yF0c-P7SZDyT7lQ-jFO-_ASN2DDkgB06V0vWF3NMWCIth62nxM9zqEsEQ8Dpok-bCw_7i6KskNurBssSp8lwLRrpUewuDhr70kCOKJb3PbfCk9l2G6jhQlJj_iFzRJY1twKpjfH5iOAhXz9e62Y5fyYrpK-6GqwZC0cq28Jsj6Ty5GsLe9mfNqH1n96PdDEtYPyvjTNQHDw0XZmB_23WcP_oEAHUw0ruCXhn4GiyumMIKs5YJ8I8Ezpa5Bzuxly1)
 
 
 ```plantuml
@@ -118,7 +118,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x774ac175b04caf4c8b49090e1dbabba05b707ca83733001a49ca20314ed71a75
+title Txn Hash: 0x57a59b9187b10f0f0a5181e67c369c151cd0889359233b8c11c7c7b391229b1f
 
 
 actor EOA as "EOA"
@@ -137,8 +137,8 @@ deactivate "Shop_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x92dDe34F0C63b52C42C1108867ED0f712A44F454 |
-<#FEFECE>| Shop_01 | Shop | 0x785bcbeE1a1c0FAB404CE6Ef255B9d2AC9Da7a3C |
+<#FEFECE>| EOA | Externally Owned Account | 0xEBB6075E4d949d2d2e3c7Bc9061c39747687b660 |
+<#FEFECE>| Shop_01 | Shop | 0x2A056f43446f3b6850252A6EFF6F142e24a609e8 |
 endlegend
 
 @enduml
