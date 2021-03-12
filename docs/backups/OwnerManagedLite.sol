@@ -50,9 +50,6 @@ contract OwnerManagedLite {
     event LogActivated();
     event LogDeactivated();
     event OwnersRequiredChanged(uint8 ownersRequired);
-    event LogDepositReceived(address sender);
-    event LogDepositWithdrawn(address receiver, uint amount);
-    event FundsDistributed();
 
     constructor() public {
 
